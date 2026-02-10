@@ -10,9 +10,9 @@
 
 ## Genel Pediatri
 
-* [Sağlıklı Çocuk İzlemi](genel/SAĞLIKLI%20ÇOCUK%20İZLEMİ.md)
-* [Çocukluk Çağı Beslenmesi](genel/Çocukluk%20Çağı%20Beslenmesi%20-%20Metin.md)
-* [Çocukta Beslenme](genel/ÇOCUKTA%20BESLENME.md)
+* [Sağlıklı Çocuk İzlemi](<genel/SAĞLIKLI ÇOCUK İZLEMİ.md>)
+* [Çocukluk Çağı Beslenmesi](<genel/Çocukluk Çağı Beslenmesi - Metin.md>)
+* [Çocukta Beslenme](<genel/ÇOCUKTA BESLENME.md>)
 
 ## Neonatoloji
 
