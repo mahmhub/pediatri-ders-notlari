@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Sağlıklı Çocuk İzlemi
 
 SAĞLIKLI ÇOCUK İZLEMİ
