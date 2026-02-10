@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# PDFs and Office files
+*.pdf
+*.pptx
+*.docx
+
+# Text files (we're using markdown)
+*.txt
