@@ -1,106 +1,368 @@
+# SAĞLIKLI ÇOCUK İZLEMİ
+
 ---
-hidden: true
+
+## YENİDOĞAN DÖNEMİ - İLK KONTROLLER
+
+### İlk 24 Saat
+
+**Mutlaka kontrol edilmesi gerekenler:**
+
+- **Koanal atrezi** kontrolü yapılmalı
+- **Bütün açıklıklar** kontrol edilmeli
+- **İlk 24 saatte çiş yapmalı**
+- **İlk günden sarılık varsa** → Patolojik sarılık
+- **Topuk kanı** alınmalı (metabolik tarama)
+
+**Fizyolojik kilo kaybı:**
+- %10'a kadar kilo verebilir (3. güne kadar)
+
+**Taburcu öncesi:**
+- 48 saat sonra sağlık kuruluşuna kontrol
+
 ---
 
-# Sağlıklı Çocuk İzlemi
+## İZLEM TAKVİMİ
 
-SAĞLIKLI ÇOCUK İZLEMİ
+### 5. Gün Kontrolü
 
-Koanal atresziye ilk gün karar vermeli. Bütün açıklıklar kontol edilmeli. İlk 24 saatte çiş yapmalı. ilk günden sarılık varsa patolojik sarılık. %10 a kadar kilo verir. (3. güne kadar) Topuk kanı alınmalı. 48 saat sonra sağlık kuruluşuna.
+**Amaç:** Erken sorunları tespit
+- Sorun yoksa tamam
 
-5. gün sorun yoksa ok.
+### 15. Gün Kontrolü
 
-**15. gün**
+**Amaç:** Beslenme değerlendirmesi
 
-Doğum tartısını yakalaması lazım ki beslenebildiği doğrulansın. Anne sütü ile ilgili sorgulama yapılır bu şekilde.
+**Kritik nokta:**
+- **Doğum tartısını yakalaması lazım** → Beslenebildiği doğrulanır
+- Anne sütü ile ilgili sorgulama yapılır
 
-**6. ay** Altıncı ayda yeni bir beslenme modeline geçildiği için tekrar çağrılmalı. Yılda bir defa kontrol edilmeli.
+### 6. Ay Kontrolü
 
-Özel koşulları olan çocuklar. İlk muayenede şu sorular sorulur. (özgeçmiş, soygeçmiş)
+**Amaç:** Yeni beslenme modeline geçiş
 
-***
+- Altıncı ayda **ek gıda başladığı** için tekrar çağrılmalı
 
-***
+### 1 Yaş Sonrası
 
-1. prematür bebekler
-2. gebelik yaşına göre küçük doğuştan engelli eğitimsiz, yoksul aile çocukları istenmeyen çocuklar yasal evliliklerden doğmamış çocuklar aile içi geçimsizlik annede sağlık sorunları varsa
+- **Yılda bir defa** kontrol edilmeli
 
-***
+---
 
-***
+## ÖZEL KOŞULLU ÇOCUKLAR (Yüksek Riskli Grup)
 
-Çocuk ve ailenin gereksinimlerine göre değişebilir En az 15 dakika verilmelidir İdeal süre 20 dakika
+**İlk muayenede özgeçmiş ve soy geçmiş sorgulanmalı:**
 
-***
+### Yüksek Riskli Çocuklar
 
-Anamnez ve öykü
+1. **Prematür bebekler**
 
-İlk önce çok detaylı olması lazım.
+2. **Gebelik yaşına göre küçük bebekler (SGA)**
 
-BÜYÜMENİN DEĞERLENDİRİLMESİ
+3. **Doğuştan engelli çocuklar**
 
-Antropometrik ölçümler:
+4. **Eğitimsiz, yoksul aile çocukları**
 
-Vücut ağırlığı + ağırlık artış hızı Boy uzunluğu + boy artış hızı Baş çevresi + baş çevresi artış hızı Vücut kitle indeksi (>2yaş)
+5. **İstenmeyen çocuklar**
 
-Vücut ağırlığı artışı:
+6. **Yasal evlilikten doğmamış çocuklar**
 
-5. ayda 2 katı
-6. ayda 3 katı
-7. ayda 4 katı
+7. **Aile içi geçimsizlik olan aileler**
 
-Boy uzama hızı:
+8. **Annede sağlık sorunları varsa**
 
-<2 yaş: yatarak
+---
 
-> 2 yaş: ayakta yatarak ölçülen boy 1-2 cm daha büyük
+## MUAYENE SÜRESİ
 
-1 yaşında........doğum boyunun 0,5 katı (ortalama 74 cm)(8-8-4-4) • 4 yaşında.......doğum boyunun 2 katı • 12 yaşında.....doğum boyunun 3 katı • Boy uzaması • 1-2 yaş......................10-12 cm/yıl • 2-4 yaş......................7 cm/yıl • 4 yaş-ergenlik..........5-6 cm/yıl
+**Çocuk ve ailenin gereksinimlerine göre değişebilir:**
 
-Baş çevresi ölçümü:
+- **En az:** 15 dakika verilmelidir
+- **İdeal süre:** 20 dakika
 
-***
+---
 
-***
+## ANAMNEZ VE ÖYKÜ
 
-Gelişimin değerlendirilmesi 4 temel alanda değerlendirlir
+**İlk muayenede çok detaylı olması lazım:**
 
--Motor (kaba-ince) -iletişim -bilişsel -duygusal
+- Özgeçmiş (doğum öyküsü, hastalıklar, aşılar)
+- Soy geçmiş (aile hastalıkları)
+- Gelişim öyküsü
+- Beslenme öyküsü
 
-***
+---
 
-OTİZM SPEPTRUM BOZUKLUĞUNUN DEĞERLENDİRİLMESİ • 18-24. aydan itibaren belirtilerin çoğu fark edilebilir • Bu nedenle 18., 24. ve 3 yaşta otizm açısından değerlendirme önerilir • Değerlendirmede kullanılan 5 faktör • 1. İsmi söylendiğinde bakıyor mu? • 2. Göz teması kuruyor mu? (5. ayda) • 3. Parmağınızla işaret ettiğiniz bir nesneye bakıyor mu? (9. ayda) • 4. Tekrarlayıcı davranışları var mı? (zıplama, kanat çırpma gibi) \[ama herhangi bir sebeb yokken] • 5. Konuşmasında gecikme var mı?
+## BÜYÜMENİN DEĞERLENDİRİLMESİ
 
-### Tedavisi yok: sıkça uyaran olması lazım
+### Antropometrik Ölçümler
 
-REDFLAGS 12. aylıkta agulama cıvıldama yok 12. aylıkta işaret etme el sallama 16. aylıkta anne baba mama yerine
+**Temel ölçümler:**
 
-gelişimsel kalça displazisi
+1. **Vücut ağırlığı** + ağırlık artış hızı
 
-#### &#x20;Risk Etmenleri:&#x20;
+2. **Boy uzunluğu** + boy artış hızı
 
-• Aile öyküsü:&#x20;
+3. **Baş çevresi** + baş çevresi artış hızı
 
-• GKD’li kardeş %6&#x20;
+4. **Vücut kitle indeksi (VKİ)** (>2 yaş)
 
-• Anne ya da baba %12&#x20;
+---
 
-• Ebeveyn+kardeş %36&#x20;
+### Vücut Ağırlığı Artışı
 
-• Makat gelişi&#x20;
+| Yaş | Doğum Tartısına Göre |
+|-----|----------------------|
+| **1. ay** | 30 g/gün artış |
+| **2. ay** | 30 g/gün artış |
+| **3. ay** | 30 g/gün artış |
+| **4. ay** | 20 g/gün artış |
+| **5. ay** | 2 katı |
+| **1. yaş** | 3 katı |
+| **2. yaş** | 4 katı |
 
-• Ortopedik anomali (tortikollis, ayak anomalisi)&#x20;
+---
 
-• Kız bebek (K/E = 4-10/1)&#x20;
+### Boy Uzama Hızı
 
-• İlk doğum • Çoğul gebelik&#x20;
+**Ölçüm Pozisyonu:**
+- **<2 yaş:** Yatarak ölçülür
+- **>2 yaş:** Ayakta ölçülür
+  - Not: Yatarak ölçülen boy 1-2 cm daha büyük
 
-• Oligohidramnios • Kundak ------ USG YAPTIR!!
+**Boy Artışı:**
 
-demir 4. aydan itibaren kullanılmalı 1mg/kg/gün fe+2: en az 12 ay boyunca ve tercihen 24 ay. 9. ve 12. ayda hb kontrolü
+| Yaş | Boy |
+|-----|-----|
+| **1 yaşında** | Doğum boyunun 1.5 katı (ortalama 74 cm) |
+| **4 yaşında** | Doğum boyunun 2 katı |
+| **12 yaşında** | Doğum boyunun 3 katı |
 
-2. ayda Çocuk başını tutabilsin. göz teması olsun her şeyi ağlayarak anlatır.
-3. ayda ağlama dışında farklı sesler çıkarır yani agular. sese yönelmeler başlar. aba motor becerisi gelişmemiş
-4. ayda kendini tanıyor. tanıdıklarını tanır. sesler çıkarır; taklit eder. destekli oturma başlar. ek gıda başlar.
-5. ayda artık desteksiz oturabilmeye başlar. yatarken kendini oturma durumuna getirebilir. ince beceriler... baba, mama, dede gibi anlamsız kelimeler gıdaları eline alıp ağzına alır
-6. ayda sıralama yapabilmesi lazım. normal bir birey gibi bir yerlere tutunarak yürüme sayılır. ama tam yürüme 18. aya kadar beklenmeli adını tanır. işaret ettiğiniz ögelere bakar.
+**Yıllık Boy Uzaması:**
+
+| Dönem | Yıllık Artış |
+|-------|--------------|
+| **1-2 yaş** | 10-12 cm/yıl |
+| **2-4 yaş** | 7 cm/yıl |
+| **4 yaş - ergenlik** | 5-6 cm/yıl |
+
+**İlk yıl boy artışı formülü: 8-8-4-4**
+- İlk 3 ay: 8 cm
+- 3-6 ay: 8 cm
+- 6-9 ay: 4 cm
+- 9-12 ay: 4 cm
+- **Toplam:** 24 cm (yaklaşık)
+
+---
+
+### Baş Çevresi Ölçümü
+
+**Değerlendirme:**
+- Yenidoğanda ortalama 35 cm
+- İlk yıl: 12 cm artar
+- 1 yaşta: 47 cm
+- Mikrosefali/makrosefali değerlendirmesi
+
+---
+
+## GELİŞİMİN DEĞERLENDİRİLMESİ
+
+### 4 Temel Alan
+
+Gelişim 4 temel alanda değerlendirilir:
+
+1. **Motor gelişim**
+   - Kaba motor
+   - İnce motor
+
+2. **İletişim** (Dil-Konuşma)
+
+3. **Bilişsel** (Zihinsel)
+
+4. **Duygusal-Sosyal**
+
+---
+
+## OTİZM SPEKTRUM BOZUKLUĞUNUN DEĞERLENDİRİLMESİ
+
+### Tarama Zamanı
+
+- **18-24. aydan itibaren** belirtilerin çoğu fark edilebilir
+- Bu nedenle **18., 24. ve 3 yaşta** otizm açısından değerlendirme önerilir
+
+### Değerlendirmede Kullanılan 5 Faktör
+
+1. **İsmi söylendiğinde bakıyor mu?**
+
+2. **Göz teması kuruyor mu?** (5. ayda başlamalı)
+
+3. **Parmağınızla işaret ettiğiniz bir nesneye bakıyor mu?** (9. ayda başlamalı)
+
+4. **Tekrarlayıcı davranışları var mı?**
+   - Zıplama, kanat çırpma gibi
+   - Ama herhangi bir sebep yokken
+
+5. **Konuşmasında gecikme var mı?**
+
+### Tedavi
+
+**Tedavisi yok**
+- Sıkça uyaran olması lazım
+- Erken müdahale programları
+
+---
+
+## REDFLAGS (Gelişimsel Uyarı İşaretleri)
+
+### Kritik Uyarılar
+
+| Yaş | Uyarı İşareti |
+|-----|---------------|
+| **12. ay** | • Agulama, cıvıldama yok<br>• İşaret etme, el sallama yok |
+| **16. ay** | Anne, baba, mama gibi kelimeler yok |
+
+---
+
+## GELİŞİMSEL KALÇA DİSPLAZİSİ
+
+### Risk Faktörleri
+
+**Aile Öyküsü:**
+
+| Durum | Risk |
+|-------|------|
+| **GKD'li kardeş** | %6 |
+| **Anne ya da baba** | %12 |
+| **Ebeveyn + kardeş** | %36 |
+
+**Diğer Risk Faktörleri:**
+
+- **Makat gelişi** (en önemli)
+- **Ortopedik anomali** (tortikollis, ayak anomalisi)
+- **Kız bebek** (K/E = 4-10/1)
+- **İlk doğum**
+- **Çoğul gebelik**
+- **Oligohidramnios**
+- **Kundak**
+
+**⚠️ Risk varsa: USG YAPTIR!**
+
+---
+
+## DEMİR DESTEĞI
+
+**Öneriler:**
+
+- **4. aydan itibaren** kullanılmalı
+- **Doz:** 1 mg/kg/gün (Fe+2)
+- **Süre:** En az 12 ay boyunca, tercihen 24 ay
+- **Kontrol:** 9. ve 12. ayda Hb kontrolü
+
+---
+
+## AYLIK GELİŞİM BASAMAKLARI
+
+### 2. Ay
+
+**Motor:**
+- Çocuk başını tutabilsin
+
+**Sosyal:**
+- Göz teması olsun
+
+**İletişim:**
+- Her şeyi ağlayarak anlatır
+
+---
+
+### 3. Ay
+
+**İletişim:**
+- Ağlama dışında farklı sesler çıkarır (agular, cıvıldar)
+- Sese yönelmeler başlar
+
+**Motor:**
+- Kaba motor becerisi gelişmemiş (henüz tam değil)
+
+---
+
+### 4. Ay
+
+**Bilişsel:**
+- Kendini tanıyor
+- Tanıdıklarını tanır
+
+**İletişim:**
+- Sesler çıkarır
+- Taklit eder
+
+**Motor:**
+- Destekli oturma başlar
+
+**Beslenme:**
+- **Ek gıda başlar**
+
+---
+
+### 5. Ay
+
+**Motor:**
+- Artık desteksiz oturabilmeye başlar
+- Yatarken kendini oturma durumuna getirebilir
+
+**İnce motor:**
+- İnce motor beceriler gelişir
+
+**İletişim:**
+- "Baba", "mama", "dede" gibi **anlamsız kelimeler**
+
+**Beslenme:**
+- Gıdaları eline alıp ağzına alır
+
+---
+
+### 6. Ay
+
+**Bilişsel:**
+- Sıralama yapabilmesi lazım
+
+**Motor:**
+- Normal bir birey gibi bir yerlere tutunarak yürüme sayılır
+- Ama tam yürüme 18. aya kadar beklenmeli
+
+**Sosyal:**
+- Adını tanır
+- İşaret ettiğiniz ögelere bakar
+
+---
+
+## GELİŞİM MİLSTONE TABLOSU (Özet)
+
+| Yaş | Motor | Dil-İletişim | Sosyal-Bilişsel |
+|-----|-------|--------------|-----------------|
+| **2 ay** | Başını tutar | Ağlama | Göz teması |
+| **3 ay** | - | Agulama, cıvıldama | Sese yönelme |
+| **4 ay** | Destekli oturma | Ses taklidi | Tanıdıkları tanır |
+| **5 ay** | Desteksiz oturma başlar | Anlamsız kelimeler (mama, baba) | - |
+| **6 ay** | Tutunarak ayakta durma | Adını tanır | İşaret ettiğine bakar |
+| **9 ay** | Emekleme | - | Nesne kalıcılığı |
+| **12 ay** | Yürüme başlar | Anlamlı 1-2 kelime | İşaret etme, el sallama |
+| **15 ay** | Yürüme yerleşir | - | - |
+| **18 ay** | Tam yürüme | Kelime birleştirme | - |
+| **24 ay** | Koşma | 2 kelimeli cümleler | - |
+
+---
+
+## ÖNEMLİ NOTLAR
+
+1. ✅ İlk muayene **çok detaylı** olmalı
+2. ✅ Her kontrolde **büyüme eğrileri** çizilmeli
+3. ✅ **Gelişimsel gerilik** erken fark edilmeli
+4. ✅ **Otizm taraması** 18-24 ayda
+5. ✅ **GKD riski** varsa USG
+6. ✅ **Demir desteği** 4. aydan başla
+
+---
+
+**Son Güncelleme:** 2024
+**Kaynak:** Genel Pediatri Ders Notları
