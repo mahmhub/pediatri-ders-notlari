@@ -1845,9 +1845,9 @@ Adrenalin **alfa ve beta adrenerjik reseptörlere** bağlanarak etki eder:
 
 ***
 
-### 📊 Klinik Pearls
+### 📊 Püf Noktalar
 
-| Konu                        | Pearl                                       |
+| Konu                        | Püf Nokta                                   |
 | --------------------------- | ------------------------------------------- |
 | **En sık neden**            | Çocuk: Besinler / Erişkin: Arı sokması      |
 | **En sık ölüm nedeni**      | Asfiksi (larengeal ödem, bronkospazm)       |
