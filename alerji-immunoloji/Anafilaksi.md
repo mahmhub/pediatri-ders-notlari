@@ -233,7 +233,7 @@ Erken Etkiler      Geç Etkiler
 
 **Acil Tedavi:**
 
-1. ✅ **IM Adrenalin 0.01 mg/kg (maks 0.5 mg)** → Vastus lateralis kasına (uyluk dışı)
+1. ✅ **IM Adrenalin 0.01 mg/kg (maks 0.3 mg)** → Vastus lateralis kasına (uyluk dışı)
 2. ✅ ABC yaklaşımı
 3. ✅ **Yüksek akımlı O₂** (10-15 L/dk, maske ile)
 4. ✅ **Supin pozisyon, bacaklar yüksekte** (boş ventrikül sendromundan kaçınmak için)
