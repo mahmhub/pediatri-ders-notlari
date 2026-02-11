@@ -4,97 +4,34 @@ Hoş geldiniz! Bu GitBook, pediatri derslerine ait kapsamlı ders notlarını i�
 
 ---
 
-## 📖 İçerik
+## 🚨 Acil Pediatri
 
-### 🚨 Acil Pediatri
+- [Çocuk Acil Hastasına Yaklaşım](acil/Cocuk-Acil-Hastasina-Yaklasim.md)
+- [Status Epileptikus ve Yönetimi](acil/Statusa-Yaklasim.md)
+- [Temel Yaşam Desteği](acil/temel_yasam_destegi.md)
+- [Travma Yönetimi](acil/travma_ders_notu.md)
+- [Çocuk İstismarı](acil/cocuk_istismari_ders_notu.md)
 
-Çocuk acil vakalarına yaklaşım ve yönetim:
+## 🩸 Hematoloji
 
-- **Çocuk Acil Hastasına Yaklaşım** - ÇDÜ (Çocuk Değerlendirme Üçgeni), ABCDE protokolü
-- **Status Epileptikus ve Yönetimi** - 3 evre tedavi protokolü, ilaç dozları
-- **Temel Yaşam Desteği** - Resüsitasyon protokolleri
-- **Travma Yönetimi** - Travmalı çocuğa yaklaşım
-- **Çocuk İstismarı** - Tanıma ve bildirim
+- [Hemofili, von Willebrand Hastalığı ve Trombositopeni](hemato/Hemofili-VWF-Trombositopeni.md)
+- [Lösemili Çocuğa Yaklaşım](hemato/Losemili-Cocuga-Yaklasim.md)
+- [Trombozlu Çocuğa Yaklaşım](hemato/Trombozlu-Cocuga-Yaklasim.md)
 
-### 🩸 Hematoloji
+## 🦠 Enfeksiyon Hastalıkları
 
-Hematolojik hastalıklar ve yaklaşım:
+- [Çocukluk Çağı Aşılaması](enfeksiyon/Asilar.md)
 
-- **Hemofili, von Willebrand Hastalığı ve Trombositopeni** - Kanama hastalıkları
-- **Lösemili Çocuğa Yaklaşım** - ALL, AML, KML, JMML tanı ve tedavi
-- **Trombozlu Çocuğa Yaklaşım** - DVT, pulmoner emboli, trombofili
+## 👶 Genel Pediatri
 
-### 🦠 Enfeksiyon Hastalıkları
+- [Sağlıklı Çocuk İzlemi](genel/SAĞLIKLI%20ÇOCUK%20İZLEMİ.md)
+- [Çocukluk Çağı Beslenmesi](genel/Çocukluk%20Çağı%20Beslenmesi%20-%20Metin.md)
+- [Çocukta Beslenme](genel/ÇOCUKTA%20BESLENME.md)
 
-Aşılama ve korunma:
+## 🍼 Neonatoloji
 
-- **Çocukluk Çağı Aşılaması** - Rutin aşılar, özel aşılar, aşı takvimi
-
-### 👶 Genel Pediatri
-
-Sağlıklı çocuk takibi ve beslenme:
-
-- **Sağlıklı Çocuk İzlemi** - Büyüme, gelişim değerlendirmesi
-- **Çocukluk Çağı Beslenmesi** - Yaşa göre beslenme önerileri
-- **Çocukta Beslenme** - Anne sütü, ek gıda
-
-### 🍼 Neonatoloji
-
-Yenidoğan dönemi:
-
-- **Yenidoğan Muayenesi ve Prematürelik** - İlk muayene, prematüre komplikasyonları
+- [Yenidoğan Muayenesi ve Prematürelik](neon/yenidogan_muayenesi_ve_prematurite.md)
 
 ---
 
-## ✨ Özellikler
-
-- ✅ **Kapsamlı tablolar** - İlaç dozları, tanı kriterleri
-- ✅ **Akış şemaları** - Karar verme algoritmaları
-- ✅ **Kısaltmalar sözlüğü** - Tıbbi kısaltmalar açıklandı
-- ✅ **Gerçek olgu örnekleri** - Klinik uygulama
-- ✅ **Güncel protokoller** - 2024 güncel bilgiler
-
----
-
-## 📌 Kullanım
-
-Bu notlar:
-- 📖 Ders çalışırken referans olarak
-- 🏥 Klinik rotasyonlarda hızlı başvuru için
-- 📝 Sınav hazırlığında özet olarak
-- 👨‍⚕️ Staj ve asistanlıkta pratik bilgi için
-
-kullanılabilir.
-
----
-
-## ⚠️ Önemli Not
-
-**Bu notlar eğitim amaçlı hazırlanmıştır.**
-
-- Hasta yönetiminde mutlaka güncel kaynaklara ve kılavuzlara başvurun
-- İlaç dozları ve protokoller hastane politikalarına göre değişebilir
-- Acil durumlarda kurumunuzun protokollerini takip edin
-
----
-
-## 📚 Kaynaklar
-
-- Pediatri ders notları ve sunumları
-- Güncel pediatri kılavuzları
-- Klinik deneyimler
-
----
-
-## 🔄 Son Güncelleme
-
-**Tarih:** Şubat 2024
-
-**Güncellemeler:**
-- Hematoloji bölümü eklendi (3 ders notu)
-- Acil tıp ders notları güncellendi (2 yeni ders notu)
-- Tüm formatlar GitBook uyumlu hale getirildi
-
----
-
-**📧 Geri Bildirim:** Hata veya eksik gördüğünüz konular için GitHub Issues kullanabilirsiniz.
+**⚠️ Bu notlar eğitim amaçlı hazırlanmıştır.**
