@@ -20,6 +20,10 @@
 
 - [Çocukluk Çağı Aşılaması](enfeksiyon/Asilar.md)
 
+## 🤧 Alerji ve İmmunoloji
+
+- [Alerjik Hastalıklara Genel Yaklaşım](alerji-immunoloji/Alerjik-Hastaliklara-Genel-Yaklasim.md)
+
 ## 👶 Genel Pediatri
 
 - [Sağlıklı Çocuk İzlemi](genel/SAĞLIKLI%20ÇOCUK%20İZLEMİ.md)
@@ -34,6 +38,7 @@
 - ✅ Acil Pediatri (5 ders notu)
 - ✅ Hematoloji (3 ders notu)
 - ✅ Enfeksiyon Hastalıkları (1 ders notu)
+- ✅ Alerji ve İmmunoloji (1 ders notu)
 - ✅ Genel Pediatri (3 ders notu)
 
 ---

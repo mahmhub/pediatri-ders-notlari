@@ -213,6 +213,7 @@
   - Eğer yapılırsa, 2. yapılandan 4 hafta sonra tekrar edilmesi gerekir
   - Veya seroloji kontrolü yapılabilir (suçiçeği hariç)
 - **Canlı oral aşılar** için böyle bir durum yok
+- Aşıların koruyuculuğu 2. haftada başlar.
 
 ---
 
@@ -319,6 +320,7 @@
 - ✅ KKK için: Evde gebe ya da immün yetmezliği olan birey
 - ✅ Rotavirüs için: Prematürite, evde gebe ya da immün süprese birey
 
+> **Sadece yoğun bakımdaysa yapılmaz**
 ---
 
 ## AŞI YAPILMIŞ MI?
@@ -405,6 +407,7 @@
 
 ✅ **Ne canlı ne de ölü aşıların anne sütü üzerine etkisi yok**
 
+> ✅ RSV Aşısı da eklendi.
 ---
 
 ## AŞI UYGULAMASI - HAZIRLIK
@@ -509,6 +512,7 @@
 ❌ **Önerilen dozun üstünde** aşı dozları:
 - Antijenlerin ve diğer aşı bileşenlerinin dokularda fazla birikmesine yol açar
 
+>✅ Aşıyı bir bacağa; İG bir bacağa.
 ---
 
 ## AŞILAR VE ALERJİ
@@ -670,7 +674,7 @@
 ## 3. 6'LI KARMA AŞI (DTaP-İPA-Hib-HBV)
 
 ### İçerik
-
+5'liydi 6'ya çıkardık. Hib
 **Kombine aşı içeriği:**
 - Boğmaca (aP - aselüler)
 - Difteri (D)
@@ -679,6 +683,7 @@
 - Haemophilus influenzae tip b (Hib)
 - Hepatit B (HBV)
 
+- + Difteri ve tetanoz 10 yılda bir rapel
 ### Aşı Takvimi
 
 | Yaş | Aşı |
@@ -735,7 +740,7 @@
 
 ### Koza Stratejisi (Cocooning)
 
-**<1 yaş çocuklarla yakın ilişkili olan tüm bireyler Tdab ile aşılanmalı:**
+**<1 yaş çocuklarla yakın ilişkili olan tüm bireyler Tdab ile aşılanmalı:** 
 
 - Ana-baba
 - Aile büyüğü
@@ -788,7 +793,7 @@
 ---
 
 ### >5 Yaşta Hib Aşısı
-
+> ***Yapılmaz ama***
 **Sadece riskli gruptaki çocuklara yapılır:**
 
 **Risk Grupları:**
@@ -882,9 +887,9 @@
 
 - **Tip:** Canlı atenüe aşı
 - **Uygulama:** Subkütan
-- **Ülkemizde:** Tek doz, 12. ayda
+- **Ülkemizde:** Tek doz, 12. ayda, ama aile alabiliyorsa 2. yi de önerebilirsin
 - ✅ Yanlışlıkla kas içine uygulanırsa yeniden yapılması **gerekmez**
-
+> Son eklenen aşı 
 ### Doz Şeması
 
 **Daha koruyucu: 2 doz**
@@ -920,6 +925,7 @@
 
 ### Genel Bilgiler
 
+- Son eklenen iki aşıdan biri.
 - **Hastalık:** Kronikleşmeyen, genellikle kendiliğinden tam iyileşen
 - **Yaşla ilişki:** Yaş büyüdükçe daha ağır geçirilir
 
@@ -985,6 +991,7 @@
 - İnfluenza A (H1N1 ve H3N2)
 - İnfluenza B (Victoria ve Yamagata)
 - İnfluenza C
+- En sık A ve B
 
 **Mutasyonlar:**
 - **Antijenik şift (majör mutasyon):** Sadece İnfluenza A → Pandemiler
@@ -1073,6 +1080,8 @@
 | **6 ay - 9 yaş** | **2 doz** (1 ay arayla, her biri 0.5 ml) | **Tek doz** (0.5 ml) |
 | **≥9 yaş** | **Tek doz** (0.5 ml) | **Tek doz** (0.5 ml) |
 
+- İlk defa yapılıyorsa.
+- Gebelikte mutlaka yapılmalı.
 ---
 
 ### İnfluenza Aşısı Önerilen Risk Grupları
@@ -1105,7 +1114,7 @@
 
 ---
 
-## 14. ROTAVİRÜS AŞISI
+## 14. ROTAVİRÜS AŞISI - CANLI
 
 ### Genel Bilgiler
 
@@ -1119,7 +1128,7 @@
 
 | Aşı | Dozlar | Şema |
 |-----|--------|------|
-| **Monovala n (RV1)** | 2 doz | 6. hafta - 3. ay |
+| **Monovalan (RV1)** | 2 doz | 6. hafta - 3. ay |
 | **Pentavalan (RV5)** | 3 doz | 6. hafta - 2. ay - 4. ay |
 
 **Önemli:**
@@ -1161,6 +1170,7 @@
 **KMA-C:**
 - Tek serogruba karşı
 
+
 #### B. Meningokok B Aşıları (MenB)
 
 **MenB4C (Bexsero®):**
@@ -1170,6 +1180,8 @@
 **MenB-FH (Trumenba®):**
 - ❌ Türkiye'de yok
 - 10-25 yaş arası: 0-6 ay 2 doz veya 0-2-6 ay 3 doz
+
+> BUNLARIN POZOLOJİSİNİ BİLMEYE GEREK YOK SADECE İKİ TANE OLMASINI BİLMEK YETERLİ.
 
 ---
 
@@ -1198,7 +1210,8 @@
 - **Hastalıklar:** Serviks, anal, vulvovajinal ve penil kanserler, siğiller (wart)
 - **HPV 16 ve 18:** En sık serviks kanseri nedenleri
 - **HPV 6 ve 11:** Genellikle external anogenital siğillerle ilişkili
-
+- Halk arasında "Kanser Aşısı" olarak bilinir.
+> GARDASIL 
 ### Aşı Tipleri (L1 Kapsid Proteinleri)
 
 | Aşı | Tipler |
@@ -1245,6 +1258,7 @@
 | **≥60 yaş herkes** | ✅ | ✅ | ✅ |
 | **18-60 yaş, risk faktörü olanlar** | ✅ | ✅ | ✅ |
 
+- Henüz çocuklar için çıkmadı; dolaylı olarak gebeyi aşılayarak korumuş oluruz.
 ---
 
 ### Ağır RSV Enfeksiyonu Risk Faktörleri
@@ -1272,19 +1286,28 @@
    - Sahipli mi?
    - Yabani mi?
 
+   **Hangi Hayvanlar?**
+   - Kedi
+   - Köpek
+   - Yarasa
+   - Yabani hayvanlar
+   - Büyük baş hayvanlarda, at eşek...
+
 2. **Provokasyon var mı?**
    - Hayvan saldırdı mı?
    - Çocuk kışkırttı mı?
-
+   
 3. **Hayvan gözlenebiliyor mu?**
    - 10 gün gözlem
 
 4. **Yaranın durumu**
    - Kanama var mı?
    - Lokalizasyon? (baş-boyun riskli)
+   - Mukus teması var mı?
 
 **Profilaksi:** Durum değerlendirmesine göre aşı ± immünglobulin
-
+   - Böyle bir durumda tazyikli bol suyla yıkamak olacak ilk iş.
+   - Eğer temas varsa aşı olunduktan sonra da etkisi olur.
 ---
 
 ## AŞI SONRASI İSTENMEYEN ETKİ (ASİE)
