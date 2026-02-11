@@ -1915,7 +1915,7 @@ Adrenalin **alfa ve beta adrenerjik reseptörlere** bağlanarak etki eder:
 
 ***
 
-**Son Güncelleme:** 2024 **Kaynak:** Çocuk Alerji ve İmmunoloji Ders Notları
+**Son Güncelleme:** 2026 **Kaynak:** Çocuk Alerji ve İmmunoloji Ders Notları
 
 ***
 
