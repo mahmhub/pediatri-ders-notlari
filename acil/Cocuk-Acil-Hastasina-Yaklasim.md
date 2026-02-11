@@ -553,6 +553,7 @@ Bu sınırlar ÖNEMLİ
 **Isı kontrolü:**
 - **Hipotermiyi önle** (örtü, ısıtıcı)
 - **Hipertermiyi önle** (soğutma, antipiretik)
+- **Peteşi, purpura varsa** (Meningokok; konumuz değil ama ekledi hoca)
 
 ---
 
