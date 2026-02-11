@@ -24,6 +24,12 @@ Hematolojik hastalıklar ve yaklaşım:
 - **Lösemili Çocuğa Yaklaşım** - ALL, AML, KML, JMML tanı ve tedavi
 - **Trombozlu Çocuğa Yaklaşım** - DVT, pulmoner emboli, trombofili
 
+### 🦠 Enfeksiyon Hastalıkları
+
+Aşılama ve korunma:
+
+- **Çocukluk Çağı Aşılaması** - Rutin aşılar, özel aşılar, aşı takvimi
+
 ### 👶 Genel Pediatri
 
 Sağlıklı çocuk takibi ve beslenme:
