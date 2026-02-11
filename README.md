@@ -34,4 +34,4 @@ Hoş geldiniz! Bu GitBook, pediatri derslerine ait kapsamlı ders notlarını i�
 
 ---
 
-**⚠️ Bu notlar eğitim amaçlı hazırlanmıştır.**
+📧 **İletişim:** mmecn@icloud.com
