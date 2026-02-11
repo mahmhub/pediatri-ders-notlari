@@ -1,7 +1,5 @@
 # 📚 Pediatri Ders Notları
 
-Hoş geldiniz! Bu GitBook, pediatri derslerine ait kapsamlı ders notlarını içermektedir.
-
 ---
 
 ## 🚨 Acil Pediatri
