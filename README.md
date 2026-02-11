@@ -28,10 +28,6 @@ Hoş geldiniz! Bu GitBook, pediatri derslerine ait kapsamlı ders notlarını i�
 - [Çocukluk Çağı Beslenmesi](genel/Çocukluk%20Çağı%20Beslenmesi%20-%20Metin.md)
 - [Çocukta Beslenme](genel/ÇOCUKTA%20BESLENME.md)
 
-## 🍼 Neonatoloji
-
-- [Yenidoğan Muayenesi ve Prematürelik](neon/yenidogan_muayenesi_ve_prematurite.md)
-
 ---
 
 📧 **İletişim:** mmecn@icloud.com
