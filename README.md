@@ -32,17 +32,6 @@
 
 ---
 
-## 📝 Versiyon Geçmişi
-
-**v1.0** - Şubat 2024
-- ✅ Acil Pediatri (5 ders notu)
-- ✅ Hematoloji (3 ders notu)
-- ✅ Enfeksiyon Hastalıkları (1 ders notu)
-- ✅ Alerji ve İmmunoloji (1 ders notu)
-- ✅ Genel Pediatri (3 ders notu)
-
----
-
 💡 **Dersler işlendikçe yeni konular eklenecektir.**
 
 📧 **İletişim:** mmecn@icloud.com

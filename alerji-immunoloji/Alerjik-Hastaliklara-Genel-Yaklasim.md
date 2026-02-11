@@ -213,6 +213,8 @@ Sıklık ↑
 **Topikal kortikosteroidler:**
 - Alevlenmelerde
 - Potensiyat lezyonun yerine göre
+- Atopik ciltler için kullanılan özel nemlendiriciler ve şampuanlar kullanılmalı. Kortikosteroidler kullanılmamalı.
+- Yoksa kortikosteroidler deriyi inceltir.
 
 **Topikal kalsinörin inhibitörleri:**
 - Takrolimus, pimekrolimus
@@ -245,6 +247,7 @@ Sıklık ↑
 | **Çevresel** | Isı değişiklikleri<br>Terleme |
 | **Psikolojik** | Stres |
 | **Biyolojik** | • Alerjenler (besin, inhalan)<br>• Mikroorganizmalar (S. aureus) |
+> Terlemek de alevlendirir.
 
 **Yaşa göre önemli alerjenler:**
 - **Süt çocuklarında:** Besinler (%35-40)
@@ -258,14 +261,16 @@ Sıklık ↑
 
 **"Büyük 8" Alerjenler:**
 
-1. **İnek sütü** (en sık)
+1. **İnek sütü** (en sık) *Keçi de aynı şekilde*
 2. **Yumurta** (en sık)
 3. **Yer fıstığı**
 4. **Soya**
 5. **Buğday**
 6. **Kuru yemişler** (fındık, ceviz, badem)
 7. **Balık**
-8. **Kabuklu deniz hayvanları** (karides, midye)
+8. **Kabuklu deniz hayvanları** (karides, midye) (yetişkinlikte de)
+
+> Yer fıstığı alerjisi de yetişkinlikte devam ediyor; diğerleri genel olarak geçiyor.
 
 **Çocuklarda en sık IgE aracılı reaksiyona neden:**
 - **İnek sütü**
@@ -281,6 +286,7 @@ Sıklık ↑
 - ✅ Buğday
 - ✅ Soya
 - **Süre:** Genellikle 5 yaşa kadar düzelir
+
 
 **Genellikle devam eden:**
 - ❌ Yer fıstığı (çerez)
@@ -472,6 +478,8 @@ Sıklık ↑
 | **Nem azaltma** | Nem oranı <%50 |
 | **Hamam böceği** | Yok etme (insektisit) |
 
+> Kedi köpekleri evden uzaklaştıramayan kişilerde immunoterapi
+
 ##### Ev Dışı Alerjen Maruziyetini Azaltma
 
 | Önlem | Uygulama |
@@ -499,8 +507,9 @@ Sıklık ↑
 
 ##### Ağır - Persistan Alerjik Rinit
 
+- Hayatının olağan akışını etkiliyorsa hastanın:
 **Birinci basamak:**
-- **İntranazal kortikosteroidler**
+- **İntranazal kortikosteroidler** (15 günden sonra max etkisini gösterir)
   - **Alerjik rinitteki en etkili tedavi**
 
 **Kombinasyon:**
@@ -542,6 +551,7 @@ Sıklık ↑
 | **Yer değiştirir** | 24 saat içinde |
 | **İz bırakmaz** | Geçtikten sonra iz yok |
 
+> Eğer bir plak 24 saat içerisinde yer değiştirmiyorsa başka bir şeydir. Mesela Vaskülit...
 **Sıklık:** Populasyonun %20'sinde yaşam boyu en az bir kez
 
 ---
@@ -571,7 +581,7 @@ Sıklık ↑
 **Akut ve kronik ayrımı önemli:**
 - Nedenler farklı
 - Tedavi yaklaşımları farklı
-
+- 6 haftayı geçerse başka nedenlere bakmamız lazım
 ---
 
 ### Akut Ürtiker Nedenleri
@@ -703,7 +713,7 @@ Sıklık ↑
 #### Soğuk Temas Ürtikeri
 
 **Tetikleyici:**
-- Soğuk yüzey, su ve hava ile temas
+- Soğuk yüzey, su ve hava ile temas yani provakasyon
 
 **Görünüm:**
 - Temas eden deride kızarıklık, ödem
