@@ -23,6 +23,7 @@
 ## 🤧 Alerji ve İmmunoloji
 
 - [Alerjik Hastalıklara Genel Yaklaşım](alerji-immunoloji/Alerjik-Hastaliklara-Genel-Yaklasim.md)
+- [Anafilaksi](alerji-immunoloji/Anafilaksi.md)
 
 ## 👶 Genel Pediatri
 
