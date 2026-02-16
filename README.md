@@ -41,6 +41,7 @@
 - [Çocukluk Çağı Beslenmesi](genel/Çocukluk%20Çağı%20Beslenmesi%20-%20Metin.md)
 - [Çocukta Beslenme](genel/ÇOCUKTA%20BESLENME.md)
 - [Ateşli Çocuğa Yaklaşım](genel/atesli-cocuga-yaklasim.md)
+- [Üst Solunum Yolu Enfeksiyonları](genel/ust-solunum-yolu-enfeksiyonlari.md)
 
 ---
 
