@@ -34,13 +34,16 @@ Vücut sıcaklığındaki artış **iki şekilde** ortaya çıkabilir:
 - Merkezi sinir sistemi (MSS) tarafından düzenlenen ve kontrol edilen
 - Belirli bir **biyolojik yanıtın parçası** olarak ortaya çıkan
 - Vücut ısısındaki **anormal yükselmedir**
+> PG2 ile.
+> Ne olur? Üşüme. Bunu da VK yapar.
+> İştahsızlık: Alacağınız gıdalardan MO'ların aktivitesini azaltmaya yarar.
 
 #### 2. **HİPERTERMİ (Hyperthermia)**
 - **Hipotalamik set noktası normalken** artan vücut sıcaklığı
 - Vücudun ısı üretimi ile ısı kaybı arasındaki dengenin bozulması
 - Örnekler: Isı çarpması, aşırı egzersiz, ilaç etkisi (malign hipertermi)
 
-> ⚠️ **ÖNEMLİ:** Ateş ve hiperterminin **klinik anlamları ve tedavi yaklaşımları farklıdır**!
+> ⚠️ **ÖNEMLİ:** Ateş ve hiperterminin **klinik anlamları ve tedavi yaklaşımları farklıdır**! Klasik ateş düşürücüler işe yaramaz.
 
 ---
 
@@ -63,6 +66,13 @@ Vücut sıcaklığındaki artış **iki şekilde** ortaya çıkabilir:
 - 🌆 **Öğleden sonra/Akşamüstü:** En yüksek
 - Ortalama değişim genliği: **0.5°C**
 
+> Gelen hastaya ilk soru: Kaç derece ve nereden ölçüldü?
+> Çünkü konuma göre referans değerler değişkenlik gösterir.
+> Kor sıcaklığı yani hipotalamusun gerçek sıcaklığına en yakın Rektum ölçümüdür.
+
+> **KURAL 1:** Annenin söylediği her zaman doğrudur.
+> Koltuk altı ölçümlerde terli olup olmadığı önemli.
+
 ### Yaşa Göre Değişim
 
 | Yaş Grubu | Özellik |
@@ -70,6 +80,10 @@ Vücut sıcaklığındaki artış **iki şekilde** ortaya çıkabilir:
 | **Bebekler ve küçük çocuklar** | Vücut sıcaklığı daha yüksek |
 | **Yenidoğan** | Rektal ölçümle ortalama 37.5°C |
 | **Yenidoğan normal üst sınır** | 38.0°C |
+
+> Hangi sıcaklık artışının anormal kabul edileceği ateşin nereden ölçüldüğü ve çocuğun yaşına bakarak değerlendirilir.
+
+> Çocuğun konforunu bozacak bir ateş yüksekliği olmalı.
 
 ---
 
@@ -240,7 +254,7 @@ Ateş şunları artırır:
 | 💓 **Kardiyovasküler** | Taşikardi (+10-15 atım/dk/derece) |
 | 🫁 **Solunum** | Takipne (+3-5 solunum/dk/derece) |
 | 🧠 **Nörolojik** | İnleme, letarji (ağır tablolarda) |
-| 🩸 **Renal** | Hematüri (idrarda kan), proteinüri (idrarda protein) |
+| 🩸 **Renal** | Hematüri (idrarda kan), proteinüri (idrarda protein); tekrar bakna lazım ama |
 | ⚡ **Nörolojik (ciddi)** | Konvülziyon (febril konvülziyon) |
 
 ### Taşikardi ve Takipne
@@ -249,7 +263,7 @@ Ateş şunları artırır:
 - **Kalp hızı:** Her 1°C artış için +10-15 atım/dk
 - **Solunum hızı:** Her 1°C artış için +3-5 solunum/dk
 
-> ⚠️ **ÖNEMLİ:** Eğer kalp hızı ve solunum hızı **beklenenden daha fazla** artmışsa, bu **ciddi enfeksiyon veya sepsis** işareti olabilir!
+> ⚠️ **ÖNEMLİ:** Eğer kalp hızı ve solunum hızı **beklenenden daha fazla** artmışsa, bu **ciddi enfeksiyon veya sepsis** işareti olabilir! (immunolaterji)
 
 ---
 
@@ -261,10 +275,12 @@ Ateş şunları artırır:
 - ✅ **Yaş grubu:** Risk değerlendirmesi için kritik
 - ✅ **Ateşin derecesi:** Kaç derece?
 - ✅ **Ateşin süresi:** Ne kadar süredir var?
-- ✅ **Ne zaman başladığı:** Akut mı, kronik mi?
+- ✅ **Ne zaman başladığı:** Akut mu, kronik mi?
 - ✅ **Sıklığı:** Sürekli mi, aralıklı mı?
 - ✅ **Ölçüm yöntemi:** Rektal, aksiller, oral?
 - ✅ **Ölçüm bölgesi:** Nereden ölçüldü?
+
+> Bu soruların temelinde enfeksiyon soruları olacak.
 
 #### 📌 Genel Durum
 - **Ateşli iken:** Aktivitesi, beslenmesi, sıvı alımı nasıl?
@@ -325,7 +341,8 @@ Ateş şunları artırır:
 | 🎨 **Cilt rengi** | Soluk, mor (siyanoz), mottling (benekli) |
 | 🔴 **Döküntü** | Peteşiyal döküntü varlığı (önemli!) |
 
-> ⚠️ **KIRMIZI BAYRAK:** Peteşiyal döküntü varlığı **meningo kokkemi** (bakteriyel menenjit + septisemi) işareti olabilir!
+> ⚠️ **KIRMIZI BAYRAK:** Peteşiyal döküntü varlığı **meningo koksemi** (bakteriyel menenjit + septisemi) işareti olabilir!
+> Eğer çocuğun ateşi var ve rahat uyuyorsa çocuk o zaman uyandırıp ateşi düşürmeye çalışma. (Sağlıklı çocuk)
 
 ---
 
@@ -452,7 +469,7 @@ Antipiretikler, **termoregülatuvar ayar noktasını normale döndürerek** ate�
 | **Karşılaştırma** | - | Parasetamol'den biraz daha etkili |
 | **Etki süresi** | 4-6 saat | 6-8 saat (daha uzun) |
 | **Anti-inflamatuvar etki** | Yok | Var |
-| **Yaş sınırı** | Tüm yaşlar | Genellikle ≥6 ay |
+| **Yaş sınırı** | Tüm yaşlar (3 ayın altında kullanılmaz, sebep bulmak lazım) | Genellikle ≥6 ay (böbrek yeterli olgunlukta değil)|
 | **İlk tercih** | ✅ | Alternatif |
 
 ---
@@ -460,7 +477,8 @@ Antipiretikler, **termoregülatuvar ayar noktasını normale döndürerek** ate�
 ### Antipiretik Kullanım Önerileri
 
 #### 📌 İlk Basamak
-- **Oral parasetamol** ile tedaviye başlanması önerilir
+- **Oral parasetamol** ile tedaviye başlanması önerilir (ilk seçenek; çok çalışması var ve yüksek dozlara çıkılabilir)
+> Hem ateş düşürücü hem de anti-inflamatuar.
 
 #### 📌 Alternatif
 - **Oral ibuprofen**, özellikle antipiretik etkiye ek olarak **anti-inflamatuvar etki** isteniyorsa, parasetamole alternatiftir
@@ -487,6 +505,7 @@ Ateş yükselmeye devam ederse ve/veya çocuğun rahatsızlığı antipiretikten
 |-----|-----|--------|----------|
 | **Oral/Rektal** | 10-15 mg/kg/doz | Her 4-6 saat | 75 mg/kg/gün (maks 4 g/gün) |
 
+> 4000mg maximum toksik doz.
 **Örnek Hesaplama:**
 - 10 kg çocuk: 100-150 mg/doz
 - 20 kg çocuk: 200-300 mg/doz
@@ -509,6 +528,8 @@ Ateş yükselmeye devam ederse ve/veya çocuğun rahatsızlığı antipiretikten
 > - Renal fonksiyon immatüritesi
 > - Dehidratasyon riski
 > - Patent duktus arteriozus riski (yenidoğanlarda)
+
+> Ne zaman kullanılmalı? Parasetamolden en az 4 saat sonra.
 
 ---
 
@@ -567,7 +588,7 @@ Hasta görünümlü ateşli bebek ve çocuklar:
 
 - **Viral enfeksiyon:** Yenidoğanlarda ateşin yaygın nedenidir
 - **Ancak:** Eşlik eden İBE (İnvaziv Bakteriyel Enfeksiyon) riski **göz ardı edilemeyecek düzeyde yüksektir**
-
+> - İmmun maturasyonu olmadığı için ekstra korkarız.
 ### İnvaziv Bakteriyel Enfeksiyon (İBE)
 
 **Tanım:** Bakteriyemi veya bakteriyel menenjiti ifade eder
@@ -604,7 +625,7 @@ Hasta görünümlü ateşli bebek ve çocuklar:
 - BOS Gram boyama
 - BOS hücre sayımı
 - BOS biyokimyası (protein, glukoz)
-- Viral etkenler için PCR (HSV PCR önemli!)
+- Viral etkenler (anne öyküsü) için PCR (HSV PCR önemli!)
 
 ---
 
@@ -647,8 +668,8 @@ Hasta görünümlü ateşli bebek ve çocuklar:
 
 ### Epidemiyoloji
 
-- **Etken çoğunlukla viral**
-- **Piyelonefrit (İdrar Yolu Enfeksiyonu):** Bu dönemde en sık görülen bakteriyel enfeksiyon
+> - **Etken çoğunlukla viral**
+> - **Piyelonefrit (İdrar Yolu Enfeksiyonu):** Bu dönemde en sık görülen bakteriyel enfeksiyon
 
 ### Değerlendirmenin Asıl Amacı
 
@@ -658,7 +679,7 @@ Hasta görünümlü ateşli bebek ve çocuklar:
 
 ### 🚨 İlk Hızlı Değerlendirme
 
-**HASTA GÖRÜNÜM VAR MI?**
+>> **HASTA GÖRÜNÜM VAR MI?**
 
 ---
 
@@ -687,6 +708,7 @@ Hasta görünümlü ateşli bebek ve çocuklar:
 | **Gaita kültürü (GK)** | İshal varsa |
 | **Akciğer grafisi (AC grafisi)** | Solunum sistemi bulguları varsa |
 
+> **2026:** 21-28 günlük hastalarda LP kararı klinisyene bırakılmalı. Ama uygulamada henüz popüler kullanımı yok.
 ---
 
 #### **Ampirik Antibiyotik Başlanır**
