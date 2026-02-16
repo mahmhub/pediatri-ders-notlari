@@ -1,0 +1,20 @@
+{
+  "title": "Pediatri Ders Notları",
+  "author": "Mahmut Ercan",
+  "language": "tr",
+  "gitbook": ">=3.0.0",
+  "plugins": [
+    "mermaid-gb3",
+    "theme-default",
+    "-lunr",
+    "-search",
+    "search-plus",
+    "expandable-chapters",
+    "back-to-top-button"
+  ],
+  "pluginsConfig": {
+    "mermaid-gb3": {
+      "theme": "default"
+    }
+  }
+}
