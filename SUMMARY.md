@@ -30,3 +30,13 @@
 
 * [Alerjik Hastalıklara Genel Yaklaşım](alerji-immunoloji/Alerjik-Hastaliklara-Genel-Yaklasim.md)
 * [Anafilaksi](alerji-immunoloji/Anafilaksi.md)
+
+## Neonatoloji
+
+* [Yenidoğan Muayenesi ve Prematürite](neon/yenidogan_muayenesi_ve_prematurite.md)
+
+## Yoğun Bakım
+
+* [Solunum Sıkıntısı Olan Çocuğa Yaklaşım](yogun-bakim/solunum_sikintisi.md)
+* [Şok](yogun-bakim/Sok.md)
+* [Hepatitler](yogun-bakim/hepatitler.md)

@@ -1,358 +1,581 @@
+# YENİDOĞAN MUAYENESİ VE PREMATÜRİTE
+
+**Hazırlayan:** Dr. Ayşe Anık
+**Bölüm:** Çocuk Sağlığı ve Hastalıkları Anabilim Dalı
+**Kurum:** ADÜ Tıp Fakültesi
+
 ---
-hidden: true
+
+## İÇİNDEKİLER
+
+1. [Yenidoğan Dönemi Tanımı](#yenidoğan-dönemi-tanımı)
+2. [Önemli Tanımlar](#önemli-tanımlar)
+3. [Yeni Ballard Skorlaması](#yeni-ballard-skorlaması)
+4. [Antropometrik Ölçüler ve Vital Bulgular](#antropometrik-ölçüler-ve-vital-bulgular)
+5. [Yenidoğan Muayenesinde Sıra Tercihi](#yenidoğan-muayenesinde-sıra-tercihi)
+6. [Normal Yenidoğan Fizik Muayenesi](#normal-yenidoğan-fizik-muayenesi)
+7. [Yenidoğan Refleksleri](#yenidoğan-refleksleri)
+8. [Premature Bebek](#premature-bebek)
+
 ---
 
-# Yenidoğan Muayenesi ve Prematürelik
+## YENİDOĞAN DÖNEMİ TANIMI
 
-YENIDOGAN MUAYENESI VE PREMATURITE DERS NOTU
+Yenidoğan dönemi, doğumu izleyen **ilk 28 günlük** süreyi kapsayan, bebek için oldukça kritik bir dönemi ifade eder. Bu dönemde bebek **intrauterin yaşamdan ekstrauterin yaşama** adapte olmaktadır ve çeşitli fizyolojik değişiklikler yaşanmaktadır.
 
-Dr. Ayse Anik ADU Tip Fakultesi, Cocuk Sagligi ve Hastaliklari Anabilim Dali
+---
 
-YENIDOGAN DONEMI TANIMI
+## ÖNEMLİ TANIMLAR
 
-Yenidogan donemi, dogumuzu izleyen ilk 28 gunluk zamani kapsayan, bebek icin oldukca kritik bir sureci ifade eder. Bu donemde bebek intrauterin yasamdan ekstrauterin yasama adapte olmaktadir ve cesitli fizyolojik degisiklikler yasanmaktadir.
+### Gestasyon Yaşı ile İlgili Tanımlar
 
-YENIDOGAN MUAYENESINDE SIRA TERCIHI
+| Terim | Açıklama |
+|-------|----------|
+| **Term (Matür) Bebek** | 37-42 haftalık gestasyon yaşı arasında doğan bebekler. Tam zamanında doğmuş kabul edilir |
+| **Pre-term (Prematüre) Bebek** | 37 haftadan önce doğan bebekler. Tam olgunlaşmadan doğmuşlardır ve çeşitli sorunlar yaşayabilirler |
+| **Post-term (Post-matür) Bebek** | 42 haftadan sonra doğan bebekler. Bu bebekler de bazı riskler taşıyabilirler |
 
-Yenidogan bebegin muayenesi belirli bir sirayla yapilmalidir. Once bebegin genel gorunumu, posturu ve aktivitesi degerlendirmeye alinir. Ardindan kalp ve akciger muayenesi yapilir. Sonrasinda bas-boyun muayenesi, gogus muayenesi, karin muayenesi ve anus ile genital organlarin muayenesi yapilir. Femoral nabizlarin kontrolu, ekstremitelerin muayenesi, sirt muayenesi ve kalca ekleminin degerlendirmesi yapilir. Bas cevresi ve diger antropometrik olcumler alinir. Son olarak yenidogan refleksleri (Moro refleksi, emme-arama refleksi, yakalama refleksi gibi) degerlendirilir.
+---
+
+### Doğum Ağırlığına Göre Tanımlar
 
-ONEMLI TANIMLAR
+| Terim | Kısaltma | Ağırlık | Açıklama |
+|-------|----------|---------|----------|
+| **Düşük Doğum Ağırlıklı Bebek** | LBW | <2500 g *10p*| Low Birth Weight |
+| **Çok Düşük Doğum Ağırlıklı Bebek** | VLBW | <1500 g | Very Low Birth Weight - Yoğun bakım gerektirebilir |
+| **İleri Derecede Düşük Doğum Ağırlıklı Bebek** | ELBW | <1000 g | Extremely Low Birth Weight - En riskli grup |
+| **Makrozomik Bebek** | - | >4000 g *90p* | Genellikle gestasyonel diyabetli annelerin bebeklerinde görülür |
 
-Gestasyon Yasi ile Ilgili Tanimlar:
+> **Makrozomik Bebek Tanımının Önemi:**
+>
+> Makrozomik bebek tanımı, doğum öncesi, doğum sırası ve doğum sonrası riskleri yüksek olan bir grubu önceden tanımlayıp bu bebekler ve anneleri için özel yaklaşım planlamak amacıyla kullanılır.
+>
+> - **Doğum sırasındaki riskler:**
+>   - Omuz distozisi riskinde artış
+>   - Brakiyal pleksus yaralanması, klavikula/humerus fraktürü gibi doğum travmaları
+>   - Anne için uzamış doğum, sezaryen ihtiyacında artış, postpartum hemoraji ve perine yırtıkları
+>
+> - **Doğum sonrası yenidoğan riskleri:**
+>   - Yenidoğan hipoglisemisi (özellikle diyabetik anne bebeğinde)
+>   - Polisitemi, hiperviskozite ve hiperbilirubinemi
+>   - Uzun vadede obezite ve metabolik sendrom riskinde artış
+>
+> - **Kılavuz ve araştırmalar açısından:**
+>   - Belirli kilo eşiklerinin tanımlanması, sezaryen veya özel izlem gibi obstetrik kararların standartlaştırılmasını sağlar.
+>   - Araştırmalarda “makrozomik grup” ile “normal doğum ağırlıklı grup” arasında karşılaştırma yapılabilmesi için ortak bir dil oluşturur.
 
-Term veya Matur Bebek: 37-42 haftalik gestasyon yasi arasinda dogan bebekleri ifade eder. Bu bebekler tam zamanlinda dogmus kabul edilir.
+---
 
-Pre-term veya Premature Bebek: 37 haftadan once dogan bebeklere denir. Bu bebekler tam olgunlasmadan dogan bebeklere verilir ve cesitli sorunlar yasayabilirler.
+### Gestasyon Yaşına Göre Ağırlık Kategorileri
 
-Post-term veya Post-matur Bebek: 42 haftadan sonra dogan bebeklere verilen isimdir. Bu bebekler de bazi riskler tasiabilirler.
+| Terim | Kısaltma | Persentil | Açıklama |
+|-------|----------|-----------|----------|
+| **Gestasyon Yaşına Uygun** | AGA | 10-90. persentil | Normal gelişme göstermiş kabul edilir |
+| **Gestasyon Yaşına Göre Küçük** | SGA | <10. persentil | İntrauterin büyüme geriliği olan bebekler |
+| **Gestasyon Yaşına Göre Büyük** | LGA | >90. persentil | Genellikle diyabetik anne bebeklerinde görülür |
 
-Dogum Agirligina Gore Tanimlar:
+**SGA İki Türde Olabilir:**
+- **Simetrik SGA:** Tüm vücut ölçümleri küçüktür, genellikle erken döneme ait bir sorun vardır
+- **Asimetrik SGA:** Baş çevresi normal ancak vücut ağırlığı düşüktür, genellikle plasental yetmezliğe bağlı gelişir
 
-Dusuk Dogum Agirlikli Bebek (LBW - Low Birth Weight): 2500 gramdan daha az agirlikta dogan bebeklere verilen isimdir.
+---
 
-Cok Dusuk Dogum Agirlikli Bebek (VLBW - Very Low Birth Weight): 1500 gramdan daha az agirlikta dogan bebekleri ifade eder. Bu bebekler yogun bakim gerektirebilirler.
+## YENİ BALLARD SKORLAMASI
 
-Ileri Derecede Dusuk Dogum Agirlikli Bebek (ELBW - Extremely Low Birth Weight): 1000 gramdan daha az agirlikta dogan bebeklere denir. Bu bebekler en riskli gruptur.
+Gestasyon haftasının belirlenmesinde kullanılan bir skorlama sistemidir. **Fizik bulgular** ve **nöromüsküler bulgular** değerlendirilerek bebeğin gestasyon yaşı tahmin edilir.
 
-Makrozomik Bebek: 4000 gramdan daha fazla agirlikta dogan bebeklere verilen isimdir. Genellikle gestasyonel diyabetli annelerin bebeklerinde gorulur.
+> Bunları bilmenizi istemiyoruz sadece böyle bir skorlama olduğunu bilmek yeterli.
+> Gestasyon haftasına göre olan bulgular olarak yani.
+### Fizik Bulgular
 
-Gestasyon Yasina Gore Agirlik Kategorileri:
+- Cildin görüntü ve yapısı
+- Lanugo (ince tüyler) varlığı ve dağılımı
+- Ayak tabanındaki çizgilerin yoğunluğu ve yayılımı
+- Meme başı dokusunun gelişmişliği
+- Kulak kıkırdağının sertliği
+- Genital organların gelişim düzeyi (erkek ve kız bebekler için ayrı değerlendirilir)
 
-AGA (Appropriate for Gestational Age): Gestasyon yasina uygun agirlikta olan, yani 10-90 persentil araliginda olan bebeklere denir. Bu bebekler normal gelisme gostermis kabul edilir.
+### Nöromüsküler Bulgular
 
-SGA (Small for Gestational Age): Gestasyon yasina gore agirligin 10. persentilin altinda oldugu bebekleri ifade eder. Intrauterin buyume geriliği olan bebekleri tanimlar. SGA iki turde olabilir:
+Bebeğin kas tonusu ve pozisyon alabilme yeteneğini değerlendiren testlerdir.
 
-* Simetrik SGA: Tum vucut olcumleri kucuktur, genellikle erken doneme ait bir sorun vardir.
-* Asimetrik SGA: Bas cevresi normal ancak vucut agirligi dusuktur, genellikle plasental yetmezlige bagli gelisir.
+---
 
-LGA (Large for Gestational Age): Gestasyon yasina gore agirligin 90. persentilin uzerinde oldugu bebekleri ifade eder. Genellikle diyabetik anne bebeklerinde gorulur.
+## ANTROPOMETRİK ÖLÇÜLER VE VİTAL BULGULAR
 
-YENI BALLARD SKORLAMASI
+### Normal Yenidoğan Değerleri
 
-Gestasyon haftasinin belirlenmesinde kullanilan bir skorlama sistemidir. Bu skorlama hem fizik bulgulari hem de noromuskuler bulgulari degerlendirerek bebegin gestasyon yasini tahmin etmeye yardimci olur.
+| Parametre | Normal Değer |
+|-----------|-------------|
+| **Ağırlık** | 2500-4000 g |
+| **Boy** | 48-52 cm |
+| **Baş Çevresi** | 33-37 cm |
+| **Kardiyak Hız** | 120-160/dk |
+| **Kan Basıncı (sistolik)** | 60-90 mmHg |
+| **Kan Basıncı (diyastolik)** | 40-45 mmHg |
+| **Ateş (rektal)** | 36.5-37.5°C |
+| **Solunum Sayısı** | 35-60/dk |
 
-Fizik bulgular asagidaki ozellikleri kapsar:
+> **💡 Klinik İpucu:** Baş çevresi ölçümü mikrosefali ve makrosefali gibi durumları belirlemek için önemlidir.
 
-* Cildin goruntu ve yapisi
-* Lanugo (ince tuyler) varligindeki varligi ve dagilimi
-* Ayak tabanindaki cizgilerin yogunlugu ve yayilimi
-* Meme basi dokusunun gelismisligi
-* Kulak kikirdaginin sertligi
-* Genital organlarin gelisim duzeyi (erkek ve kiz bebekler icin ayri degerlendirilir)
+---
 
-Noromuskuler bulgular bebegin kas tonusu ve pozisyon alabilme yetenegini degerlendiren testlerdir.
+## YENİDOĞAN MUAYENESİNDE SIRA TERCİHİ
 
-ANTROPOMETRIK OLCULER VE VITAL BULGULAR
+Yenidoğan bebeğin muayenesi belirli bir sırayla yapılmalıdır:
 
-Normal Yenidogan Degerleri:
+1. Genel görünüm, postür ve aktivite değerlendirmesi
+2. Kalp ve akciğer muayenesi
+3. Baş-boyun muayenesi
+4. Göğüs muayenesi
+5. Karın muayenesi
+6. Anüs ve genital organların muayenesi
+7. Femoral nabızların kontrolü
+8. Ekstremitelerin muayenesi
+9. Sırt muayenesi
+10. Kalça ekleminin değerlendirilmesi
+11. Baş çevresi ve diğer antropometrik ölçümler
+12. Yenidoğan reflekslerinin değerlendirilmesi (Moro, emme-arama, yakalama refleksi)
 
-Agirlik: 2500-4000 gram arasinda olmalidir.
+---
 
-Boy: 48-52 cm arasinda degisir.
+## NORMAL YENİDOĞAN FİZİK MUAYENESİ
 
-Bas Cevresi: 33-37 cm arasindadir. Bas cevresi mikrosefali ve makrosefali gibi durumlari belirlemek icin onemlidir.
+### 👀 Genel Görünüm ve Postür
 
-Kardiyak Hiz: Dakikada 120-160 vuru normaldir. Bunun uzerinde tassikardi, altinda bradikardi olarak degerlendırilir.
+Normal yenidoğan bebek **fleksiyon pozisyonundadır.** Kolları ve bacakları bükük bir şekilde durur. Bu postür normal bir bulgudur ve **normal kas tonusunu** gösterir.
+> Öngörülemez hareketler yapar. 
+> Fleksiyon postüründe uyur.
+> Rengi bize sağlıklı olup olmadığı konusunda çok fazla ipucu verir.
+> Yenidoğan bebek açsa ilk bulgu eli kapalı sıkı olur. Ağlama en son bulgu.
+> Hipotonik bebek un çuvalına battaniyeye benzer.
+---
 
-Kan Basinci: Sistolik 60-90 mmHg, diyastolik 40-45 mmHg arasinda olmalidir.
+### 🔴 Deri Muayenesi
 
-Ates (rektal olcum): 36.5-37.5 derece Celsius normaldir.
+**Normal Deri Rengi:** Pembe veya hafif kırmızımsı tonlardadır. Doğum esnasında bebek beyaz peynirims ibir madde olan **verniks kazeoza** ile örtülü olabilir. Bu madde bebeğin derisini koruyucu bir özelliktir.
 
-Solunum Sayisi: Dakikada 35-60 solunum normaldir. Yenidoganlar yetiskinlere gore daha hizli nefes alirlar.
+Renkler: 
+- Mor
+- Sarı
+- Kırmızı-açık pembe arası ve bu bebeğin normal halidir.
+- Haftası küçüldükçe kırmızılık artar.
+- Beyaz: Anemikse olabilir.
+> **Kernikterus:** İndirekt (nonkonjuge) bilirubinin kan-beyin bariyerini aşarak bazal ganglionlar ve beyin sapı çekirdeklerinde toksik birikim yapması sonucu ortaya çıkan, kalıcı nörolojik hasarla seyreden bilirubin ensefalopatisidir.
+---
 
-NORMAL YENIDOGAN FIZIK MUAYENESI
+#### Siyanoz Değerlendirmesi
 
-Genel Gorunum ve Postur:
+| Tip | Süre | Değerlendirme |
+|-----|------|---------------|
+| **Akrosiyanoz (periferik)** | İlk 24 saat (72 saat) | El ve ayaklarda görülür, **normal** kabul edilir |
+| **Santral siyanoz** | >24 saat devam eden | Bir hastalık bulgusunun nonspesifik göstergesi olabilir, **araştırılmalıdır** |
 
-Normal yenidogan bebek fleksiyon pozisyonundadir. Kollari ve bacaklari bukuk bir sekilde durur. Bu postur normal bir bulgudur ve normal kas tonusunu gosterir.
+---
 
-Deri Muayenesi:
+#### Yenidoğanda Normal Deri Lezyonları
 
-Normal yenidogan bebegin deri rengi pembe veya hafif kirmizimsi tonlardadir. Dogum esnasinda bebek beyaz peynirimsi bir madde olan verniks kazeoza ile ortulu olabilir. Bu madde bebegin derisini koruyucu bir ozelliktir.
+| Lezyon | Açıklama |
+|--------|----------|
+| **Milia** | Burun ve yanaklarda görülen küçük açık sarı-beyaz noktalar, tıkanmış yağ bezleri nedeniyle oluşur, halk arasındaki adı isilik.|
+| **Miliaria** | Ter bezlerinin tıkanıklığı nedeniyle oluşan küçük kabarcıklar |
+| **Geçici Püstüler Melanozis** | Doğumda var olan ancak kendiliğinden kaybolan püstül benzeri lezyonlar; bunlar geçip yerini kahverengi lekelere bırakır.|
+| **Neonatal Akne** | Hormonal nedenlerle oluşan akne benzeri görüntü |
+| **Toksik Eritem** | Sebebi bilinmeyen, kendiliğinden kaybolan kırmızı lekeler ve kabarcıklar; adı toksik kendi toksik değil. |
+| **Mongol Lekesi** | Sırt alt kısım ve kalçalarda görülen mavi-gri renkli lekeler, Asya kökenli bebeklerde daha sıktır; zamanla esmer bebeklere dönüşür. |
+| **Kutis Marmoratus** | Soğukta ortaya çıkan, deri üzerinde ağımsı damarsal görüntü; marmaratus latince mermer kelimesinden geliyor, prematürelerde daha sık olur. sebebi vazomotor instabilite|
 
-Siyanoz Degerlendirmesi:
+---
 
-Ilk 24 saat icerisinde ellerde ve ayaklarda gorulen akrosiyanoz (periferik siyanoz) siklikla gorulur ve normal kabul edilir. Ancak bu sureden sonra devam eden siyanoz bir hastalik bulgusunun nonspesifik gostergesi olabilir ve arastirilmalidir.
+### 🧠 Baş Muayenesi
 
-Deri Lezyonlari:
+#### Fontaneller
 
-Yenidoganlarda gorulebilecek normal deri bulgulari sunlardir:
+Bebekte fontanel sayısı ve büyüklükleri kontrol edilir. **Ön fontanel** genellikle daha büyük ve belirgindir, **arka fontanel** daha küçüktür.
 
-* Milia: Burnun ve yanaklarda gorulen kucuk beyaz noktalar, tikan yag bezleri nedeniyle olusur.
-* Miliaria: Ter bezlerinin tikali nedeniyle olusan kucuk kabarciklar.
-* Gecici pustular melanozis: Dogumda var olan ancak kendiliğinden kaybolan pustul benzeri lezyonlar.
-* Neonatal akne: Hormonal nedenlerle olusan akne benzeri goruntu.
-* Toksik eritem: Sebep bilinmeyen, kendiliğinden kaybolan kirmizi lekelerde lekeler ve kabarciklar.
-* Mongol lekesi: Genellikle sirt alt kisim ve kalcalarda gorulen mavi-gri renkli lekeler, Asya kokenli bebeklerde daha siktir.
-* Kutis marmoratus: Sogukta ortaya cikan, deri uzerinde agimsi damarsal goruntu.
+#### Sütürler
 
-Bas Muayenesi:
+Kafatasındaki kemik birleşmelerinin durumu kontrol edilir. Çok geniş sütürler veya bindirme görülen sütürler patolojik olabilir.
 
-Fontaneller: Bebekte fontanel sayisi ve buyuklukleri kontrol edilir. On fontanel genellikle daha buyuk ve belirgindir, arka fontanel daha kucuktur.
+---
 
-Suturler: Kafatasindaki kemik birlesmelerinin durumu kontrol edilir. Cok genis suturler veya bindirme gorulen suturler patolojik olabilir.
+#### Baş Bölgesi Lezyonları
 
-Sefal Hematom: Dogum travmasina bagli olarak periost altinda olusan kanama. Sutur cizgilerini gecmez ve genellikle haftalar icinde kendiliğinden kaybolur.
+| Lezyon | Özellik | Seyir |
+|--------|---------|-------|
+| **Sefal Hematom** | Periost altında kanama, sütür çizgilerini **geçmez** | Haftalar içinde kendiliğinden kaybolur |
+| **Kaput Suksadenum** | Deri altı ödem, sütür çizgilerini **geçer** | İlk gün içinde kaybolur |
+| **Subgaleal Kanama** | Kafatası periostunun üstünde kanama, geniş alana yayılabilir | **Ciddi durum**, müdahale gerektirebilir |
+| **Kraniotabes** | Kafatası kemiklerinde yumuşaklık hissi (temporal ve parietal bölge) | İlk 3 ay **fizyolojik** kabul edilir |
 
-Kaput Suksadenum: Dogum kanalinda sikisma nedeniyle deri altinda olusan odem. Sutur cizgilerini gecer ve genellikle ilk gun icerisinde kaybolur.
+> **⚠️ ÖNEMLİ:** Baş bölgesi oskültasyonunda üfürüm varlığı **arteriyovenöz malformasyon** veya **Galen veni anevrizması**nı gösterebilir.
 
-Subgaleal Kanama: Daha ciddi bir durumdur, kafatasi periostunun ustunde olusan kanamalar ve genis bir alana yayilabilir.
+> Ön Fontanel: Frontal sütur ile parieatal suturların birleştiği yer.
+> Büyülüğüne; yumuşaklığına bakılır.
+> Ön fontanelin zamanla kapanması lazım. Beyin yeteri kadar büyümezse erken kapanır. Eğer hidrosefali varsa fontanel kapanması gecikir hatta büyüyebilir.
+> Eğer osteoblastik aktivite artarsa erken kapanır, zeka geriliğine yol açar.
+> Anlık değerlendirilir ama düzenli olarak takip edilmesi yapılır.
+> 24.aya kadar bak ama ortalama 18'de kapanması beklenir.
 
-Kraniotabes: Ilk 3 ay fizyolojik kabul edilen, kafatasi kemiklerinde yumusaklik hissi. Genel olarak temporal ve parietal bolgelerde gorulur.
+> **Süturlar**
+> Sagittal sütur; bebek çıktığında molding şekilde ya da merdiven basamağı şeklinde olur. Özellikle vajinal doğumda.
 
-Oskultasyon: Bas bolgesi dinlenerek ufurum araniyor. Ufurum varligi arteriovenoz malformasyon veya Galen veni anevrizmasini gosterebilir.
+> **Vajinal Kanamalar**
+> Sırasıyla: (sıklığına ve konumuna göre)
+> **Kaput Suksedanum:** En sık ama prognozu en iyi olan.
+> **Sefal Hematom:** Periostun altında. K. suksedanum arasındaki fark periostta olması. engeller yani. Kemiğe çok yakın bir yerde olduğunu gösterebilir. 
+> **Subgaleal hematom:** Periostun üstünde: yayılımını engelleyecek suturları geçmesini engelleyecek bir şey yok. Eğer varsa bebeği kaybedebilliriz. Forceps ve vakum kullanıldığında görülür. 
+> **Epidural kanama:**
+---
 
-Burun Muayenesi:
+### 👃 Burun Muayenesi
 
-Yenidogan bebekler zorunlu olarak burundan nefes alip verirler. Bu nedenle tam veya ileri derecede nazal (burun) obstruksiyon agir solunum sikintisina yol acar ve derhal arastirilip mudahale edilmesi gerekir.
+Yenidoğan bebekler **zorunlu olarak burundan** nefes alıp verirler. Bu nedenle tam veya ileri derecede nazal obstrüksiyon ağır solunum sıkıntısına yol açar ve **derhal araştırılıp müdahale edilmesi** gerekir.
 
-Koanal Atreziler: Burun yolunun arka kisminhin kemiksi veya membranoz tikanligi. Tek veya iki tarafli olabilir. Ozellikle bebek aglayinca siyanozun duzel mesi koanal atreziyi akla getiren bir bulguour.
+**Koanal Atrezi:** 🟥
+- Burun yolunun arka kısmının kemiksi veya membranöz tıkanıklığı
+- Tek veya iki taraflı olabilir
+- Doğum odasında bakılması lazım.
+- İki taraflı koanal atrezi yaşamla bağdaşır ama ağzı kapandığında değil. Emme zamanında başını geri çeker bir süre sonra. Bu şikayetle gelir.
 
-Agiz Muayenesi:
+> **💡 Klinik İpucu:** Bebek ağlayınca siyanozun düzelmesi koanal atreziyi akla getiren önemli bir bulgudur.
 
-Yarik dudak-damak varligı kontrol edilir. Bu durum beslenmeyi etkileyebildigi icin erken tani onemlidir.
+---
 
-Ranula kisti: Dilin alt kismindaki tukuruk bezlerinin tikanmasina bagli olusan kist.
+### 👄 Ağız Muayenesi
 
-Frenelum: Dilin alt kismindaki baglantinin kontrolu yapilir. Kisa frenelum (ankiloglossiya) emmeyi etkileyebilir.
+| Bulgu | Açıklama |
+|-------|----------|
+| **Yarık Dudak-Damak** | Beslenmeyi etkileyebildiği için erken tanı önemlidir |
+| **Ranula Kisti** | Dilin alt kısmındaki tükürük bezlerinin tıkanmasına bağlı oluşan kist |
+| **Kısa Frenulum (Ankiloglossi)** | Dilin alt kısmındaki bağlantının kısa olması, emmeyi etkileyebilir |
+| **Mikrognatia** | Alt çenenin küçük olması. **Pierre Robin sendromu**nda görülür |
+| **Makroglossi** | Dilin büyük olması. **Down sendromu**, **Beckwith-Wiedemann sendromu**nda görülür |
 
-Mikrognati: Alt cenenin kucuk olmasi. Pierre Robin sendromu gibi durumlarda gorulur.
+---
 
-Makroglossi: Dilin buyuk olmasi. Down sendromu, Beckwith-Wiedemann sendromu gibi durumlarda gorulur.
+### 👂 Kulak Muayenesi
 
-Kulak Muayenesi:
+- Kulakların yerleşimi ve deformasyon varlığı değerlendirilmelidir
+> Kulak yerleşiminin göz çizgisinin altında olması **düşük kulak** olarak adlandırılır
+> Bu durum **renal agenezi** ve **kromozom anomalilerine** işaret edebilir
+> Trizomi 18, 21, 13.
+- Kulak kıkırdağı sertliği **prematürite değerlendirmesinde** önemlidir
+- Prematüre bebeklerde kulak kıkırdağı daha yumuşaktır ve kulak kıvrımları daha az gelişmiştir
 
-Kulaklarin yerlesimi ve deformasyon varligi acisdndan degerlendirilmelidir. Kulak yerlesiminin goz cizgisinin altinda olmasi dusuk kulak olarak adlandirilir. Bu durum renal agenezi ve kromozom anomalilerine isaret edebilir.
+---
 
-Kulak kikirdagi sertligi prematurite degerlendirilmesinde onemlidir. Premature bebeklerde kulak kikirdagi daha yumusaktr ve kulak kivrimlari daha az gelismistir.
+### 👁️ Göz Muayenesi
 
-Goz Muayenesi:
+**Oftalmia Neonatorum:** Yenidoğanda görülen göz enfeksiyonlarıdır. Kimyasal irritasyon, maternal gonore veya klamidya enfeksiyonu sonucunda meydana gelebilir.
 
-Oftalmia Neonatorum: Yenidoganda gorülen goz enfeksiyonlaridir. Kimyasal irritasyon, maternal gonore veya klamidya enfeksiyonu sonucunda meydana gelebilir.
+| Bulgu | Açıklama |
+|-------|----------|
+| **Sklera rengi** | Mavimsi olabilir veya hiperbilirubinemi nedeniyle sarı görünebilir |
+| **Subkonjonktival Kanama** | Doğum travmasına bağlı, genellikle zararsızdır ve kendiliğinden kaybolur |
+| **Epikantus** | Göz iç köşesinde cilt kıvrımı, **Down sendromu**nda görülebilir |
+| **Brushfield Lekesi** | İris üzerinde beyazımsı lekeler, **Down sendromu**nda sık görülür |
+| **Lens Opasitesi** | Katarakt varlığını gösterir |
 
-Sklera rengi mavimsi olabilir veya hiperbilirubinemi (sarilik) nedeniyle sari gorunebilir.
+#### Red Refleksi
 
-Subkonjonktival Kanama: Dogum travmasina bagli olarak gozde gorulebilen kanama. Genellikle zararsizdir ve kendiliğinden kaybolur.
+> Bebek taburcu olmadan mutlaka bakılmalı.
+> Kataraktta; glokom; koryoretinit; retinoblastom; prematüre retinopatisi.
 
-Epikantus: Goz ic kosesinde cilt kivriimi, Down sendromunda gorulebilir.
+Göz dibi muayenesinde aranması gereken **önemli bir bulgudur.** Red refleksinin alınamaması şu durumları düşündürebilir:
 
-Brushfield lekesi: Iris uzerinde beyazimsi lekeler, Down sendromunda sik gorulebilen bir bulgudur.
+- **Katarakt**
+- **Koryoretinit** (göz dibinde iltihaplanma)
+- **Retinoblastom** (göz kanseri)
+- **Prematüre retinopatisi**
 
-Lens opasitesi: Katarakt varligini gosterir.
+---
 
-Red Refleksi: Goz dibi muayenesinde aranmasi gereken onemli bir bulgudur. Red refleksin alinamamasi soyle durumları dusundurebilir:
+### Boyun Muayenesi
 
-* Katarakt
-* Koryoretinit (goz dibinde iltihablanma)
-* Retinoblastom (gozun kanser tumoru)
-* Premature retinopatisi
+- Boyunda kitle varlığı kontrol edilmelidir (**kistik higroma**, **tiroglossal kist**)
+- Boyun hareketi kontrol edilir
+- **Tortikollis** (boyun eğriliği) varlığına bakılır
 
-Boyun Muayenesi:
+---
 
-Boyunda kitle varligiyontrol edilmelidir. Kistik higroma, tiroglossal kist gibi yapilar gorulebilir. Boyun hareketi kontrol edilir. Tortikollis (boyun egriligi) varligıa bakilir.
+### 🫁 Göğüs ve Akciğer Muayenesi
 
-Gogus ve Akciger Muayenesi:
+Yenidoğanın rengi, solunum hızı, retraksiyon (nefes alırken göğüs kafesinin içeri çekilmesi), inleme ve stridor varlığı değerlendirilir.
 
-Yenidoganin rengi, solunum hizi, retraksiyon (nefes alirken gogüs kafesinin iceri cekilmesi), inleme ve stridor varligi degerlendirilir.
+**Solunum sayısı:** Dakikada 35-60 arası normaldir.
+>**Takipne:** 60
+>**Bradipne:** 35
+| Durum | Açıklama |
+|-------|----------|
+| **Periyodik Solunum** | Prematüre bebeklerde düzenli solunum aralarında 5-10 saniyelik duraksamalar, **normal** kabul edilir |
+| **Patolojik Apne** | 20 saniyeden uzun apneler veya siyanoz/bradikardi eşlik eden apneler, **patolojiktir** |
 
-Solunum sayisi dakikada 35-60 arasinda normaldir. Prematüre bebeklerde duzenli solunum aralaryinda 5-10 saniyelik duraksama lar (periyodik solunum) gorülebilir ve normal kabul edilir. Ancak 20 saniyeden uzun apneler veya siyanoz, bradikardi eslik eden apneler patolojiktir.
 
-Kardiyovaskuler Sistem Muayenesi:
+---
 
-Kalp Hizi: Dakikada 120-160 vuru normaldir.
+### 💓 Kardiyovasküler Sistem Muayenesi
 
-Tasikardi (hizli kalp atisi) soyle durumları akla getirir:
+**Kalp Hızı:** Dakikada 120-160 vuru normaldir.
 
-* Enfeksiyon
-* Dehidratasyon (su kaybı)
-* Anemi (kan eksikligi)
-* Artmis notral cevre isisi
-* Aritmi (kalp ritim bozuklugu)
-* Kalp yetmezligi
-* Hipertiroidi
+#### Taşikardi Nedenleri
+>taşikardi sınırı 160.
+- Enfeksiyon
+- Dehidratasyon
+- Anemi
+- Artmış nötral çevre ısısı
+- Aritmi
+- Kalp yetmezliği
+- Hipertiroidi
 
-Bradikardi (yavas kalp atisi) soyle durumları dusundurebilir:
+#### Bradikardi Nedenleri 
+> Bradikardi sınırı 100
+> ilk düzeltilmesi gereken solunumun düzenlenmesi.
+> Yenidoğan bebek hipotermide kalırsa; bradikardi olur.
+- Hipotermi
+- Anoksi
+- Santral sinir sistemi hastalıkları
+- Uzun QT sendromu
+- Kalp blokları
 
-* Hipotermi (dusuk vucut isisi)
-* Anoksi (oksijen eksikligi)
-* Santral sinir sistemi hastaliklari
-* Uzun QT sendromu
-* Kalp bloklari
+---
 
-Ritm ve Ufurum Kontrolu: Kalp sesleri dinlenir, ufurum varligi araştirilir. Yenidoganda bazı ufurumler fizyolojik olabilir ancak takip edilmelidir.
+#### Ritm ve Üfürüm Kontrolü
 
-Periferik Nabizlar: Tum ekstremitelerde nabizlar kontrol edilir.
+Kalp sesleri dinlenir, üfürüm varlığı araştırılır. Yenidoğanda bazı üfürümler **fizyolojik** olabilir ancak takip edilmelidir.
 
-Nabizlarda azalma veya zayiflik şu durumları dusundurebilir:
+#### Periferik Nabızlar
 
-* Hipoplastik sol kalp sendromu
-* Anoksik miyokard
-* Sok
+Tüm ekstremitelerde nabızlar kontrol edilir.
 
-Femoral nabizlarin alinamamasi ozellikle onemlidir ve aort koarktasyonunu (aort damarinin daralmas) gosterebilir.
+**Nabızlarda azalma veya zayıflık şu durumları düşündürebilir:**
+- Hipoplastik sol kalp sendromu
+- Anoksik miyokard
+- Şok
 
-Alt ve ust ekstremiteler arasinda kan basinci farki olup olmadigi kontrol edilir.
+> **⚠️ ÖNEMLİ:** Femoral nabızların alınamaması özellikle önemlidir ve **aort koarktasyonu**nu (aort damarının daralması) gösterebilir.
 
-Solukluk, siyanoz veya pletore (asiri kirmizi gorunum) kaydedilir.
+**Diğer Değerlendirmeler:**
+- Alt ve üst ekstremiteler arasında kan basıncı farkı olup olmadığı kontrol edilir
+- Solukluk, siyanoz veya pletore (aşırı kırmızı görünüm) kaydedilir
+- **Kapiller geri dönüş zamanı** kontrol edilir (normal: <2 saniye, uzaması perfüzyon bozukluğunu gösterir)
 
-Kapiller geri donus zamani kontrol edilir. Normal 2 saniyeden kisa olmalidir. Uzamasi perfüzyon bozuklugunu gosterir.
+---
 
-Karin Muayenesi:
+### 🤢 Karın Muayenesi
 
-Karnin Gorunumu:
+#### Karnın Görünümü
 
-Duz Karin: Kas tonusu azalmasi veya diyafragma hernisi gibi durumları dusundurebilir.
+| Bulgu | Anlamı |
+|-------|--------|
+| **Düz Karın** | Kas tonusu azalması veya diyafragma hernisi düşündürebilir|
+| **Karın Duvarı Anomalisi** | Karın duvarı defekti akla gelmelidir |
+| **Distansiyon (Şişkinlik)** | Barsak tıkanıklığı, nekrotizan enterokolit gibi ciddi durumların bulgusu olabilir |
+| **Diastazis Rekti** | Karın ortasında rektus kaslarının ayrışması, genellikle zararsızdır, tedavi gerektirmeyen bir durum.  |
 
-Karin kaslarinda anomali varsa karin duvarı defekti akla gelmelidir.
+#### Kitle Değerlendirmesi
 
-Distansiyon (siskinlik): Barsak tıkanıklığı, nekrotizan enterokolit gibi ciddi durumlarin bulguse olabilir.
+Karın palpe edilirken kitle varlığına bakılır. Olası nedenler:
+- Üriner sistem anomalileri (hidronefroz, polikistik böbrekler)
+- Barsak duplikasyonları
+- Kız bebeklerde over kistleri
 
-Diastazis rekti: Karin ortasinda rektus kaslarının ayrismasi. Genellikle zararsizdir.
+#### Diğer Karın Muayenesi Bulguları
 
-Kitleler: Karin palpe edilirken kitle varliginia bakilir. Uriner sistem anomalileri (hidronefroz, polikistik bobreklerde), barsak duplikasyonlari veya kiz bebeklerde over kistlerle kitleye neden olabilir.
+- **Barsak Sesleri:** Oskülte edilir. Barsak seslerinin azalması veya olmaması **ileus** gösterebilir
+- **Herni:** Umblikal herni ve inguinal herni varlığı kontrol edilir
+- **Anal Bölge:** Anal açıklık varlığı **mutlaka** kontrol edilmelidir. **İmperforat anüs** acil müdahale gerektirir. Fistül varlığı da araştırılır
+> Anal atrezi.
 
-Barsak Sesleri: Oskülate (dinlene) edilir. Barsak seslerinin azalmasi veya olmaması ileus (barsak hareketsizligi) gosterebilir.
+> **💡 Klinik İpucu:** Normal yenidoğanda göbek kordonu **6-10. günde** düşer.
 
-Herni: Umblikal herni (gobek fitiği) ve inguinal herni (kasik fitiği) varlıği kontrol edilir.
+---
 
-Anal Bolge: Anal aciklik varligi mutlaka kontrol edilmelidir. Imperforat anus (kapalı anus) acil mudahale gerektirir. Fistul varligi da arastilir.
+#### Organ Büyüklükleri
 
-Normal Yenidoganda gobek kordonu 6-10. günde duser.
+| Organ | Normal Bulgu | Patolojik Durum |
+|-------|-------------|-----------------|
+| **Karaciğer** | Alt sınırı kosta kenarını 1-2 cm geçer | Bundan daha aşağı inmesi **hepatomegali** |
+| **Dalak** | Yenidoğanların %30'unda, 6 aydan küçük infantların %15'inde kot altında ele gelebilir | Her zaman patolojik olmayabilir |
 
-Karaciğerin alt siniri normalde kosta kenarini 1-2 cm gecer. Bundan daha asaği inmesi hepatomegali (karaciger buyumesi) olarak kabul edilir.
+---
 
-Dalak yenidoganlarin %30'unda, 6 aydan kücük infantlarin %15'inde kot altinda ele gelebilir. Bu durum her zaman patolojik olmayabilir.
+#### Karın Duvarı Defektleri
 
-Karin duvari defektleri:
+| Defekt | Açıklama |
+|--------|----------|
+| **Omfalosel** | Karın organlarının **membranla örtülü** olarak göbek bölgeden dışarı çıkmasıdır |
+| **Gastroşizis** | Karın organlarının **membransız** olarak, genellikle göbek kordonunun sağında karın dışına çıkması |
 
-* Omfalosel: Karin organlarinin membranla ortulu olarak gobek bolgeden disari cikmasidir.
-* Gastrosizis: Karin organlarinin membransiz olarak, genellikle göbek kordonunun saginda karin disina cikmasi.
+---
 
-Genital Sistem Muayenesi:
+### 🩺 Genital Sistem Muayenesi
 
-Erkek Bebeklerde:
+#### Erkek Bebeklerde
 
-Penisin uzunlugu olculur, normalde 3 cm kadaridir. Bazen oldukca kisa gozukur ancak palpasyonla suprapubik yag dokusu icine gomulen kısımları da ortaya cikarilabilir.
+- **Penis uzunluğu:** Normalde ~3 cm. Bazen kısa görünür ancak palpasyonla suprapubik yağ dokusu içine gömülen kısımları ortaya çıkarılabilir
+- **Üretral meatus pozisyonu** kontrol edilir
 
-Uretral meatusun (idrar cikis deliği) pozisyonu kontrol edilir.
+| Anomali | Açıklama |
+|---------|----------|
+| **Hipospadias** | Üretral meatusun penisin **alt yüzünde**, normal pozisyonundan daha geride olması |
+| **Epispadias** | Üretral meatusun penisin **üst yüzünde** olması |
+| **Hidrosel** | Testis etrafında sıvı birikmesi, genellikle spontan kaybolur |
 
-Hipospadias: Uretral meatusun penisin alt yuzunde, normal pozisyonundan daha geride olmasidir.
+- Testislerin skrotuma inip inmediği kontrol edilir
+- Skrotal hiperpigmentasyon görülebilir (Konjenital Adrenal Hiperplazisi )
 
-Epispadias: Uretral meatusun penisin ust yuzunde olmasidir.
+#### Kız Bebeklerde
 
-Hidrosel: Testis etrafinda sivi birikmesi. Genellikle spontan olarak kaybolur ve tedavi gerektirmez.
+- Labiaların yapısı değerlendirilir
+- Maternal hormonların etkisiyle ilk günlerde labialarda şişlik ve vajinal akıntı görülebilir
 
-Testislerin skrotuma inip inmedigı kontrol edilir.
+---
 
-Skrotal hiperpigmentasyon (koyu renk) gorülebilir.
+## YENİDOĞAN REFLEKSLERİ
 
-Kiz Bebeklerde:
+Yenidoğan bebeklerde bulunması gereken **primitif refleksler:**
 
-Labiaların yapisi degerlendirilir. Maternal hormonlarin etkisiyle ilk gunlerde labialarda şislik ve vajinal akinti gorulebilir.
+| Refleks | Açıklama |
+|---------|----------|
+| **Emme Refleksi** | Bebeğin dudağına veya ağzına bir şey konulduğunda otomatik olarak emmeye başlaması |
+| **Arama Refleksi** | Bebeğin yanağına dokunulduğunda başını o tarafa çevirmesi ve ağzını açması |
+| **Moro Refleksi** | Bebek irkiltildiğinde veya başı arkaya geldiğinde kollarını açarak ve ardından sarılır gibi hareket yapması. Bilateral olması gerekir. **SSS bütünlüğünü** gösterir (Asfiksi; gelişim geriliği gibi|
+| **Yakalama Refleksi** | Bebeğin avucuna parmak konulduğunda sıkı bir şekilde kavraması. Hem palmar hem de plantar reflekse bakılır. |
+| **Asimetrik Tonik Boyun Refleksi** (Eskrimci) | Bebeğin başı bir tarafa çevrildiğinde o taraftaki kol ve bacağını uzatması, diğer taraftakileri bükmesi |
+| **Adımlama Refleksi** | Bebek ayakta tutulup ayakları zemine değdirildiğinde adım atma hareketi yapması |
 
-YENIDOGAN REFLEKSLERI
+> **⚠️ ÖNEMLİ:** Bu reflekslerin varlığı bebeğin nörolojik gelişimi hakkında bilgi verir. Reflekslerin **olmaması** veya **asimetrisi** patolojik durumları akla getirebilir.
+> Moro refleksi 6. aya kadar görülmesini isteriz.
+> Primitif refleksler olması gerektiği haftada olmalı. Bitmesi gerektiğinde bitmeli.
+---
 
-Yenidogan bebeklerde bulunmasi gereken primitive refleksler sunlardir:
+## PREMATURE BEBEK
 
-Emme Refleksi: Bebegin dudagina veya agzına bir şey konuldugunda otomatik olarak emmeye başlamasi.
+**Tanım:** 37. gestasyon haftasından önce doğan bebekler. Bu bebekler tam olgunlaşmadan doğdukları için çeşitli özellikleri ve sorunları vardır.
 
-Arama Refleksi: Bebegin yanagina dokunulduğunda basini o tarafa cevirmesi ve agzini açmasi.
+---
 
-Moro Refleksi: Bebek irkiltildiginda veya bası arkaya geridiginde kollarini acarak ve ardindan sariliir gibi hareketi yapmasi. Bu refleks santral sinir sistemi butunlugunu gosterir.
+### Prematüre Bebeğin Fizik Özellikleri
 
-Yakalama Refleksi: Bebegin avucuna parmak konuldugunda siki bir sekilde kavramasi.
+#### 🔴 Deri
 
-Asimetrik Boyun Refleksi (Eskrimci refleksi): Bebegin basi bir tarafa cevrildiginde o taraftaki kol ve bacagini uzatmasi, diger taraftakileri bukmesi.
+- **Verniks kazeoza az veya yok:** Koruyucu beyaz madde daha az bulunur
+- **Deri ince ve damarlar belirgin:** Deri altı yağ dokusu yetersiz gelişmiş olduğundan damarlar deri altından açıkça görülür
+- **Deri altı yağ dokusu az:** Bu nedenle ısı düzenlemesi güçtür
+- **Lanugo (ince tüyler) bol:** Vücut üzerinde ince tüyler daha fazladır.
+- **Tırnaklar yumuşak** ve parmak ucunu geçmez
 
-Adımlama Refleksi: Bebek ayakta tutulup ayakları zemine degdirildiğinde adim atma hareketi yapmasi.
+---
 
-Bu reflekslerin varligı bebegin norolojik gelisimi hakkında bilgi verir. Reflekslerin olmaması veya asimetrisi patolojik durumlari akla getirebilir.
+#### 🧠 Baş ve Yüz
 
-PREMATURE BEBEK
+- **Baş göreceli büyük** (prematüre megensefalisi): Vücut küçüklüğü nedeniyle baş göreceli olarak büyük görülür
+- **Yüz küçük** ve üçgen şeklindedir
+- **Kafa kemikleri yumuşak:** Kemik mineralizasyonu yetersizdir
+- **Gözler çıkıntılı** (egzoftalmik görünüm): Yüz yapısından kaynaklanır
+- **Lakrimasyon yok:** Göz yaşı üretimi henüz olgunlaşmamıştır
 
-Premature bebek, 37. gestasyon haftasindan once dogan bebekler icin kullanilan tanimdir. Bu bebekler tam olgunlasmadan dogduklari icin cesitli ozellikleri ve sorunları vardir.
+---
 
-Premature Bebegin Fizik Ozellikleri:
+#### 👂 Kulak
 
-Deri:
+- Kulak kıkırdağı **yumuşak**
+- Kulak kıvrımları **gelişmemiştir** (kulak daha düz ve şekilsizdir)
 
-* Verniks kazeoza az veya yok: Premature bebeklerde koruyucu beyaz madde daha az bulunur.
-* Deri ince ve damarlar belirgin: Deri altı yag dokusu yetersiz gelismis oldugundan damarlar deri altindan acikca gorulur.
-* Deri alti yag dokusu az: Bu nedenle isı duzenlemesi gucluktur.
-* Lanugo (ince tuyler) bol: Premature bebeklerde vucut uzerinde ince tuyler daha fazladir.
-* Tirnaklar yumusak ve parmak ucunu gecmez: Tirnaklar tam gelismemistir.
+---
 
-Bas ve Yuz:
+#### 🩺 Meme
 
-* Baş gorecel buyuk (premature megensefalisi): Vucut vucut kuculugu nedeniyle baş goreceli olarak buyuk gorulur.
-* Yuz kucuk ve ucgen seklindedirol
-* Kafa kemikleri yumusak: Kemik mineralizasyonu yetersizdir.
-* Gozler cikintili (egzoftalmik gorunum): Yuz yapisindan kaynaklaniyor.
-* Lakrimasyon yok: Goz yasi uretimi henuz olgunlasmamistir.
+- Meme dokusu **33 haftadan önce** palpe edilmez
+- Gestasyon yaşı ilerledikçe meme dokusu gelişir
 
-Kulak:
+---
 
-* Kulak kikirdagi yumusak
-* Kulak kivrimlari gelismemistir: Kulak daha duz ve sekilsizddir.
+#### Dış Genital Organlar
 
-Meme:
+| Cinsiyet | Bulgular |
+|----------|----------|
+| **Erkek bebek** | • Testisler skrotuma inmemiş (kriptorşidizm)<br>• Skrotum üzerindeki deri kıvrımları azdır |
+| **Kız bebek** | • Klitoris belirgin<br>• Labia majorlar minörleri tamamen örtmez |
 
-* Meme dokusu 33 haftadan once palpe edilmez. Gestasyon yasi ilerledikce meme dokusu gelisir.
+---
 
-Dis Genital Organlar:
+#### 🦶 Ayak Tabanı
 
-Erkek bebeklerde:
+- Ayak tabanında çizgiler **daha azdır**
+- Term bebekte ayak tabanı çizgilerle dolu iken, prematüre bebekte çizgiler sadece ön kısımda veya hiç bulunmayabilir
 
-* Testisler skrotuma inmemis (kriptorsidizm)
-* Skrotum uzerindeki deri kivrimlari azdir
+---
 
-Kiz bebeklerde:
+### Prematüre Bebeklerin Sorunları
 
-* Klitoris belirgin
-* Labia majorlar minörleri tamamen ortmez
+| Sorun | Kısaltma | Açıklama |
+|-------|----------|----------|
+| **Respiratuvar Distres Sendromu** | RDS | Akciğerlerdeki **sürfaktan yetersizliği** nedeniyle solunum sıkıntısı. **En sık görülen** prematüre sorunudur |
+| **Bronkopulmoner Displazi** | BPD | Uzun süre mekanik ventilasyon ve oksijen tedavisi alan bebeklerde gelişen (1. aydan sonra ortaya çıkar, mortalitesi yüksek) **kronik akciğer hastalığı** |
+| **Patent Duktus Arteriosus** | PDA | İntrauterin dönemde açık olan duktus arteriosusun doğumdan sonra kapanmaması. Kanın pulmoner artere geçmesine neden olur. **Kalp yetmezliğine, pulmöner ödeme** yol açabilir |
+| **İntraventriküler Kanama** | İVK | Beyin içindeki damarların kırılganlığına bağlı olarak beyinde kanama. Ciddi **nörolojik komplikasyonlara** yol açabilir |
+| **Nekrotizan Enterokolit** | NEK | Barsak duvarının iltihaplanması ve ölümü. En ağır GİS hastalığı **Hayati tehdit eden** bir durumdur. Özellikle PDA varsa; besledikçe artar. Son derece mortal ve prematüreye özgü bir GİS hastalığı |
+| **Prematüre Retinopatisi** | ROP | Göz retinasındaki damarların anormal gelişimi. Tedavi edilmezse **körlüğe** yol açabilir. Özellikle 1000g altında olan bebeklerde |
 
-Ayak Tabani:
+> BOWL SIGN: Diyafram altında serbest hava var demek.
 
-* Ayak tabanında cizgiler daha azdir. Term bebekte ayak tabani cizgilerle dolu iken, premature bebekte cizgiler sadece on kisimda veya hic bulunmayabilir.
+> **⚠️ ÖNEMLİ:** Prematüre bebeklerin yakından takip edilmesi, uygun tedavilerin verilmesi ve komplikasyonların erken tespiti çok önemlidir.
 
-Premature Bebeklerin Sorunları:
+---
 
-Premature bebekler organlarinin tam olgunlasmamis olmasi nedeniyle bir dizi sorunla karsilasabilirler:
+## ÖZET VE ÖNEMLİ NOKTALAR
 
-Respiratuvar Distres Sendromu (RDS): Akcigerlerdeki surfaktan yetersizligi nedeniyle solunum sıkıntısı. En sık gorülen premature sorunudur. Bebek dogumdan hemen sonra solunum sikintisi yasanir.
+### 🔑 Altın Kurallar
 
-Bronkopulmoner Displazi (BPD): Uzun sure mekanik ventilasyon ve oksijen tedavisi alan bebeklerde gelisen kronik akciger hastaligi.
+1. ✅ Yenidoğan dönemi doğumdan sonraki **ilk 28 gündür**
+2. ✅ Muayene belirli bir sırayla yapılmalıdır (önce genel görünüm, sonra kalp-akciğer)
+3. ✅ **Akrosiyanoz** ilk 24 saatte normal kabul edilir
+4. ✅ **Femoral nabız** alınamaması aort koarktasyonunu düşündürür
+5. ✅ **Red refleksi** mutlaka değerlendirilmelidir
+6. ✅ Prematüre bebeklerde **RDS** en sık sorunlardandır
+7. ✅ Yenidoğan reflekslerinin varlığı ve simetrisi nörolojik bütünlüğü gösterir
 
-Patent Duktus Arteriosus (PDA): Intrauterin donemde acik olan duktos arteriosusun dogumdan sonra kapanmamasi. Kalp yetmezligine yol acabilir.
+---
 
-Intraventrikuler Kanama (IVK): Beyin icindeki damarlarin kirilganligina bagli olarak beyinde kanama. Premature bebeklerde ciddi norolojik komplikasyonlara yol acabilir.
+### 📊 Klinik Püf Noktalar
 
-Nekrotizan Enterokolit (NEK): Barsak duvarinin iltihaplanmasi ve olumu. Hayati tehdit eden bir durumdur.
+| Konu | Özellik |
+|------|-------|
+| **Sefal hematom vs Kaput** | Sefal hematom sütürü geçmez, kaput geçer |
+| **Koanal atrezi ipucu** | Ağlayınca siyanoz düzelir |
+| **Femoral nabız yokluğu** | Aort koarktasyonu düşün |
+| **Göbek kordonu düşmesi** | 6-10. gün |
+| **Kapiller geri dönüş** | Normal <2 saniye |
+| **Omfalosel vs Gastroşizis** | Omfalosel membranla örtülü, gastroşizis membransız |
+| **Prematüre en sık sorun** | Respiratuvar Distres Sendromu (RDS) |
+| **SGA türleri** | Simetrik (erken sorun) vs Asimetrik (plasental yetmezlik) |
 
-Premature Retinopatisi (ROP): Goz retinasindaki damarlarin anormal gelisimi. Tedavi edilmezse korluge yol acabilir.
+---
 
-Bu nedenle premature bebeklerin yakindan takip edilmesi, uygun tedavilerin verilmesi ve komplikasyonlarin erken tespiti cok onemlidir.
+### Son Not
 
-SON NOT:
+Yenidoğan muayenesi **sistematik ve dikkatli** yapılması gereken bir muayenedir. Yenidoğan döneminde erken tanı ve müdahale birçok sorunu önleyebilir veya hafifletebilir. Prematüre bebekler ise özel ilgi ve bakım gerektiren, yüksek riskli bir hasta grubudur ve **multidisipliner bir yaklaşımla** takip edilmelidir.
 
-Yenidogan muayenesi sistematik ve dikkatli yapılmasi gereken bir muayenedir. Yenidogan doneminde erken tani ve mudahale birçok sorunu onleyebilir veya hafifletebilir. Premature bebekler ise ozel ilgi ve bakim gerektiren, yuksek riskli hastalara grubudur ve multidisipliner bir yaklasimla takip edilmelidir.
+---
+
+## KISALTMALAR
+
+| Kısaltma | Açıklama |
+|----------|----------|
+| **LBW** | Low Birth Weight (Düşük Doğum Ağırlıklı) |
+| **VLBW** | Very Low Birth Weight (Çok Düşük Doğum Ağırlıklı) |
+| **ELBW** | Extremely Low Birth Weight (İleri Derecede Düşük Doğum Ağırlıklı) |
+| **AGA** | Appropriate for Gestational Age (Gestasyon Yaşına Uygun) |
+| **SGA** | Small for Gestational Age (Gestasyon Yaşına Göre Küçük) |
+| **LGA** | Large for Gestational Age (Gestasyon Yaşına Göre Büyük) |
+| **RDS** | Respiratuvar Distres Sendromu |
+| **BPD** | Bronkopulmoner Displazi |
+| **PDA** | Patent Duktus Arteriosus |
+| **İVK** | İntraventriküler Kanama |
+| **NEK** | Nekrotizan Enterokolit |
+| **ROP** | Retinopathy of Prematurity (Prematüre Retinopatisi) |
+| **SSS** | Santral Sinir Sistemi |
+
+
