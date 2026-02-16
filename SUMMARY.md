@@ -15,6 +15,7 @@
 * [Sağlıklı Çocuk İzlemi](<genel/SAĞLIKLI ÇOCUK İZLEMİ.md>)
 * [Çocukluk Çağı Beslenmesi](<genel/Çocukluk Çağı Beslenmesi - Metin.md>)
 * [Çocukta Beslenme](<genel/ÇOCUKTA BESLENME.md>)
+* [Ateşli Çocuğa Yaklaşım](genel/atesli-cocuga-yaklasim.md)
 
 ## Hematoloji
 

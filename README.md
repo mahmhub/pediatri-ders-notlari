@@ -40,6 +40,7 @@
 - [Sağlıklı Çocuk İzlemi](genel/SAĞLIKLI%20ÇOCUK%20İZLEMİ.md)
 - [Çocukluk Çağı Beslenmesi](genel/Çocukluk%20Çağı%20Beslenmesi%20-%20Metin.md)
 - [Çocukta Beslenme](genel/ÇOCUKTA%20BESLENME.md)
+- [Ateşli Çocuğa Yaklaşım](genel/atesli-cocuga-yaklasim.md)
 
 ---
 
