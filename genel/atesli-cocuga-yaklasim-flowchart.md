@@ -1,24 +1,27 @@
-# ATEŞLİ ÇOCUĞA YAKLAŞIM - ALGOR İTMALAR
-
-**Bölüm:** Genel Pediatri
-**Format:** Mermaid Flowcharts
-
 ---
+hidden: true
+---
+
+# 📊 Algoritmalar (Flowcharts)
+
+**Bölüm:** Genel Pediatri **Format:** Mermaid Flowcharts
+
+***
 
 ## İÇİNDEKİLER
 
-1. [Tanımlar: Ateş vs Hipertermi](#tanımlar-ateş-vs-hipertermi)
-2. [Ateş Ölçüm Yöntemleri](#ateş-ölçüm-yöntemleri)
-3. [Ana Karar Ağacı](#ana-karar-ağacı)
-4. [Yenidoğan (0-28 Gün) Algoritması](#yenidoğan-0-28-gün-algoritması)
-5. [29-90 Gün Algoritması](#29-90-gün-algoritması)
-6. [Düşük Risk Kriterleri (Boston/Philadelphia/Pittsburgh/Rochester)](#düşük-risk-kriterleri)
-7. [3-36 Ay Algoritması](#3-36-ay-algoritması)
-8. [İBE Risk Faktörleri](#ibe-risk-faktörleri)
-9. [Antipiretik Tedavi](#antipiretik-tedavi)
-10. [Normal Vital Bulgular](#normal-vital-bulgular)
+1. [Tanımlar: Ateş vs Hipertermi](atesli-cocuga-yaklasim-flowchart.md#tanımlar-ateş-vs-hipertermi)
+2. [Ateş Ölçüm Yöntemleri](atesli-cocuga-yaklasim-flowchart.md#ateş-ölçüm-yöntemleri)
+3. [Ana Karar Ağacı](atesli-cocuga-yaklasim-flowchart.md#ana-karar-ağacı)
+4. [Yenidoğan (0-28 Gün) Algoritması](atesli-cocuga-yaklasim-flowchart.md#yenidoğan-0-28-gün-algoritması)
+5. [29-90 Gün Algoritması](atesli-cocuga-yaklasim-flowchart.md#29-90-gün-algoritması)
+6. [Düşük Risk Kriterleri (Boston/Philadelphia/Pittsburgh/Rochester)](atesli-cocuga-yaklasim-flowchart.md#düşük-risk-kriterleri)
+7. [3-36 Ay Algoritması](atesli-cocuga-yaklasim-flowchart.md#3-36-ay-algoritması)
+8. [İBE Risk Faktörleri](atesli-cocuga-yaklasim-flowchart.md#ibe-risk-faktörleri)
+9. [Antipiretik Tedavi](atesli-cocuga-yaklasim-flowchart.md#antipiretik-tedavi)
+10. [Normal Vital Bulgular](atesli-cocuga-yaklasim-flowchart.md#normal-vital-bulgular)
 
----
+***
 
 ## TANIMLAR: ATEŞ VS HİPERTERMİ
 
@@ -51,7 +54,7 @@ flowchart TD
     style HTx fill:#0984e3
 ```
 
----
+***
 
 ## ATEŞ ÖLÇÜM YÖNTEMLERİ
 
@@ -89,7 +92,7 @@ flowchart TD
     style Avoid fill:#d63031
 ```
 
----
+***
 
 ## ANA KARAR AĞACI
 
@@ -121,7 +124,7 @@ flowchart TD
     style OL fill:#95e1d3
 ```
 
----
+***
 
 ## YENİDOĞAN (0-28 GÜN) ALGORİTMASI
 
@@ -178,7 +181,7 @@ flowchart TD
     style Acy fill:#e17055
 ```
 
----
+***
 
 ## 29-90 GÜN ALGORİTMASI
 
@@ -241,7 +244,7 @@ flowchart TD
     style NotLow fill:#e17055
 ```
 
----
+***
 
 ## DÜŞÜK RİSK KRİTERLERİ
 
@@ -351,7 +354,7 @@ flowchart TD
     style Fail fill:#d63031
 ```
 
----
+***
 
 ## 3-36 AY ALGORİTMASI
 
@@ -413,7 +416,7 @@ flowchart TD
     style IncRisk fill:#d63031
 ```
 
----
+***
 
 ## İBE RİSK FAKTÖRLERİ
 
@@ -507,7 +510,7 @@ flowchart TD
     style ClinNeg fill:#00b894
 ```
 
----
+***
 
 ## ANTİPİRETİK TEDAVİ
 
@@ -580,7 +583,7 @@ flowchart TD
     style W2 fill:#d63031
 ```
 
----
+***
 
 ## NORMAL VİTAL BULGULAR
 
@@ -656,7 +659,7 @@ flowchart TD
     style Normal fill:#00b894
 ```
 
----
+***
 
 ## NEREDE YAYINLAYACAĞIZ?
 
@@ -694,24 +697,25 @@ flowchart LR
 ### Önerilen Kullanım
 
 1. **Ana ders notunda bağlantı:**
+
 ```markdown
 📊 **Görsel Algoritmalar:** [Flowcharts](atesli-cocuga-yaklasim-flowchart.md)
 ```
 
 2. **SUMMARY.md'de nested:**
+
 ```markdown
 * [Ateşli Çocuğa Yaklaşım](genel/atesli-cocuga-yaklasim.md)
   * [📊 Algoritmalar](genel/atesli-cocuga-yaklasim-flowchart.md)
 ```
 
 3. **README.md'ye:**
+
 ```markdown
 ## 📊 Görsel Algoritmalar
 - [Ateşli Çocuğa Yaklaşım Flowcharts](genel/atesli-cocuga-yaklasim-flowchart.md)
 ```
 
----
+***
 
-**Kaynak:** Pediatri Ders Notları
-**Format:** Mermaid Flowcharts
-**Tarih:** 2024
+**Kaynak:** Pediatri Ders Notları **Format:** Mermaid Flowcharts **Tarih:** 2024
