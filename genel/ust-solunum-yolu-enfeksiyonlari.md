@@ -1826,6 +1826,7 @@ STRİDOR + HAVLAR TARZDA ÖKSÜRÜK
 | **≥8**  | Şiddetli krup               | Hospitalizasyon, steroid + nebülize epinefrin                    |
 | **≥12** | Yaklaşan solunum yetmezliği | Yoğun bakım, entübasyon hazırlığı                                |
 
+> **SINAVLARDA ÇIKAR - SÖZLÜ**
 ***
 
 ### Tanı

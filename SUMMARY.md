@@ -9,6 +9,7 @@
 * [Temel Yaşam Desteği](acil/temel_yasam_destegi.md)
 * [Travma](acil/travma_ders_notu.md)
 * [Çocuk İstismarı](acil/cocuk_istismari_ders_notu.md)
+* [Sık Görülen Zehirlenmeler](acil/sik-gorulen-zehirlenmeler.md)
 
 ## Genel Pediatri
 
@@ -36,6 +37,15 @@
 ## Neonatoloji
 
 * [Yenidoğan Muayenesi ve Prematürite](neon/yenidogan_muayenesi_ve_prematurite.md)
+
+## Kardiyoloji
+
+* [Pediyatrik EKG Değerlendirmesi](kardiyoloji/pediatrik-ekg-degerlendirmesi.md)
+* [Akut Romatizmal Ateş](kardiyoloji/akut-romatizmal-ates.md)
+
+## Gastroenteroloji
+
+* [GİS Kanamalarına Yaklaşım](gis/gis-kanamalarina-yaklasim.md)
 
 ## Yoğun Bakım
 
