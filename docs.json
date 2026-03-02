@@ -1,0 +1,156 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "maple",
+  "name": "Pediatri Ders Notları",
+  "description": "ADÜ Tıp Fakültesi - Çocuk Sağlığı ve Hastalıkları Ders Notları",
+  "colors": {
+    "primary": "#2563EB",
+    "light": "#60A5FA",
+    "dark": "#1E40AF"
+  },
+  "favicon": "/favicon.png",
+  "navbar": {
+    "links": [
+      {
+        "type": "github",
+        "href": "https://github.com/mahmhub/pediatri-ders-notlari"
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/mahmhub/pediatri-ders-notlari"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Kliniğe Giriş",
+        "groups": [
+          {
+            "group": "Kliniğe Giriş",
+            "pages": [
+              "klinige-giris/tip-tarihi",
+              "klinige-giris/tip-egitimi-tarihi",
+              "klinige-giris/cocuk-haklari-ve-dunya-cocuklarinin-durumu",
+              "klinige-giris/pediatride-anamnez-oyku-alma",
+              "klinige-giris/cocuklarda-fizik-muayenenin-temel-ilkeleri"
+            ]
+          },
+          {
+            "group": "Fizik Muayene",
+            "pages": [
+              "klinige-giris/pediatrik-muayenede-standart-olcumler",
+              "klinige-giris/genel-gorunum-ve-yasamsal-bulgular",
+              "klinige-giris/deri-muayenesi",
+              "klinige-giris/bas-boyun-lenf-bezleri-muayenesi",
+              "klinige-giris/goz-ve-kulak-muayenesi",
+              "klinige-giris/solunum-sistemi-muayenesi",
+              "klinige-giris/kardiyovaskuler-sistem-muayenesi",
+              "klinige-giris/gastrointestinal-sistem-muayenesi",
+              "klinige-giris/genitouriner-sistem-muayenesi",
+              "klinige-giris/kas-iskelet-sistemi-ve-eklem-muayenesi",
+              "klinige-giris/norolojik-muayene",
+              "klinige-giris/yenidogan-muayenesi",
+              "klinige-giris/cocuk-acilde-kritik-hasta-degerlendirmesi"
+            ]
+          },
+          {
+            "group": "Çocuk Sağlığında Normaller",
+            "pages": [
+              "klinige-giris/anne-sutu-ve-emzirme",
+              "klinige-giris/saglikli-cocuk-beslenmesi",
+              "klinige-giris/buyume-izlemi",
+              "klinige-giris/normal-norolojik-gelisim",
+              "klinige-giris/normal-pubertal-gelisim",
+              "klinige-giris/asilar",
+              "klinige-giris/saglikli-cocuk-izlemi",
+              "klinige-giris/cocuklarda-normal-laboratuvar-degerleri"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Ders Notları",
+        "groups": [
+          {
+            "group": "Acil Pediatri",
+            "pages": [
+              "acil/Cocuk-Acil-Hastasina-Yaklasim",
+              "acil/Statusa-Yaklasim",
+              "acil/temel_yasam_destegi",
+              "acil/travma_ders_notu",
+              "acil/cocuk_istismari_ders_notu",
+              "acil/sik-gorulen-zehirlenmeler"
+            ]
+          },
+          {
+            "group": "Genel Pediatri",
+            "pages": [
+              "genel/saglikli-cocuk-izlemi",
+              "genel/cocukluk-cagi-beslenmesi",
+              "genel/gelisim-basamaklari",
+              "genel/atesli-cocuga-yaklasim",
+              "genel/ust-solunum-yolu-enfeksiyonlari"
+            ]
+          },
+          {
+            "group": "Hematoloji",
+            "pages": [
+              "hemato/Hemofili-VWF-Trombositopeni",
+              "hemato/Losemili-Cocuga-Yaklasim",
+              "hemato/Trombozlu-Cocuga-Yaklasim"
+            ]
+          },
+          {
+            "group": "Enfeksiyon Hastalıkları",
+            "pages": [
+              "enfeksiyon/Asilar",
+              "enfeksiyon/tuberkuloz",
+              "enfeksiyon/dokuntulu-hastaliklar",
+              "enfeksiyon/sss-enfeksiyonlari",
+              "enfeksiyon/sepsis-neonatal-menenjit",
+              "enfeksiyon/akut-gastroenterit"
+            ]
+          },
+          {
+            "group": "Alerji ve İmmunoloji",
+            "pages": [
+              "alerji-immunoloji/Alerjik-Hastaliklara-Genel-Yaklasim",
+              "alerji-immunoloji/Anafilaksi"
+            ]
+          },
+          {
+            "group": "Neonatoloji",
+            "pages": [
+              "neon/yenidogan_muayenesi_ve_prematurite"
+            ]
+          },
+          {
+            "group": "Kardiyoloji",
+            "pages": [
+              "kardiyoloji/pediatrik-ekg-degerlendirmesi",
+              "kardiyoloji/konjenital-kalp-hastaliklari",
+              "kardiyoloji/akut-romatizmal-ates",
+              "kardiyoloji/edinsel-kalp-hastaliklari"
+            ]
+          },
+          {
+            "group": "Gastroenteroloji",
+            "pages": [
+              "gis/gis-kanamalarina-yaklasim"
+            ]
+          },
+          {
+            "group": "Yoğun Bakım",
+            "pages": [
+              "yogun-bakim/solunum_sikintisi",
+              "yogun-bakim/Sok",
+              "yogun-bakim/hepatitler"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

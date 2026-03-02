@@ -54,10 +54,9 @@
 
 ## 👶 Genel Pediatri
 
-* [Sağlıklı Çocuk İzlemi](<genel/SAĞLIKLI ÇOCUK İZLEMİ.md>)
-* [Çocukluk Çağı Beslenmesi](<genel/Çocukluk Çağı Beslenmesi - Metin.md>)
-* [Çocukta Beslenme](<genel/ÇOCUKTA BESLENME.md>)
-* [Gelişim Basamakları](<genel/GELİŞİM BASAMAKLARI.md>)
+* [Sağlıklı Çocuk İzlemi](genel/saglikli-cocuk-izlemi.md)
+* [Çocukluk Çağı Beslenmesi](genel/cocukluk-cagi-beslenmesi.md)
+* [Gelişim Basamakları](genel/gelisim-basamaklari.md)
 * [Ateşli Çocuğa Yaklaşım](genel/atesli-cocuga-yaklasim.md)
 * [Üst Solunum Yolu Enfeksiyonları](genel/ust-solunum-yolu-enfeksiyonlari.md)
 
