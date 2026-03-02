@@ -20,6 +20,8 @@
 
 ## TANIM
 
+![Status Epileptikus - Beyin İllüstrasyonu](statusa-yaklasim-images/image-000.png)
+
 ### Epileptik Nöbet
 
 **Beyinde anormal, aşırı veya senkronize nöronal aktivite** sonucu oluşan **bulgu ve/veya semptomlar bütünüdür.**
@@ -27,6 +29,8 @@
 ### Status Epileptikus (SE)
 
 **Beyinde anormal, aşırı veya senkronize nöronal aktivite** sonucu oluşan **nöbet aktivitesinin uzaması durumudur.**
+
+![Nöbet geçiren çocuk illüstrasyonu](statusa-yaklasim-images/image-001.png)
 
 ### Önem
 
@@ -544,6 +548,8 @@ NÖBET BAŞLANGICI
 
 ## ÇOCUK DEĞERLENDİRME ÜÇGENİ (ÇDÜ) - Status Epileptikus'ta
 
+![Pediatrik Değerlendirme Üçgeni (PAT)](statusa-yaklasim-images/image-003.png)
+
 ### Nöbet Geçirmekte Olan Bir Çocuk
 
 ```
@@ -583,6 +589,8 @@ ANORMAL       NORMAL
 ---
 
 ## STABİLİZASYON - ABCDE YAKLAŞIMI
+
+![0-5 dk Acil Stabilizasyon Protokolü](statusa-yaklasim-images/image-004.png)
 
 ### A - Havayolu (Airway)
 
@@ -643,6 +651,8 @@ ANORMAL       NORMAL
 
 ### Genel Prensipler
 
+![Dikkat - İlaç İdame ve Kan Düzeyi Uyarısı](statusa-yaklasim-images/image-007.png)
+
 1. ✅ **İlk sıra ilaçlar:** Benzodiazepin grubundan biri
 2. ✅ **En hızlı ulaşılıp uygulanabilecek** olan seçilir
 3. ✅ **Doğru ve tam dozda** uygulanmalıdır
@@ -658,6 +668,8 @@ ANORMAL       NORMAL
 ---
 
 ## BİRİNCİ EVRE: BAŞLANGIÇ TEDAVİSİ (5-15 dakika)
+
+![5-15 dk Tedavi Protokolü - Detaylı Tablo](statusa-yaklasim-images/image-005.png)
 
 ### Hedef: Bir An Önce Nöbeti Durdur!
 
@@ -785,6 +797,8 @@ ANORMAL       NORMAL
 
 ## ÜÇÜNCÜ EVRE: DİRENÇLİ SE TEDAVİSİ (>30 dakika)
 
+![Dirençli Status Tedavi Tablosu - Koma İndüksiyonu ve Anestezik İlaçlar](statusa-yaklasim-images/image-006.png)
+
 ### Nöbet Hala Devam Ediyorsa
 
 **İkinci sıra ilaçlardan verilmeyen verilir ya da aynı doz veya yarı dozda tekrar edilebilir.**
@@ -826,6 +840,8 @@ ANORMAL       NORMAL
 ---
 
 ## STATUS TEDAVİSİNİN SONLANDIRILMASI
+
+![Süper Dirençli Status ve Nöbet Sonrası Yönetim Tablosu](statusa-yaklasim-images/image-008.png)
 
 ### Kriterler
 
@@ -964,6 +980,8 @@ Refrakter ve süper refrakter SE'de düşünülebilir:
 
 ### Hasta Bilgileri
 
+![Klinik Fotoğraf - Nöbet sırasında IV tedavi alan çocuk](statusa-yaklasim-images/image-002.png)
+
 **Beş yaş kız hasta**
 - 112 ile **aktif konvülziyon geçirerek** acil servise babası eşliğinde getiriliyor
 
@@ -1025,6 +1043,8 @@ retraksiyonlar
 ---
 
 ## TEDAVİ PROTOKOLÜ ÖZET TABLOSU
+
+![Pediatrik Status Epileptikus Yönetimi - Özet İnfografik](statusa-yaklasim-images/image-009.png)
 
 | Evre | Zaman | İlaçlar | Dozlar |
 |------|-------|---------|--------|

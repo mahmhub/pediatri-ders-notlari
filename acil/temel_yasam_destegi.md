@@ -29,6 +29,8 @@ Bu kuruluşlar birleşimleriyle global resüsitasyon standartlarını oluşturur
 
 ## YAŞAM KURTARMA ZİNCİRİ
 
+![Yaşam Kurtarma Zinciri - Pediatrik ve Erişkin](temel-yasam-destegi-images/image-000.png)
+
 Yaşam kurtarma zinciri, kardiyak arrest durumunda hayat kurtarma şansını artırmak için uygulanması gereken adımlar dizisidir. 2020 ve 2025 American Heart Association kılavuzları bu zincirin tüm halkalarının önemini vurgulamaktadır. Zincirdeki her halka bir önceki ve bir sonraki halka ile bağlantılıdır ve zincirin gücünü en zayıf halka belirler.
 
 ---
@@ -115,6 +117,8 @@ Solunum sıkıntısı varsa hava yolunun açıklığını sağlayın ve en rahat
 
 ## ACİL SİSTEMİNİN AKTİVE EDİLMESİ
 
+![112 Acil Çağrı](temel-yasam-destegi-images/image-001.png)
+
 Acil sistemin ne zaman ve nasıl aktive edileceği durum ve kurtarıcı sayısına göre değişir.
 
 ### İki Kişi Varsa:
@@ -130,6 +134,8 @@ Bir kişi kardiyopulmoner resüsitasyona (KPR) başlarken diğeri acil sistemini
 ---
 
 ## TEK KURTARICI TEMEL YAŞAM DESTEĞİ ALGORİTMASI
+
+![AHA 2025 Pediatrik Temel Yaşam Desteği Algoritması](temel-yasam-destegi-images/image-002.png)
 
 1. Alan güvenliğini sağlayın.
 
@@ -231,9 +237,15 @@ Sert, düz bir yüzeye sırt üstü yatırıldıktan sonra havayolu açılır. H
 
 ### Havayolunu Rahatlatma Pozisyonu:
 
+![Havayolu Pozisyonlama - A: Nötral, B: Omuz altı havlu, C: Baş altı havlu](temel-yasam-destegi-images/image-005.png)
+
 **2 yaşın altında (süt çocuğu):**
 - Oksipal çıkıntı boynun fleksiyonuna neden olur, bu da havayolunu tıkayabilir.
 - Omuzun altına bir havlu konularak hava yolu açıklığı sağlanır.
+
+![Süt çocuğunda havayolu tıkanıklığı - nötral pozisyon](temel-yasam-destegi-images/image-003.png)
+
+![Süt çocuğunda omuz altına havlu ile koklama pozisyonu](temel-yasam-destegi-images/image-004.png)
 
 **2 yaşın üstünde (çocuk):**
 - Boyun fleksiyonu havayolunu tıkayabilir.
@@ -241,9 +253,17 @@ Sert, düz bir yüzeye sırt üstü yatırıldıktan sonra havayolu açılır. H
 
 ### Baş Geri-Çene Yukarı Manevrası:
 
+![Süt çocuğunda baş geri-çene yukarı manevrası](temel-yasam-destegi-images/image-015.png)
+
+![Baş geri-çene yukarı manevrası uygulaması](temel-yasam-destegi-images/image-016.png)
+
 Halktan kişiler travma hastalarında da bu manevrayı uygulayacak. Tek el ile çene hafifçe kaldırılır, diğer el ile alın geriye doğru itilir. Böylece dil ileri kayar ve havayolu açılır.
 
 ### Çene İtme Manevrası (Servikal Travma Şüphesi Varsa):
+
+![Süt çocuğunda çene itme manevrası](temel-yasam-destegi-images/image-006.png)
+
+![Çocukta çene itme manevrası](temel-yasam-destegi-images/image-007.png)
 
 Sağlık çalışanları bu manevrayı kullanır. Eller yüzün her iki yanına yerleştirilir ve çene, parmaklar ile çene açısından yukarı doğru itilir. Bu manevra ile çene ve dil ileri doğru kayar ve boyunda harekete neden olmadan havayolu açılır.
 
@@ -286,6 +306,8 @@ Sağlık personelinin müdahale ettiği kardiyak arrest durumunda, ileri hava yo
 
 ## SÜT ÇOCUĞUNDA SOLUTMA İŞLEMİ
 
+![Süt çocuğunda ağızdan ağız-buruna solutma](temel-yasam-destegi-images/image-008.png)
+
 Uygulayıcının ağzı çocuğun ağız ve burnunu kapsayacak şekilde yerleştirilir. Eğer ağız ve burun tam kapsanamazsa ağızdan ağıza solutulur.
 
 ---
@@ -298,11 +320,17 @@ Havayolu açılırken, uygulayıcının ağzı çocuğun ağzını kapsayacak ş
 
 ## TEK KİŞİ BALON-MASKE UYGULAMASI
 
+![Tek kişi balon-maske ventilasyonu - E-C tekniği](temel-yasam-destegi-images/image-012.png)
+
+![E-C tekniği yakın görünüm](temel-yasam-destegi-images/image-013.png)
+
 Baş parmak ve işaret parmağı maskeye yerleştirilir (C şekli oluşturur), diğer üç parmak ile çene altından tutularak (E şekli oluşturur) yukarı doğru çekilir. Böylece hem maske yüzde iyi bir şekilde oturur hem de havayolu açık tutulur.
 
 ---
 
 ## İKİ KİŞİ İLE BALON-MASKE UYGULAMASI
+
+![İki kişi ile balon-maske ventilasyonu](temel-yasam-destegi-images/image-009.png)
 
 Bir kişi E-C tekniğini uygularken (iki elle maske tutarak havayolunu açık tutar) diğer kişi balon-maske ile solutma işlemini yapar. Bu yöntem tek kişiyle yapılan uygulamaya göre daha etkilidir.
 
@@ -340,6 +368,8 @@ Ancak bunlar tek başına güvenilir değil, mutlaka nabız kontrol edilmelidir.
 
 ## NABIZ MUAYENESİ - 1 YAŞIN ALTINDA
 
+![Süt çocuğunda brakiyal arter palpasyonu](temel-yasam-destegi-images/image-010.png)
+
 Üst kolda dirsek ile omuz arasında işaret ve orta parmak ile brakiyal arter palpe edilir. Bebeklerde brakiyal arter daha kolay hissedilir.
 
 ---
@@ -373,6 +403,8 @@ Aşağıdaki durumlarda kalp masajı başlanır:
 
 ## SÜT ÇOCUKLARINDA KALP MASAJI - İKİ PARMAK TEKNİĞİ
 
+![Süt çocuğunda iki parmak tekniği ile kalp masajı](temel-yasam-destegi-images/image-011.png)
+
 Bir el ile sırt desteklenir iken diğer elin 2. ve 3. parmakları, iki meme başını birleştiren çizginin hemen altında, sternum üzerine dik olarak yerleştirilerek masaj yapılır.
 
 ---
@@ -384,6 +416,8 @@ Her iki el sırt ve göğsü kavrayacak şekilde sarılır. Başparmaklar, iki m
 ---
 
 ## ÇOCUKLARDA KALP MASAJI
+
+![Çocukta göğüs kompresyonu tekniği](temel-yasam-destegi-images/image-019.png)
 
 Vücut boyutuna veya kurtarıcının vücut boyutuna göre tek veya iki elle yapılır.
 
@@ -498,6 +532,8 @@ Daha fazla hastanın KPR almasının sağlanması umularak CAB uygulaması öner
 
 ## YABANCI CİSİM ASPİRASYONU
 
+![Yabancı cisim aspirasyonu - boğulma belirtisi gösteren çocuk](temel-yasam-destegi-images/image-014.png)
+
 Yabancı cisim aspirasyonu çocuklarda sık görülen ve hayati tehdit oluşturan bir durumdur.
 
 ---
@@ -554,6 +590,10 @@ Kendiliğinden öksüren ve solunum çabası olan çocuğa müdahale etmeyin. An
 ---
 
 ## BİLİNCİ AÇIK ÇOCUKTA YABANCI CİSİM ÇIKARTILMASI (HEİMLİCH MANEVRASI)
+
+![Çocukta Heimlich manevrası uygulaması](temel-yasam-destegi-images/image-017.png)
+
+![Heimlich manevrası - el pozisyonu](temel-yasam-destegi-images/image-018.png)
 
 1. Çocuğa ne yapılacağını anlatın. Çocuğu sakinleştirmeye çalışın.
 

@@ -20,6 +20,11 @@
 ## 🦠 Enfeksiyon Hastalıkları
 
 * [Çocukluk Çağı Aşılaması](enfeksiyon/Asilar.md)
+* [Çocuklarda Tüberküloz ve Brusella](enfeksiyon/tuberkuloz.md)
+* [Döküntülü Hastalıklara Yaklaşım](enfeksiyon/dokuntulu-hastaliklar.md)
+* [SSS Enfeksiyonları](enfeksiyon/sss-enfeksiyonlari.md)
+* [Yenidoğan Sepsis ve Menenjiti](enfeksiyon/sepsis-neonatal-menenjit.md)
+* [Akut Gastroenterit ve Dehidratasyon](enfeksiyon/akut-gastroenterit.md)
 
 ## 🤧 Alerji ve İmmunoloji
 
@@ -33,7 +38,9 @@
 ## 💓 Kardiyoloji
 
 * [Pediyatrik EKG Değerlendirmesi](kardiyoloji/pediatrik-ekg-degerlendirmesi.md)
+* [Konjenital Kalp Hastalıkları](kardiyoloji/konjenital-kalp-hastaliklari.md)
 * [Akut Romatizmal Ateş](kardiyoloji/akut-romatizmal-ates.md)
+* [Edinsel Kalp Hastalıkları](kardiyoloji/edinsel-kalp-hastaliklari.md)
 
 ## 🫁 Gastroenteroloji
 

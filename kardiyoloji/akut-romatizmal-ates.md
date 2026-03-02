@@ -744,3 +744,59 @@ PRD'ye ilaveten:
 * Hastalığın seyrini ve kardiyak prognozunu etkilemektedir
 
 > 💡 **Unutma:** ARA tanısı koymak kadar, ARA **olmayan** bir hastaya gereksiz tanı koymamak da önemlidir!
+
+---
+
+## ÇIKMIŞ SORULAR
+
+**1) Hangisi akut romatizmal ateş için doğrudur?** *(1. Blok S11)*
+
+A) **Salisilatlara iyi yanıt verir** ✅
+B) Kardit varsa kardit kötüleşir
+
+> **Açıklama:** ARA'da artrit **salisilatlara çabuk yanıt verir** (48-72 saat). Bu özellik tanı destekleyicidir. Birlikte kardit varsa kardit daha **iyi** seyirlidir (kötüleşmez). Salisilatlara yanıt yoksa tanı sorgulanmalıdır.
+
+***
+
+**2) Karditi olan bir hastada ARA tanısı için hangisi minör kriter değildir?** *(2. Blok S39, 3. Blok S50)*
+
+A) Poliartralji
+B) **Monoartrit** ✅
+C) EKG'de PR interval uzaması
+D) 38,5°C üstü ateş
+E) CRP'nin 3 mg/dL üzerinde olması
+
+> **Açıklama:** Bu soruda iki kritik kural devrededir:
+> 1. **Kardit majör kriter olarak kullanıldığında**, PR uzaması minör kriter olarak **sayılmaz** (aynı bulgu iki kere kullanılamaz). Ancak soruda PR uzaması şıklarda var ve "kardit majör bulgu olduğunda minör değildir" diye düşünülebilir, ama asıl cevap **monoartrit**tir.
+> 2. **Monoartrit**, düşük riskli topluluklarda **majör kriter** olarak kabul edilir (2015 güncellemesi ile yüksek riskli topluluklarda). Bir bulgu aynı hastada hem majör hem minör olarak kullanılamaz. Dolayısıyla monoartrit, kardit olan bir hastada minör kriter **değildir** - ya majör kriter olarak kullanılır ya da hiç sayılmaz.
+
+***
+
+**3) ARA'nın neden olduğu artritin özelliği olan hangisidir?** *(3. Blok S49)*
+
+A) Küçük eklemler tutulur
+B) **Salisilatlara çabuk yanıt verir** ✅
+C) Simetrik tutulum vardır
+D) Birlikte kardit varsa kardit daha kötü seyirlidir
+E) Tedavi edilmezse sekel bırakır
+
+> **Açıklama:** ARA artriti:
+> * **Büyük eklemler** tutulur (küçük değil) → A yanlış
+> * Salisilatlara **48-72 saatte** yanıt verir → B doğru ✅
+> * **Asimetrik, gezici** artrit (simetrik değil) → C yanlış
+> * Kardit varsa kardit daha **iyi** seyirlidir (kötü değil) → D yanlış
+> * Tedavi edilmese bile 2-3 haftada **sekelsiz** iyileşir → E yanlış
+>
+> 💡 "ARA eklemleri yalar, kalbi ısırır" - eklem tutulumu geçicidir, sekel bırakmaz.
+
+***
+
+**4) Akut romatizmal ateş profilaksisinde en uygun yaklaşım hangisidir?** *(3. Blok S52)*
+
+A) Boğaz enfeksiyonları sırasında İM benzatin penisilin G uygulanması
+B) Her gün trimetoprim-sulfametoksazol verilmesi
+C) Her gün oral yoldan ampisilin verilmesi
+D) **3 haftada bir İM benzatin penisilin G uygulanması** ✅
+E) Her gün tek doz rifampisin verilmesi
+
+> **Açıklama:** ARA sekonder profilaksisinde ilk tercih **benzatin penisilin G 1.200.000 Ü İM, 3 haftada bir**dir. Bu düzenli profilaksi ile GAS reenfeksiyonu ve ARA rekürrensi önlenir. Sadece boğaz enfeksiyonu sırasında vermek (A şıkkı) yeterli değildir; profilaksi sürekli olmalıdır. Artrit için 21 yaşına kadar (en az 5 yıl), RKH için **ömür boyu** devam edilir.
