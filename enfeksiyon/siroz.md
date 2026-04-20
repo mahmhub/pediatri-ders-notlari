@@ -1,3 +1,0 @@
-Fibrozis nodül görürsen artık siroz diyebilirsin.
-Kompanse siroz: sentez fonksiyonları korunur.
-Dekompanze: kc artık işini yapamıyor. Portal HT bağlı varis kanaması da olur. HE...

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B12 Eksikliği - Tedavi Algoritması</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            padding: 30px 20px;
+            line-height: 1.5;
+        }
+        .container { max-width: 1100px; margin: 0 auto; }
+
+        /* Başlık */
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 30px;
+        }
+        .header-icon {
+            width: 52px; height: 52px;
+            background: #dc2626;
+            border-radius: 12px;
+            display: flex; align-items: center; justify-content: center;
+            color: white; font-size: 28px; font-weight: 700;
+        }
+        .header h1 {
+            font-size: 28px;
+            color: #1a202c;
+            letter-spacing: 1px;
+        }
+
+        /* Soru kutusu */
+        .question-box {
+            background: #fef2f2;
+            border: 2px solid #dc2626;
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin-bottom: 10px;
+        }
+        .question-box h2 {
+            color: #dc2626;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .question-box ul {
+            list-style: none;
+            padding: 0;
+        }
+        .question-box li {
+            padding: 3px 0;
+            padding-left: 20px;
+            position: relative;
+            font-size: 14px;
+        }
+        .question-box li::before {
+            content: "•";
+            color: #dc2626;
+            font-weight: bold;
+            position: absolute;
+            left: 4px;
+        }
+
+        /* Ok */
+        .arrow-container {
+            display: flex;
+            justify-content: center;
+            gap: 0;
+            margin: 0;
+        }
+        .arrow-down {
+            text-align: center;
+            color: #6b7280;
+            font-size: 28px;
+            line-height: 1;
+            padding: 6px 0;
+        }
+        .branch-arrows {
+            display: flex;
+            justify-content: center;
+            gap: 200px;
+            margin: 6px 0;
+        }
+        .branch-label {
+            font-weight: 700;
+            font-size: 15px;
+            padding: 4px 18px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        .label-yes { background: #dcfce7; color: #166534; }
+        .label-no { background: #fee2e2; color: #991b1b; }
+
+        /* İki kolon */
+        .columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            margin-top: 10px;
+        }
+
+        /* Kart */
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+            padding: 22px;
+            border-top: 4px solid #3b82f6;
+        }
+        .card.green { border-top-color: #16a34a; }
+        .card.red { border-top-color: #dc2626; }
+        .card.amber { border-top-color: #f59e0b; }
+        .card h3 {
+            font-size: 16px;
+            margin-bottom: 12px;
+            color: #1e40af;
+        }
+        .card.green h3 { color: #166534; }
+        .card.red h3 { color: #991b1b; }
+        .card.amber h3 { color: #92400e; }
+        .card ul {
+            padding-left: 18px;
+            font-size: 14px;
+        }
+        .card li { margin-bottom: 6px; }
+        .card .field {
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+        .card .field strong {
+            color: #374151;
+        }
+
+        /* Alt akış */
+        .sub-flow {
+            margin-top: 10px;
+        }
+        .sub-flow .branch-arrows {
+            gap: 80px;
+        }
+        .sub-columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-top: 10px;
+        }
+
+        /* Küçük bilgi kutusu */
+        .info-tag {
+            display: inline-block;
+            background: #eff6ff;
+            color: #1e40af;
+            font-size: 12px;
+            font-weight: 600;
+            padding: 2px 10px;
+            border-radius: 6px;
+            margin-bottom: 8px;
+        }
+
+        .divider {
+            border: none;
+            border-top: 1px dashed #d1d5db;
+            margin: 16px 0;
+        }
+
+        /* Ortak kutu */
+        .full-width {
+            grid-column: 1 / -1;
+        }
+
+        .flow-section {
+            margin-bottom: 24px;
+        }
+
+        .response-box {
+            background: #f0fdf4;
+            border: 2px solid #16a34a;
+            border-radius: 10px;
+            padding: 14px 20px;
+            text-align: center;
+            font-weight: 600;
+            color: #166534;
+            font-size: 15px;
+        }
+        .response-box.amber-box {
+            background: #fffbeb;
+            border-color: #f59e0b;
+            color: #92400e;
+        }
+
+        .note {
+            background: #fefce8;
+            border-left: 4px solid #eab308;
+            padding: 10px 14px;
+            font-size: 13px;
+            border-radius: 0 8px 8px 0;
+            margin-top: 12px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <!-- BAŞLIK -->
+    <div class="header">
+        <div class="header-icon">✚</div>
+        <h1>TEDAVİ</h1>
+    </div>
+
+    <!-- SORU -->
+    <div class="question-box">
+        <h2>Aşağıdaki endişe verici bulgulardan herhangi biri mevcut mu?</h2>
+        <ul>
+            <li>Semptomatik veya ağır anemi (Hb &lt;8 g/dL)</li>
+            <li>Nöropsikiyatrik veya nörolojik semptomlar</li>
+            <li>Olası / muhtemel malabsorpsiyon</li>
+            <li>Tedaviye uyum veya takip konusunda endişe</li>
+        </ul>
+    </div>
+
+    <!-- DALLANMA -->
+    <div class="arrow-container">
+        <div class="arrow-down">▼</div>
+    </div>
+    <div class="branch-arrows">
+        <span class="branch-label label-yes">EVET</span>
+        <span class="branch-label label-no">HAYIR</span>
+    </div>
+
+    <!-- İKİ KOLON -->
+    <div class="columns">
+
+        <!-- ===================== SOL KOL: EVET ===================== -->
+        <div>
+            <div class="card" style="margin-bottom: 16px;">
+                <span class="info-tag">Başlangıç tedavisi</span>
+                <h3>Parenteral (İntramüsküler) Tedavi</h3>
+
+                <div class="field">
+                    <strong>Doz:</strong> İlk hafta boyunca 1000 µg İM, haftada 1–3 kez veya günde bir kez. Ardından 4 hafta boyunca haftada bir kez 1000 µg İM.
+                </div>
+                <div class="field">
+                    <strong>Süre:</strong> Tipik olarak 8 hafta. Nöropsikiyatrik veya nörolojik semptomlar varsa tedavi 6 aya kadar uzatılabilir.
+                </div>
+                <div class="field">
+                    <strong>İzlem:</strong> Semptomların düzelmesi ve laboratuvar değerlerinin iyileşmesi yakından takip edilmelidir. Takip sıklığı klinik ağırlığa ve yanıta bağlıdır; 1–2. haftada tam kan sayımı (TKS) ve retikülosit sayımı yapılmalıdır.
+                </div>
+            </div>
+
+            <!-- Yanıt değerlendirmesi -->
+            <div class="response-box amber-box" style="margin-bottom: 12px;">
+                Beklenen yanıt alındı mı?
+            </div>
+
+            <div class="branch-arrows" style="gap: 60px; margin: 8px 0;">
+                <span class="branch-label label-yes">EVET</span>
+                <span class="branch-label label-no">HAYIR</span>
+            </div>
+
+            <div class="sub-columns">
+                <!-- Evet → İdame -->
+                <div class="card green">
+                    <h3>İdame Tedavisi</h3>
+                    <ul>
+                        <li><strong>İM:</strong> Ayda bir 1000 µg siyanokobalamin <em>veya</em> 3 ayda bir hidroksikobalamin</li>
+                        <li><strong>Oral:</strong> Günde 1000–2000 µg (reçetesiz temin edilebilir)</li>
+                        <li><strong>Süre:</strong> Altta yatan neden (ör. pernisiyöz anemi, malabsorpsiyon) devam ediyorsa süresiz</li>
+                        <li><strong>İzlem:</strong> Yılda bir TKS kontrolü</li>
+                    </ul>
+                </div>
+
+                <!-- Hayır → Yeniden değerlendir -->
+                <div class="card red">
+                    <h3>Yeniden Değerlendir</h3>
+                    <ul>
+                        <li>Tedaviye uyumu sorgula</li>
+                        <li>Parenteral tedaviye geçiş düşün (oral alanlarda)</li>
+                        <li>Aneminin diğer nedenlerini araştır (demir eksikliği, folat eksikliği, MDS vb.)</li>
+                        <li>Nöropsikiyatrik ve nörolojik semptomları yeniden değerlendir</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===================== SAĞ KOL: HAYIR ===================== -->
+        <div>
+            <div class="card" style="margin-bottom: 16px;">
+                <span class="info-tag">Başlangıç tedavisi</span>
+                <h3>Parenteral (İM) veya Oral Tedavi <br><small style="font-weight:400; color:#6b7280;">(Ortak karar alma süreciyle belirlenir)</small></h3>
+
+                <div class="field">
+                    <strong>Doz:</strong>
+                    <ul style="margin-top:4px;">
+                        <li><strong>İM:</strong> 4 hafta boyunca haftada bir 1000 µg; ardından ayda bir siyanokobalamin veya 3 ayda bir hidroksikobalamin</li>
+                        <li><strong>Oral:</strong> Günde 1000–2000 µg (reçetesiz temin edilebilir)</li>
+                    </ul>
+                </div>
+                <div class="field">
+                    <strong>İzlem:</strong> 6–8. haftada TKS ve B12 düzeyi kontrolü, ardından 6. ayda, sonra yıllık kontrol.
+                </div>
+            </div>
+
+            <!-- Yanıt değerlendirmesi -->
+            <div class="response-box amber-box" style="margin-bottom: 12px;">
+                Beklenen yanıt alındı mı?
+            </div>
+
+            <div class="branch-arrows" style="gap: 60px; margin: 8px 0;">
+                <span class="branch-label label-yes">EVET</span>
+                <span class="branch-label label-no">HAYIR</span>
+            </div>
+
+            <div class="sub-columns">
+                <!-- Evet → İdame -->
+                <div class="card green">
+                    <h3>İdame Tedavisi</h3>
+                    <ul>
+                        <li>Mevcut tedavi şemasına devam et</li>
+                        <li><strong>Süre:</strong> Altta yatan neden tedavi edilemez bireylerde (ör. pernisiyöz anemi) süresiz devam. Beslenmeye bağlı eksiklik düzeltildiyse kesilebilir.</li>
+                        <li><strong>İzlem:</strong> Yılda bir TKS kontrolü; nöropsikiyatrik semptomlarda daha sık</li>
+                    </ul>
+                </div>
+
+                <!-- Hayır → Yeniden değerlendir -->
+                <div class="card red">
+                    <h3>Yeniden Değerlendir</h3>
+                    <ul>
+                        <li>Tedaviye uyumu (özellikle oral) sorgula</li>
+                        <li>Parenteral tedaviye geçiş düşün (oral alıyorsa)</li>
+                        <li>Aneminin diğer nedenlerini araştır (demir eksikliği, folat eksikliği vb.)</li>
+                        <li>Nöropsikiyatrik ve nörolojik semptomları yeniden değerlendir</li>
+                    </ul>
+                    <div class="note">
+                        <strong>💡 İsteğe bağlı:</strong> B12 eksikliğinin belirli nedenleri saptanmışsa hedefe yönelik tedavi eklenebilir (ör. H. pylori eradikasyonu, diyet düzenlemesi).
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

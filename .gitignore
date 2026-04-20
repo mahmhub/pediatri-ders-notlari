@@ -1,10 +1,51 @@
 # macOS
 .DS_Store
+._*
+.AppleDouble
+.LSOverride
 
 # PDFs and Office files
 *.pdf
+*.ppt
 *.pptx
+*.pptm
+*.doc
 *.docx
+*.docm
+*.xls
+*.xlsx
+*.xlsm
+*.key
+*.numbers
+*.pages
 
-# Text files (we're using markdown)
+# Text files (we use markdown)
 *.txt
+*.txtm
+
+# Geçici dosyalar / OCR çıktıları
+/tmp/
+*.tmp
+*-ocr/
+*-pages/
+*-render/
+
+# IDE / araçlar
+.claude/
+.vscode/
+.idea/
+.obsidian/
+*.swp
+*.swo
+
+# Node / build artefaktları
+node_modules/
+dist/
+build/
+.cache/
+
+# Arşivler
+*.zip
+*.rar
+*.7z
+*.tar.gz

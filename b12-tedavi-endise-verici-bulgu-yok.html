@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B12 Tedavi Algoritması — Endişe Verici Bulgu Yok</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Libre Baskerville', Baskerville, 'Baskerville Old Face', 'Times New Roman', serif;
+            background: #fdfdfc;
+            color: #1a1a1a;
+            padding: 36px 48px;
+            line-height: 1.6;
+            font-size: 13.5px;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 24px;
+        }
+        .header-icon {
+            width: 44px; height: 44px;
+            background: #b91c1c;
+            border-radius: 8px;
+            display: flex; align-items: center; justify-content: center;
+            color: #fff; font-size: 22px; line-height: 1;
+        }
+        .header h1 {
+            font-size: 20px; font-weight: 700;
+            letter-spacing: 1px; text-transform: uppercase;
+        }
+
+        .diagram {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .box {
+            border: 1.5px solid #1a1a1a;
+            padding: 14px 22px;
+            background: #fff;
+            max-width: 520px;
+            width: 100%;
+        }
+        .box.question {
+            background: #fef2f2;
+            border-color: #b91c1c;
+            text-align: center;
+        }
+        .box.question strong { color: #b91c1c; font-size: 14px; }
+        .box.question ul {
+            text-align: left; padding-left: 20px;
+            margin-top: 8px; font-size: 13px;
+        }
+        .box.question li { margin-bottom: 2px; }
+
+        .box.treatment {
+            background: #f0f4ff;
+            border-color: #1e3a5f;
+            max-width: 680px;
+        }
+        .box.treatment .label {
+            font-size: 11px; font-weight: 700;
+            text-transform: uppercase; letter-spacing: 1.2px;
+            color: #1e3a5f; margin-bottom: 8px;
+        }
+        .box.treatment h3 {
+            font-size: 14.5px; font-weight: 700; margin-bottom: 4px;
+        }
+        .box.treatment .sub {
+            font-size: 12.5px; font-style: italic; color: #555; margin-bottom: 10px;
+        }
+        .box.treatment .row {
+            display: grid;
+            grid-template-columns: 82px 1fr;
+            gap: 4px 10px;
+            font-size: 13px;
+            margin-bottom: 4px;
+        }
+        .box.treatment .row dt { font-weight: 700; }
+        .box.treatment .row dd { margin: 0; }
+
+        .box.decision {
+            background: #fefce8;
+            border-color: #92400e;
+            text-align: center;
+            font-weight: 700;
+            font-style: italic;
+            font-size: 14.5px;
+            max-width: 340px;
+            padding: 12px 20px;
+        }
+
+        .box.outcome {
+            max-width: 100%;
+            padding: 14px 20px;
+        }
+        .box.outcome.yes {
+            background: #f0fdf4;
+            border-color: #166534;
+        }
+        .box.outcome.yes h3 { color: #166534; }
+        .box.outcome.no {
+            background: #fef2f2;
+            border-color: #991b1b;
+        }
+        .box.outcome.no h3 { color: #991b1b; }
+        .box.outcome h3 {
+            font-size: 13.5px; font-weight: 700; margin-bottom: 8px;
+        }
+        .box.outcome ul { padding-left: 18px; font-size: 13px; }
+        .box.outcome li { margin-bottom: 4px; }
+
+        .footnote {
+            font-size: 12px; color: #555; font-style: italic;
+            margin-top: 10px; padding-left: 12px;
+            border-left: 2px solid #ccc;
+        }
+
+        .arrow {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 4px 0;
+            color: #555;
+        }
+        .arrow .line { width: 2px; height: 20px; background: #555; }
+        .arrow .head { font-size: 14px; line-height: 1; margin-top: -2px; }
+        .arrow .tag {
+            font-size: 11px; font-weight: 700;
+            letter-spacing: 0.5px; margin-top: 2px;
+        }
+
+        .branch {
+            display: flex;
+            align-items: flex-start;
+            gap: 0;
+            width: 100%;
+            max-width: 900px;
+        }
+        .branch-arm {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .branch-connector {
+            position: relative;
+            width: 100%;
+            height: 28px;
+            max-width: 900px;
+        }
+        .branch-connector::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 25%;
+            right: 25%;
+            height: 2px;
+            background: #555;
+        }
+        .branch-connector .drop-left,
+        .branch-connector .drop-right {
+            position: absolute;
+            top: 0;
+            width: 2px;
+            height: 28px;
+            background: #555;
+        }
+        .branch-connector .drop-left { left: 25%; }
+        .branch-connector .drop-right { right: 25%; }
+
+        .branch-label {
+            font-size: 12px; font-weight: 700;
+            padding: 2px 14px; border-radius: 3px;
+            margin-bottom: 6px;
+        }
+        .branch-label.yes { background: #dcfce7; color: #166534; }
+        .branch-label.no { background: #fee2e2; color: #991b1b; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="header-icon">&#x271A;</div>
+        <h1>Tedavi — Endişe Verici Bulgu Yok</h1>
+    </div>
+
+    <div class="diagram">
+
+        <!-- 1. Soru kutusu -->
+        <div class="box question">
+            <strong>Aşağıdaki endişe verici bulgulardan herhangi biri mevcut mu?</strong>
+            <ul>
+                <li>Semptomatik veya ağır anemi (Hb &lt;8 g/dL)</li>
+                <li>Nöropsikiyatrik veya nörolojik semptomlar</li>
+                <li>Olası / muhtemel malabsorpsiyon</li>
+                <li>Tedaviye uyum veya takip konusunda endişe</li>
+            </ul>
+        </div>
+
+        <!-- Ok -->
+        <div class="arrow">
+            <div class="line"></div>
+            <div class="head">&#x25BC;</div>
+            <div class="tag" style="color: #991b1b;">HAYIR</div>
+        </div>
+
+        <!-- 2. Başlangıç tedavisi -->
+        <div class="box treatment">
+            <div class="label">Başlangıç Tedavisi</div>
+            <h3>Parenteral (İM) veya Oral Tedavi</h3>
+            <div class="sub">Ortak karar alma süreci ile belirlenir</div>
+            <div class="row">
+                <dt>Doz (İM):</dt>
+                <dd>4 hafta boyunca haftada bir 1000 µg; ardından ayda bir siyanokobalamin <em>veya</em> 3 ayda bir hidroksikobalamin. Enjeksiyon hasta tarafından evde uygulanabilir.</dd>
+            </div>
+            <div class="row">
+                <dt>Doz (Oral):</dt>
+                <dd>Günde 1000–2000 µg (reçetesiz temin edilebilir).</dd>
+            </div>
+            <div class="row">
+                <dt>İzlem:</dt>
+                <dd>6–8. haftada TKS ve B<sub>12</sub> düzeyi kontrolü; ardından 6. ayda; sonra yıllık kontrol.</dd>
+            </div>
+        </div>
+
+        <!-- Ok -->
+        <div class="arrow">
+            <div class="line"></div>
+            <div class="head">&#x25BC;</div>
+        </div>
+
+        <!-- 3. Karar kutusu -->
+        <div class="box decision">
+            Beklenen yanıt alındı mı?
+        </div>
+
+        <!-- Dallanma çizgileri -->
+        <div class="branch-connector">
+            <div class="drop-left"></div>
+            <div class="drop-right"></div>
+        </div>
+
+        <!-- 4. İki kol -->
+        <div class="branch">
+
+            <div class="branch-arm">
+                <span class="branch-label yes">Evet</span>
+                <div class="arrow"><div class="line" style="height:10px;"></div><div class="head">&#x25BC;</div></div>
+                <div class="box outcome yes">
+                    <h3>İdame Tedavisi</h3>
+                    <ul>
+                        <li>Mevcut tedavi şemasına devam edilir.</li>
+                        <li><strong>Süre:</strong> Altta yatan neden tedavi edilemiyorsa (örn. pernisiyöz anemi) <em>süresiz</em> devam. Beslenmeye bağlı eksiklik düzeltildiyse kesilebilir.</li>
+                        <li><strong>İzlem:</strong> Yılda bir TKS kontrolü. Nöropsikiyatrik semptomlarda daha sık takip.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="branch-arm">
+                <span class="branch-label no">Hayır</span>
+                <div class="arrow"><div class="line" style="height:10px;"></div><div class="head">&#x25BC;</div></div>
+                <div class="box outcome no">
+                    <h3>Yeniden Değerlendirme</h3>
+                    <ul>
+                        <li>Tedaviye uyumu sorgula (özellikle oral tedavi alanlar)</li>
+                        <li>Parenteral tedaviye geçiş düşün (oral alıyorsa)</li>
+                        <li>Aneminin diğer nedenlerini araştır (demir eksikliği, folat eksikliği vb.)</li>
+                        <li>Nöropsikiyatrik ve nörolojik semptomları yeniden değerlendir</li>
+                    </ul>
+                    <div class="footnote">
+                        B<sub>12</sub> eksikliğinin belirli nedenleri saptanmışsa hedefe yönelik tedavi eklenebilir (örn. <em>H. pylori</em> eradikasyonu, diyet düzenlemesi).
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

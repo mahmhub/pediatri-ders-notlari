@@ -1,0 +1,31 @@
+{
+  "gorev": "Verilen PDF dosyasını OCR ile işleyip kapsamlı Markdown ders notu oluştur",
+  "dizin": "/Users/mahmutercan/Desktop/pd",
+  "ocr_repo": "/Users/mahmutercan/Desktop/ocr",
+  "is_akisi": [
+    "1. pdf-ocr <dosya.pdf> --output-dir /tmp/<isim>-ocr --lang tur+eng --mode force",
+    "2. pdftoppm -png -r 150 ile tüm sayfaları <anabilim-dali>/notlar/<konu>-images/page-XX.png olarak render et",
+    "3. pdftotext ile sayfa başı karakter sayısı analizi → görsel ağırlıklı sayfaları bul",
+    "4. OCR txt dosyasını oku (tüm metin)",
+    "5. Görsel ağırlıklı sayfaları Read ile oku, anlamlı olanları seç (tablo, şema, algoritma, patoloji görseli vb.)",
+    "6. Anlamlı görselleri image-000.png, image-001.png... olarak kopyala, page-*.png dosyalarını sil",
+    "7. OCR metni + görseller ile kapsamlı Markdown ders notu yaz — özet değil, tüm içerik aktarılacak",
+    "8. SUMMARY.md ve README.md güncelle"
+  ],
+  "format_kurallari": [
+    "CLAUDE.md dosyasındaki Anafilaksi standardına uygun format",
+    "Başlıkta emoji yok, içerikte emoji kullanılabilir (⚠️ ✅ ↑ ↓ →)",
+    "Dosya adı: kebab-case Türkçe (ör: diyabetik-nefropati.md)",
+    "Görsel klasörü: konu-adi-images/ (notlar/ altında)",
+    "Tablolar markdown tablo formatında",
+    "Algoritma/flowchart görselleri Mermaid formatında yeniden yazılır (renk: yeşil=tanı, kırmızı=dışla, mavi=test). Mermaid varsa orijinal görsel silinir, tekrar olmaması için.",
+    "İngilizce tablo görselleri Türkçe markdown tabloya çevrilir, ardından görsel silinir",
+    "Görsel + Türkçe metin karşılığı her zaman birlikte; histoloji/şema görsellerinin altına > blockquote açıklama eklenir",
+    "md dosyası diske yazılacak, chat'te gösterilmeyecek"
+  ],
+  "onemli": [
+    "OCR ilk öncelik — her PDF önce pdf-ocr ile işlenmeli",
+    "Notlar özet değil, PDF'deki tüm içerik kapsamlı aktarılmalı",
+    "Klinik olgular varsa olgu formatında yazılmalı"
+  ]
+}

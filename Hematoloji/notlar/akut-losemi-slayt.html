@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akut Lösemiler — Kapsamlı Slayt</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+        :root {
+            --aml: #1e3a5f;
+            --aml-bg: #eef3fa;
+            --apl: #7c2d12;
+            --apl-bg: #fef3e2;
+            --all: #4c1d95;
+            --all-bg: #f3eefe;
+            --mpal: #065f46;
+            --mpal-bg: #ecfdf5;
+            --acil: #b91c1c;
+            --acil-bg: #fef2f2;
+            --iyi: #166534;
+            --orta: #92400e;
+            --kotu: #991b1b;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Libre Baskerville', Baskerville, 'Baskerville Old Face', 'Times New Roman', serif;
+            background: #fff;
+            color: #1a1a1a;
+            font-size: 13.5px;
+            line-height: 1.65;
+        }
+
+        /* ==================== GENEL LAYOUT ==================== */
+        section {
+            padding: 36px 48px;
+            border-bottom: 3px double #ccc;
+            page-break-inside: avoid;
+        }
+        section:last-child { border-bottom: none; }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 20px;
+        }
+        .section-num {
+            width: 38px; height: 38px;
+            border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            color: #fff;
+            font-size: 16px; font-weight: 700;
+            flex-shrink: 0;
+        }
+        .section-header h2 {
+            font-size: 18px; font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+        .section-header .sub {
+            font-size: 13px; font-style: italic; color: #666;
+            margin-left: auto;
+        }
+
+        h3 {
+            font-size: 14.5px; font-weight: 700;
+            margin: 16px 0 10px;
+        }
+        h4 {
+            font-size: 13.5px; font-weight: 700;
+            margin: 12px 0 6px;
+            font-style: italic;
+        }
+
+        /* Analoji kutusu */
+        .analogy {
+            background: #fffbeb;
+            border-left: 4px solid #eab308;
+            padding: 10px 16px;
+            margin: 12px 0;
+            font-style: italic;
+            font-size: 13px;
+        }
+        .analogy::before {
+            content: "Analoji: ";
+            font-weight: 700;
+            font-style: normal;
+            color: #92400e;
+        }
+
+        /* Sınav ipucu */
+        .sinav {
+            background: #fef2f2;
+            border-left: 4px solid #b91c1c;
+            padding: 8px 14px;
+            margin: 10px 0;
+            font-size: 12.5px;
+        }
+        .sinav::before {
+            content: "Sınav: ";
+            font-weight: 700;
+            color: #b91c1c;
+        }
+
+        /* Klinik inci */
+        .pearl {
+            background: #f0fdf4;
+            border-left: 4px solid #166534;
+            padding: 8px 14px;
+            margin: 10px 0;
+            font-size: 12.5px;
+        }
+        .pearl::before {
+            content: "Klinik: ";
+            font-weight: 700;
+            color: #166534;
+        }
+
+        /* ==================== DİYAGRAM KUTULARI ==================== */
+        .flow {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 16px 0;
+        }
+        .flow-h {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 0;
+            width: 100%;
+        }
+        .flow-arm {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 420px;
+        }
+
+        .box {
+            border: 1.5px solid #555;
+            padding: 12px 18px;
+            background: #fff;
+            text-align: center;
+            width: 100%;
+            max-width: 560px;
+        }
+        .box.wide { max-width: 760px; }
+        .box.full { max-width: 100%; text-align: left; }
+        .box strong { display: block; margin-bottom: 4px; }
+        .box ul { text-align: left; padding-left: 18px; margin-top: 6px; font-size: 13px; }
+        .box li { margin-bottom: 3px; }
+
+        /* Renkli kutular */
+        .box.q { background: var(--acil-bg); border-color: var(--acil); }
+        .box.q strong { color: var(--acil); }
+        .box.aml { background: var(--aml-bg); border-color: var(--aml); }
+        .box.aml strong { color: var(--aml); }
+        .box.apl { background: var(--apl-bg); border-color: var(--apl); }
+        .box.apl strong { color: var(--apl); }
+        .box.all { background: var(--all-bg); border-color: var(--all); }
+        .box.all strong { color: var(--all); }
+        .box.mpal { background: var(--mpal-bg); border-color: var(--mpal); }
+        .box.mpal strong { color: var(--mpal); }
+        .box.yes { background: #f0fdf4; border-color: var(--iyi); }
+        .box.yes strong { color: var(--iyi); }
+        .box.no { background: #fef2f2; border-color: var(--kotu); }
+        .box.no strong { color: var(--kotu); }
+        .box.warn { background: #fefce8; border-color: #b45309; }
+        .box.warn strong { color: #b45309; }
+        .box.decision { background: #fefce8; border-color: #92400e; font-weight: 700; font-style: italic; max-width: 380px; }
+        .box.neutral { background: #f8fafc; border-color: #64748b; }
+
+        /* Oklar */
+        .arrow { display: flex; flex-direction: column; align-items: center; padding: 2px 0; color: #555; }
+        .arrow .line { width: 2px; height: 16px; background: #555; }
+        .arrow .head { font-size: 13px; line-height: 1; margin-top: -2px; }
+        .arrow .tag { font-size: 11px; font-weight: 700; letter-spacing: 0.3px; margin-top: 1px; }
+
+        /* Yatay bağlantı */
+        .hconn {
+            position: relative;
+            width: 100%;
+            height: 24px;
+        }
+        .hconn::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 25%; right: 25%;
+            height: 2px; background: #555;
+        }
+        .hconn .dl, .hconn .dr {
+            position: absolute;
+            top: 0; width: 2px; height: 24px; background: #555;
+        }
+        .hconn .dl { left: 25%; }
+        .hconn .dr { right: 25%; }
+
+        .htag {
+            display: flex;
+            justify-content: center;
+            gap: 46%;
+            margin-bottom: 4px;
+        }
+        .htag span {
+            font-size: 11px; font-weight: 700;
+            padding: 1px 12px; border-radius: 3px;
+        }
+        .htag .y { background: #dcfce7; color: var(--iyi); }
+        .htag .n { background: #fee2e2; color: var(--kotu); }
+
+        /* ==================== TABLOLAR ==================== */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+            margin: 12px 0;
+        }
+        th {
+            text-align: left;
+            font-weight: 700;
+            font-size: 11.5px;
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+            padding: 6px 10px;
+            border-bottom: 2px solid #1a1a1a;
+            border-top: 2px solid #1a1a1a;
+            background: #f9fafb;
+        }
+        td {
+            padding: 5px 10px;
+            border-bottom: 1px solid #e5e7eb;
+            vertical-align: top;
+        }
+        tr:last-child td { border-bottom: 1px solid #1a1a1a; }
+        td.good { color: var(--iyi); font-weight: 700; }
+        td.mid { color: var(--orta); font-weight: 700; }
+        td.bad { color: var(--kotu); font-weight: 700; }
+
+        /* Grid düzenleri */
+        .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 12px 0; }
+        .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin: 12px 0; }
+
+        /* Küçük etiket */
+        .tag-sm {
+            display: inline-block;
+            font-size: 10.5px; font-weight: 700;
+            text-transform: uppercase; letter-spacing: 1px;
+            padding: 2px 10px; border-radius: 3px;
+            margin-bottom: 6px;
+        }
+
+        /* Hematopoez ağacı */
+        .tree { text-align: center; margin: 16px 0; }
+        .tree-row { display: flex; justify-content: center; gap: 16px; margin: 4px 0; flex-wrap: wrap; }
+        .tree-node {
+            padding: 6px 14px;
+            border: 1.5px solid #555;
+            font-size: 12px;
+            font-weight: 700;
+            background: #fff;
+            min-width: 100px;
+        }
+        .tree-node.stem { background: #fef3c7; border-color: #b45309; }
+        .tree-node.myeloid { background: var(--aml-bg); border-color: var(--aml); color: var(--aml); }
+        .tree-node.lymphoid { background: var(--all-bg); border-color: var(--all); color: var(--all); }
+        .tree-node.highlight { background: #fee2e2; border-color: #b91c1c; color: #b91c1c; }
+
+        /* Başlık banner */
+        .banner {
+            background: #1a1a1a;
+            color: #fff;
+            padding: 28px 48px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        .banner h1 {
+            font-size: 24px; letter-spacing: 1px; text-transform: uppercase;
+        }
+        .banner .meta {
+            margin-left: auto;
+            text-align: right;
+            font-size: 12px;
+            color: #aaa;
+            font-style: italic;
+        }
+
+        p { margin: 6px 0; }
+        ul.compact { font-size: 13px; padding-left: 18px; }
+        ul.compact li { margin-bottom: 3px; }
+
+        .sep { border: none; border-top: 1px solid #ddd; margin: 14px 0; }
+
+        @media print {
+            section { page-break-after: always; }
+            .banner { page-break-after: always; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ============================== BANNER ============================== -->
+<div class="banner">
+    <div>
+        <h1>Akut Lösemiler</h1>
+        <div style="font-size:14px; margin-top:4px; opacity:0.8;">Kapsamlı Tedavi ve Tanı Algoritması</div>
+    </div>
+    <div class="meta">
+        Dr. A. Hilal Eroğlu Küçükdiler<br>
+        ADÜ Tıp Fakültesi — Hematoloji<br>
+        2024-2025 Dönem IV
+    </div>
+</div>
+
+<!-- ============================== 1. GENEL BİLGİLER ============================== -->
+<section>
+    <div class="section-header">
+        <div class="section-num" style="background:#555;">1</div>
+        <h2>Hematopoez ve Lösemi: Büyük Resim</h2>
+        <span class="sub">Tanım &bull; Sınıflama &bull; Akut vs Kronik</span>
+    </div>
+
+    <div class="analogy">Kemik iliği bir <strong>fabrika</strong>, kök hücreler <strong>stajyerler</strong>. Normal süreçte stajyerler eğitilip uzmanlaşır (olgunlaşır). Akut lösemide stajyerler (blastlar) olgunlaşamaz, birikir ve fabrikayı felç eder — üretim durur (sitopeni), kapasiteyi aşan stajyerler dışarı taşar (blastlar kana çıkar).</div>
+
+    <!-- Hematopoez ağacı -->
+    <div class="tree">
+        <div class="tree-row">
+            <div class="tree-node stem">Pluripotent Kök Hücre</div>
+        </div>
+        <div class="arrow"><div class="line" style="height:10px;"></div><div class="head">&#x25BC;</div></div>
+        <div class="tree-row">
+            <div class="tree-node myeloid">Myeloid Progenitör</div>
+            <div class="tree-node lymphoid">Lenfoid Progenitör</div>
+        </div>
+        <div style="display:flex; justify-content:center; gap:200px;">
+            <div class="arrow"><div class="line" style="height:8px;"></div><div class="head">&#x25BC;</div></div>
+            <div class="arrow"><div class="line" style="height:8px;"></div><div class="head">&#x25BC;</div></div>
+        </div>
+        <div class="tree-row">
+            <div class="tree-node highlight">AML &rarr; Blast birikimi</div>
+            <div class="tree-node highlight">ALL &rarr; Blast birikimi</div>
+        </div>
+        <div style="display:flex; justify-content:center; gap:80px; margin-top:4px;">
+            <div class="tree-row">
+                <div class="tree-node myeloid" style="font-size:11px;">Eritrosit</div>
+                <div class="tree-node myeloid" style="font-size:11px;">Granülosit</div>
+                <div class="tree-node myeloid" style="font-size:11px;">Monosit</div>
+                <div class="tree-node myeloid" style="font-size:11px;">Trombosit</div>
+            </div>
+            <div class="tree-row">
+                <div class="tree-node lymphoid" style="font-size:11px;">B hücre</div>
+                <div class="tree-node lymphoid" style="font-size:11px;">T hücre</div>
+                <div class="tree-node lymphoid" style="font-size:11px;">NK hücre</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Akut vs Kronik -->
+    <h3>Akut vs Kronik Lösemi</h3>
+    <div class="analogy">Akut lösemi bir <strong>yangın</strong> — hızlı başlar, haftalar içinde ölümcül olabilir. Kronik lösemi bir <strong>sızıntı</strong> — yavaş ilerler, yıllar alır.</div>
+
+    <table>
+        <tr><th style="width:20%;">Özellik</th><th>Akut Lösemi</th><th>Kronik Lösemi</th></tr>
+        <tr><td><strong>Başlangıç</strong></td><td>Hızlı (semptomlar &lt;3 ay)</td><td>Yavaş, sinsi</td></tr>
+        <tr><td><strong>Blast oranı</strong></td><td><strong>&ge;%20</strong> (kemik iliğinde) — WHO</td><td>Düşük</td></tr>
+        <tr><td><strong>Olgunlaşma</strong></td><td>Bloklanmış (immatür hücreler)</td><td>Kısmen korunmuş</td></tr>
+        <tr><td><strong>Tedavisiz seyir</strong></td><td>Haftalar-aylar içinde ölümcül</td><td>Yıllar sürebilir</td></tr>
+    </table>
+
+    <div class="sinav">Kemik iliğinde blast &ge;%20 = akut lösemi (WHO). Eski FAB sınıflamasında eşik %30 idi. Erişkinde en sık AML, çocukta en sık ALL.</div>
+</section>
+
+<!-- ============================== 2. AML ============================== -->
+<section>
+    <div class="section-header">
+        <div class="section-num" style="background:var(--aml);">2</div>
+        <h2>Akut Myeloid Lösemi (AML)</h2>
+        <span class="sub">Erişkinde en sık akut lösemi &bull; Medyan yaş 67</span>
+    </div>
+
+    <!-- Epidemiyoloji kutusu -->
+    <div class="grid3">
+        <div class="box aml"><strong>Sıklık</strong>Erişkin akut lösemilerin ~%80'i</div>
+        <div class="box aml"><strong>Medyan Yaş</strong>67</div>
+        <div class="box aml"><strong>5 Yıllık Sağkalım</strong>%27</div>
+    </div>
+
+    <!-- Etiyoloji -->
+    <h3>Etiyoloji ve Risk Faktörleri</h3>
+    <div class="grid2">
+        <div>
+            <h4>Bilinen Risk Faktörleri</h4>
+            <ul class="compact">
+                <li><strong>Genetik:</strong> Down sendromu, Fanconi anemisi, Bloom sendromu</li>
+                <li><strong>Radyasyon:</strong> İyonlaştırıcı radyasyon</li>
+                <li><strong>Kimyasal:</strong> Benzen (en önemli), kloramfenikol, fenilbütazon</li>
+                <li><strong>Önceki kemoterapi:</strong> Terapiyle ilişkili AML (t-AML)</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Terapiyle İlişkili AML (t-AML)</h4>
+            <table>
+                <tr><th></th><th>Alkilleyici Ajan</th><th>Topoizomeraz II</th></tr>
+                <tr><td><strong>Latent süre</strong></td><td>4–6 yıl</td><td>1–3 yıl</td></tr>
+                <tr><td><strong>Kromozom</strong></td><td>5 ve 7 (mono/del)</td><td>11q23 (MLL)</td></tr>
+                <tr><td><strong>Öncül faz</strong></td><td>MDS evresi var</td><td>Yok, direkt lösemi</td></tr>
+                <tr><td><strong>Morfoloji</strong></td><td>Displastik</td><td>Monositik</td></tr>
+                <tr><td><strong>Örnek ilaç</strong></td><td>Siklofosfamid, busulfan</td><td>Etoposid, doksorubisin</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="analogy">t-AML, fabrikaya zarar veren bir <strong>endüstriyel kaza</strong> gibidir. Alkilleyici ajanlar fabrikanın temelini yavaşça çürütür (4–6 yıl, MDS evresi). Topoizomeraz II inhibitörleri ise ani bir patlama yapar (1–3 yıl, direkt lösemi).</div>
+
+    <div class="sinav">"Meme kanseri nedeniyle kemoterapi alan 55 yaşında kadın, 5 yıl sonra pansitopeni" &rarr; Alkilleyici ajanla ilişkili t-AML. Monozomi 5/7 tipik.</div>
+
+    <!-- FAB sınıflaması -->
+    <h3>FAB Sınıflaması (M0–M7)</h3>
+    <table>
+        <tr><th>FAB</th><th>Alt Tip</th><th>Ayırt Edici Özellik</th><th>Özel Durum</th></tr>
+        <tr><td><strong>M0</strong></td><td>Minimal diferansiyasyon</td><td>MPO negatif, CD13/CD33 pozitif</td><td>—</td></tr>
+        <tr><td><strong>M1</strong></td><td>Maturasyonsuz</td><td>&gt;%90 blast, minimal granülasyon</td><td>—</td></tr>
+        <tr><td><strong>M2</strong></td><td>Maturasyonlu</td><td>t(8;21), Auer cisimcikleri sık</td><td class="good">İyi prognoz</td></tr>
+        <tr style="background:#fef2f2;"><td><strong>M3</strong></td><td><strong>APL</strong></td><td><strong>t(15;17), Auer +++, DIC</strong></td><td class="good"><strong>ATRA ile kür</strong></td></tr>
+        <tr><td><strong>M4</strong></td><td>Miyelomonositik</td><td>Myeloid + monositik diferansiasyon</td><td>Dişeti hiperplazisi</td></tr>
+        <tr><td><strong>M4Eo</strong></td><td>M4 + anormal eozinofil</td><td>inv(16)</td><td class="good">İyi prognoz</td></tr>
+        <tr><td><strong>M5</strong></td><td>Monositik</td><td>Dişeti hiperplazisi, cilt infiltrasyonu</td><td>Ekstramedüller tutulum sık</td></tr>
+        <tr><td><strong>M6</strong></td><td>Eritroid</td><td>Eritroid predominans</td><td class="bad">Kötü prognoz</td></tr>
+        <tr><td><strong>M7</strong></td><td>Megakaryoblastik</td><td>CD41, CD61, CD42b</td><td>Down sendromu ilişkili</td></tr>
+    </table>
+
+    <!-- ELN Risk -->
+    <h3>ELN Genetik Risk Sınıflandırması</h3>
+
+    <div class="analogy">ELN risk sınıflaması bir haritadaki <strong>trafik ışığı</strong> gibidir: Yeşil (iyi) = yoluna devam, sarı (orta) = dikkatli ol, kırmızı (kötü) = dur ve nakil düşün.</div>
+
+    <div class="grid3">
+        <div class="box yes full">
+            <span class="tag-sm" style="background:#dcfce7; color:var(--iyi);">İyi Risk — %60-70 sağkalım</span>
+            <ul>
+                <li>t(8;21)</li>
+                <li>inv(16) / t(16;16)</li>
+                <li>Mutant NPM1 (FLT3-ITD yok)</li>
+                <li>Bialelik CEBPA</li>
+            </ul>
+        </div>
+        <div class="box warn full">
+            <span class="tag-sm" style="background:#fef3c7; color:var(--orta);">Orta Risk — %30-40 sağkalım</span>
+            <ul>
+                <li>Mutant NPM1 + FLT3-ITD</li>
+                <li>Wild-type NPM1 + FLT3-ITD (olumsuz lezyon yok)</li>
+                <li>t(9;11)</li>
+            </ul>
+        </div>
+        <div class="box no full">
+            <span class="tag-sm" style="background:#fee2e2; color:var(--kotu);">Kötü Risk — %10-15 sağkalım</span>
+            <ul>
+                <li>t(6;9), t(v;11q23.3)/KMT2A</li>
+                <li>t(9;22)/BCR-ABL1</li>
+                <li>inv(3), -5/del(5q), -7</li>
+                <li>Kompleks/monosomal karyotip</li>
+                <li>Mutant TP53, ASXL1, RUNX1</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="sinav">NPM1 mutasyonu (FLT3-ITD yok) &rarr; iyi prognoz. FLT3-ITD &rarr; kötü (midostaurin ekle). TP53 mutasyonu &rarr; en kötü.</div>
+
+    <!-- Klinik risk faktörleri tablosu -->
+    <h3>Klinik ve Laboratuvar Prognostik Faktörler</h3>
+    <table>
+        <tr><th>Parametre</th><th>İyi Prognoz</th><th>Kötü Prognoz</th></tr>
+        <tr><td>Yaş</td><td class="good">&lt;45</td><td class="bad">&lt;2 veya &gt;60</td></tr>
+        <tr><td>ECOG performans</td><td class="good">0-1</td><td class="bad">&gt;1</td></tr>
+        <tr><td>Tip</td><td class="good">De novo</td><td class="bad">Sekonder</td></tr>
+        <tr><td>Beyaz küre</td><td class="good">&lt;25.000/&mu;L</td><td class="bad">&gt;100.000/&mu;L</td></tr>
+        <tr><td>LDH</td><td class="good">Normal</td><td class="bad">Yüksek</td></tr>
+        <tr><td>Ekstramedüller hst.</td><td class="good">Yok</td><td class="bad">Var</td></tr>
+        <tr><td>Auer cisimciği</td><td class="good">Var</td><td class="bad">Yok</td></tr>
+        <tr><td>FAB</td><td class="good">M2, M3, M4</td><td class="bad">M0, M6, M7</td></tr>
+        <tr><td>CD34</td><td class="good">Negatif</td><td class="bad">Pozitif</td></tr>
+    </table>
+
+    <!-- Klinik bulgular -->
+    <h3>Klinik Bulgular</h3>
+
+    <div class="analogy">Fabrika çöktüğünde üç şey olur: (1) Ürün çıkmaz &rarr; <strong>sitopeni</strong> (anemi, kanama, enfeksiyon). (2) Stajyerler fabrikadan taşar &rarr; <strong>lösemik infiltrasyon</strong> (organomegali, kemik ağrısı). (3) Çok fazla stajyer boru hatlarını tıkar &rarr; <strong>lökostaz</strong>.</div>
+
+    <div class="grid3">
+        <div class="box neutral full">
+            <strong>1. Kemik İliği Yetmezliği</strong>
+            <ul>
+                <li><strong>Anemi</strong> &rarr; Yorgunluk, solukluk, dispne</li>
+                <li><strong>Trombositopeni</strong> &rarr; Peteşi, ekimoz, epistaksis</li>
+                <li><strong>Nötropeni</strong> &rarr; Enfeksiyon, ateş</li>
+            </ul>
+        </div>
+        <div class="box neutral full">
+            <strong>2. Lösemik İnfiltrasyon</strong>
+            <ul>
+                <li>Kemik ağrısı (periost infiltrasyonu)</li>
+                <li>Hepatosplenomegali, LAP</li>
+                <li><strong>Miyeloid sarkom</strong> (kloroma): cilt, GİS, testis</li>
+                <li><strong>Dişeti hiperplazisi</strong> (M4/M5)</li>
+            </ul>
+        </div>
+        <div class="box neutral full">
+            <strong>3. Acil Durumlar</strong>
+            <ul>
+                <li><strong>Lökostaz</strong> (BK &gt;100.000): dispne, nörolojik semptomlar</li>
+                <li><strong>DIC</strong> (APL/M3): hayatı tehdit eden kanama</li>
+                <li><strong>Tümör lizis sendromu</strong>: K&uarr; P&uarr; ürik asit&uarr; Ca&darr;</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Laboratuvar -->
+    <h3>Laboratuvar</h3>
+    <div class="grid2">
+        <div>
+            <h4>Periferik Kan</h4>
+            <ul class="compact">
+                <li>Anemi (normokrom normositer)</li>
+                <li>Lökosit ortanca 15.000/&mu;L (%20'de &gt;100.000)</li>
+                <li>Trombositopeni &lt;100.000 (%75'inde)</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Periferik Yayma</h4>
+            <ul class="compact">
+                <li>Blast hücreler (myeloblastlar)</li>
+                <li><strong>Auer cisimcikleri</strong> &rarr; AML'ye patognomonik</li>
+                <li><strong>Faggot hücresi</strong> (çok Auer) &rarr; APL (M3)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="analogy">Auer cisimciği, suç mahallinde bulunan <strong>parmak izi</strong> gibidir — AML'ye özgüdür, ALL'de asla görülmez. Faggot hücresi ise "çok sayıda parmak izi" demektir ve APL'yi işaret eder.</div>
+
+    <!-- AML Tedavi Akış Diyagramı -->
+    <h3>AML Tedavi Algoritması</h3>
+
+    <div class="analogy">AML tedavisi bir <strong>savaş planı</strong>dır: İndüksiyon (7+3) = yoğun bombardıman ile düşmanı geri püskürtmek. Konsolidasyon = kalan cepleri temizlemek. İdame = sınırı korumak.</div>
+
+    <div class="flow">
+        <div class="box aml"><strong>AML Tanısı</strong>Kemik iliğinde blast &ge;%20 + immünfenotipleme + sitogenetik + moleküler testler</div>
+        <div class="arrow"><div class="line"></div><div class="head">&#x25BC;</div></div>
+        <div class="box decision">İntensif tedaviye uygun mu?</div>
+
+        <div class="hconn"><div class="dl"></div><div class="dr"></div></div>
+        <div class="htag"><span class="y">Evet</span><span class="n">Hayır</span></div>
+
+        <div class="flow-h">
+            <!-- Uygun -->
+            <div class="flow-arm">
+                <div class="box aml full">
+                    <strong>İndüksiyon: "7+3" Rejimi</strong>
+                    <ul>
+                        <li><strong>Sitarabin (Ara-C)</strong> 7 gün sürekli infüzyon</li>
+                        <li><strong>Daunorubisin/İdarubisin</strong> 3 gün</li>
+                        <li>FLT3+ ise <strong>midostaurin</strong> ekle</li>
+                    </ul>
+                </div>
+                <div class="arrow"><div class="line"></div><div class="head">&#x25BC;</div></div>
+                <div class="box decision">Tam remisyon?<br><span style="font-size:11px; font-weight:400;">(blast &lt;%5, nötrofil &gt;1000, plt &gt;100.000)</span></div>
+                <div class="arrow"><div class="line"></div><div class="head">&#x25BC;</div><div class="tag" style="color:var(--iyi);">Evet</div></div>
+                <div class="box aml full">
+                    <strong>Konsolidasyon (riske göre)</strong>
+                    <ul>
+                        <li><strong>İyi risk:</strong> Yüksek doz sitarabin (HiDAC) &times; 3-4 kür</li>
+                        <li><strong>Orta risk:</strong> Allojenik kök hücre nakli</li>
+                        <li><strong>Kötü risk:</strong> Allojenik kök hücre nakli</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Uygun değil -->
+            <div class="flow-arm">
+                <div class="box warn full">
+                    <strong>Yaşlı / Unfit Hastalar</strong>
+                    <ul>
+                        <li><strong>Venetoklaks + Azasitidin</strong> (güncel standart)</li>
+                        <li>Veya Venetoklaks + Desitabin</li>
+                        <li>Düşük doz sitarabin + Venetoklaks</li>
+                    </ul>
+                </div>
+                <div class="arrow"><div class="line"></div><div class="head">&#x25BC;</div></div>
+                <div class="box neutral full">
+                    <strong>Hedefe Yönelik Tedaviler</strong>
+                    <ul>
+                        <li><strong>FLT3:</strong> Midostaurin, gilteritinib</li>
+                        <li><strong>IDH1:</strong> İvosidenib</li>
+                        <li><strong>IDH2:</strong> Enasidenib</li>
+                        <li><strong>CD33:</strong> Gemtuzumab ozogamisin</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sinav">"7+3" (7 gün sitarabin + 3 gün antrasiklin) = AML standart indüksiyonu. Yaşlıda venetoklaks + hipometile edici ajan güncel standarttır.</div>
+</section>
+
+<!-- ============================== 3. APL ============================== -->
+<section>
+    <div class="section-header">
+        <div class="section-num" style="background:var(--apl);">3</div>
+        <h2>Akut Promiyelositik Lösemi (APL / M3)</h2>
+        <span class="sub">Hematolojik ACİL &bull; Kür oranı %85+</span>
+    </div>
+
+    <div class="analogy">APL, fabrikanın bir bölümünde (promiyelosit hattı) <strong>kilitli kapı</strong> olan bir arıza gibidir. PML-RARA füzyon proteini kapıyı kilitler, olgunlaşma durur. <strong>ATRA (all-trans retinoik asit)</strong> bu kapının anahtarıdır — kapıyı açar ve hücreler olgunlaşmaya devam eder. Bu yüzden "diferansiasyon tedavisi" denir.</div>
+
+    <!-- Patogenez diyagramı -->
+    <h3>Patogenez</h3>
+    <div class="flow">
+        <div class="flow-h" style="gap: 12px; justify-content: center;">
+            <div class="box apl" style="max-width:180px;"><strong>Kromozom 15</strong>PML geni</div>
+            <div style="display:flex; align-items:center; font-size:24px; font-weight:700; color:var(--apl);">+</div>
+            <div class="box apl" style="max-width:180px;"><strong>Kromozom 17</strong>RARA geni</div>
+        </div>
+        <div class="arrow"><div class="line"></div><div class="head">&#x25BC;</div><div class="tag">t(15;17)(q24;q21)</div></div>
+        <div class="box apl" style="max-width:400px;"><strong>PML-RARA Füzyon Proteini</strong>Diferansiasyonu bloke eder &rarr; Promiyelosit aşamasında durma</div>
+        <div class="arrow"><div class="line"></div><div class="head">&#x25BC;</div></div>
+
+        <div class="flow-h" style="gap: 20px; justify-content: center;">
+            <div class="box no" style="max-width:280px;">
+                <strong>Promiyelosit Birikimi</strong>
+                <ul>
+                    <li>Azurofilik granüller &rarr; prokoagülan madde salınımı</li>
+                    <li><strong>DIC tetiklenir</strong> &rarr; hayatı tehdit eden kanama</li>
+                </ul>
+            </div>
+            <div class="box yes" style="max-width:280px;">
+                <strong>ATRA ile Tedavi</strong>
+                <ul>
+                    <li>Blokaj kalkar &rarr; diferansiasyon yeniden başlar</li>
+                    <li>Promiyelositler olgun granülosite dönüşür</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Morfoloji -->
+    <h3>Morfoloji</h3>
+    <table>
+        <tr><th style="width:20%;">Özellik</th><th>Hipergranüler (Klasik M3)</th><th>Mikrogranüler (M3V)</th></tr>
+        <tr><td><strong>Çekirdek</strong></td><td>Katlanmış, lobüle</td><td>İrregüler, katlanmış</td></tr>
+        <tr><td><strong>Sitoplazma</strong></td><td>Belirgin azurofilik granüller</td><td>İnce küçük granüller</td></tr>
+        <tr><td><strong>Auer cisimciği</strong></td><td>Sık, <strong>faggot hücresi</strong> görülür</td><td>Görülmez</td></tr>
+        <tr><td><strong>Lökosit</strong></td><td>Normal veya düşük</td><td>Genellikle yüksek</td></tr>
+    </table>
+
+    <!-- APL Tedavi akışı -->
+    <h3>APL Tedavi Algoritması</h3>
+    <div class="flow">
+        <div class="box q"><strong>APL Şüphesi</strong>Pansitopeni + DIC bulguları (fibrinojen&darr;, D-dimer&uarr;, PT/aPTT&uarr;)</div>
+        <div class="arrow"><div class="line"></div><div class="head">&#x25BC;</div><div class="tag" style="color:var(--acil);">ATRA DERHAL BAŞLA — tanı doğrulanmadan!</div></div>
+        <div class="box decision">Lökosit sayısı?</div>
+        <div class="hconn"><div class="dl"></div><div class="dr"></div></div>
+        <div class="htag"><span class="y">&le;10.000 (Düşük risk)</span><span class="n">&gt;10.000 (Yüksek risk)</span></div>
+        <div class="flow-h">
+            <div class="flow-arm">
+                <div class="box yes full"><strong>ATRA + Arsenik Trioksit (ATO)</strong>Tercih edilen rejim — kemoterapisiz kür mümkün</div>
+            </div>
+            <div class="flow-arm">
+                <div class="box warn full"><strong>ATRA + ATO + İdarubisin</strong>Veya ATRA + antrasiklin bazlı KT</div>
+            </div>
+        </div>
+        <div class="arrow"><div class="line" style="height:12px;"></div><div class="head">&#x25BC;</div></div>
+        <div class="box apl" style="max-width:480px;"><strong>Konsolidasyon &amp; İdame</strong>ATRA + metotreksat + merkaptopürin &bull; 3 ayda bir t(15;17) PCR takibi &bull; %85+ uzun süreli remisyon</div>
+    </div>
+
+    <!-- Diferansiasyon Sendromu -->
+    <h3>Diferansiasyon Sendromu (Retinoik Asit Sendromu)</h3>
+
+    <div class="analogy">Kilitli kapı ATRA ile açıldığında, tüm promiyelositler aynı anda olgunlaşmaya çalışır — bu bir <strong>darboğaz</strong> yaratır. Hücreler diferansiye olurken sitokin fırtınası kopar &rarr; kapiller sızıntı, efüzyon, organ hasarı.</div>
+
+    <div class="grid2">
+        <div class="box no full">
+            <strong>Bulgular</strong>
+            <ul>
+                <li>Ateş, dispne, hipotansiyon</li>
+                <li>Periferik ödem, kilo alımı</li>
+                <li>Pleuro-perikardiyal efüzyon</li>
+                <li>Akut böbrek yetmezliği</li>
+                <li>Kas-iskelet ağrısı, hiperbilirubinemi</li>
+            </ul>
+        </div>
+        <div class="box yes full">
+            <strong>Tedavi</strong>
+            <ul>
+                <li>Yüksek doz <strong>deksametazon</strong> (10 mg IV, 12 saatte bir)</li>
+                <li>Ağır vakalarda ATRA/ATO geçici kesimi</li>
+                <li>Destek tedavisi (diüretik, O2)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="sinav">ATRA altında ateş + dispne + hipotansiyon + efüzyon &rarr; Diferansiasyon sendromu &rarr; Deksametazon. APL tedavisinin en önemli komplikasyonu.</div>
+</section>
+
+<!-- ============================== 4. ALL ============================== -->
+<section>
+    <div class="section-header">
+        <div class="section-num" style="background:var(--all);">4</div>
+        <h2>Akut Lenfoblastik Lösemi (ALL)</h2>
+        <span class="sub">Çocukluk çağının en sık malignitesi &bull; Pik yaş 2-5</span>
+    </div>
+
+    <!-- Epidemiyoloji -->
+    <div class="grid3">
+        <div class="box all"><strong>Lösemilerin</strong>%12'si</div>
+        <div class="box all"><strong>Çocukta</strong>Akut lösemilerin %65'i</div>
+        <div class="box all"><strong>Pik insidans</strong>2-4 yaş (7.7/100.000)</div>
+    </div>
+
+    <div class="grid2">
+        <div>
+            <h4>Genetik Sendromlar (Risk Artışı)</h4>
+            <ul class="compact">
+                <li><strong>Down sendromu</strong> — ALL riski ~20 kat artmış</li>
+                <li><strong>Bloom sendromu</strong> — OR, immünyetmezlik, genomik instabilite</li>
+                <li><strong>Ataksi-telanjiektazi</strong> — OR, serebellar ataksi</li>
+                <li><strong>Nijmegen Breakage</strong> — OD, mikrosefali</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Çevresel Faktörler</h4>
+            <ul class="compact">
+                <li>İntrauterin radyasyon, nükleer kaza</li>
+                <li>Pestisit, sigara, gebelikte alkol</li>
+                <li>Yüksek kilolu doğan bebekler</li>
+                <li><strong>HTLV-I</strong> &rarr; Erişkin T hücreli lösemi/lenfoma</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ALL Sınıflandırma -->
+    <h3>ALL Sınıflandırması</h3>
+
+    <div class="grid2">
+        <div>
+            <h4>B-Lenfoblastik Lösemi Alt Tipleri</h4>
+            <table>
+                <tr><th>Anomali</th><th>Sıklık</th><th>Prognoz</th></tr>
+                <tr><td><strong>t(12;21) / ETV6-RUNX1</strong></td><td>Çocukta %25</td><td class="good">En iyi</td></tr>
+                <tr><td><strong>Hiperdiploidi (&gt;50 kr)</strong></td><td>%25</td><td class="good">İyi</td></tr>
+                <tr><td><strong>t(1;19) / TCF3-PBX1</strong></td><td>%6</td><td class="mid">Orta</td></tr>
+                <tr><td><strong>t(9;22) / BCR-ABL1 (Ph+)</strong></td><td>Erişkin %25-30</td><td class="bad">Kötü (TKİ ile &uarr;)</td></tr>
+                <tr><td><strong>t(4;11) / KMT2A-AF4</strong></td><td>İnfant</td><td class="bad">Kötü</td></tr>
+                <tr><td><strong>Hipodiploidi (&lt;44 kr)</strong></td><td>%1-2</td><td class="bad">En kötü</td></tr>
+            </table>
+        </div>
+        <div>
+            <h4>FAB Morfolojik Sınıflama</h4>
+            <table>
+                <tr><th>Grup</th><th>Sıklık</th><th>FAB</th><th>Sitogenetik</th></tr>
+                <tr><td><strong>Pre-B ALL</strong></td><td>%75</td><td>L1, L2</td><td>t(9;22), t(4;11), t(1;19)</td></tr>
+                <tr><td><strong>T-ALL</strong></td><td>%20</td><td>L1, L2</td><td>14q11 veya 7q34</td></tr>
+                <tr><td><strong>B-ALL</strong></td><td>%5</td><td>L3</td><td>t(8;14), t(8;22), t(2;8)</td></tr>
+            </table>
+            <div class="sinav" style="margin-top:8px;">Ph+ = t(9;22) = BCR-ABL1: erişkin ALL'de %25-30, tedaviye TKİ (dasatinib) ekle. t(12;21) = çocukta en sık, en iyi prognoz. t(8;14) = Burkitt (L3), MYC translokasyonu.</div>
+        </div>
+    </div>
+
+    <!-- ALL Klinik Bulgular -->
+    <h3>Klinik Bulgular</h3>
+
+    <div class="analogy">ALL'yi <strong>çocukların hastalığı</strong> olarak hatırla. Çocuklar koşar oynar ama ALL'li çocuk <strong>kemik ağrısı</strong> ile yürümek istemez (blast infiltrasyonu). Lenfoid sistem tutulduğu için <strong>lenf bezleri şişer</strong> (AML'den daha belirgin). Blastlar <strong>kale duvarlarının arkasına</strong> (SSS, testis) saklanır — tedavi zor ulaşır.</div>
+
+    <div class="grid3">
+        <div class="box neutral full">
+            <strong>Kemik İliği Yetmezliği</strong>
+            <ul>
+                <li>Halsizlik, solukluk (anemi)</li>
+                <li><strong>Kemik ağrısı</strong> (çocuklarda belirgin)</li>
+                <li>Kanama bulguları (trombositopeni)</li>
+                <li>Hb &lt;10 g/dL &rarr; hastaların %50'sinden fazlasında</li>
+            </ul>
+        </div>
+        <div class="box neutral full">
+            <strong>Ekstramedüller Tutulum</strong>
+            <ul>
+                <li><strong>Hepatosplenomegali + LAP</strong> (AML'den daha belirgin)</li>
+                <li><strong>SSS tutulumu:</strong> Baş ağrısı, kusma, kranial sinir paralizisi</li>
+                <li><strong>Testis tutulumu</strong> (relaps alanı)</li>
+                <li>Nadiren: tonsil, meme, GİS</li>
+            </ul>
+        </div>
+        <div class="box neutral full">
+            <strong>Özel Durumlar</strong>
+            <ul>
+                <li><strong>T-ALL:</strong> Mediastinal kitle &rarr; VKS sendromu</li>
+                <li><strong>Burkitt (L3):</strong> SSS tutulumu + bulky LAP</li>
+                <li>Eozinofili varsa &rarr; <strong>t(5;14)</strong></li>
+                <li>TLS bulguları: K&uarr; P&uarr; ürik asit&uarr; Ca&darr;</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ALL Tedavi Akışı -->
+    <h3>ALL Tedavi Algoritması</h3>
+
+    <div class="analogy">ALL tedavisi <strong>uzun bir maraton</strong>dur (2-3 yıl), AML tedavisi kısa bir sprint'tir. Aşamalar: Prefaz (ısınma) &rarr; İndüksiyon (yarışın zor kısmı) &rarr; Konsolidasyon (tempo koruma) &rarr; İdame (bitiş çizgisine kadar koşmaya devam).</div>
+
+    <div class="flow">
+        <div class="box all" style="max-width:100%;"><strong>ALL Tedavi Fazları</strong></div>
+        <div class="arrow"><div class="line" style="height:8px;"></div><div class="head">&#x25BC;</div></div>
+
+        <div style="display:flex; gap:10px; width:100%; flex-wrap: wrap; justify-content: center;">
+            <div class="box all full" style="flex:1; min-width:140px; max-width:180px;">
+                <span class="tag-sm" style="background:var(--all-bg); color:var(--all);">Faz 1</span>
+                <strong>Prefaz</strong>
+                <p style="font-size:12px;">Steroid 5-7 gün<br>Destek tedavisi</p>
+            </div>
+            <div style="display:flex; align-items:center; font-size:18px; color:#999;">&rarr;</div>
+            <div class="box all full" style="flex:1; min-width:140px; max-width:220px;">
+                <span class="tag-sm" style="background:var(--all-bg); color:var(--all);">Faz 2</span>
+                <strong>İndüksiyon (4-6 hf)</strong>
+                <p style="font-size:12px;">Deksametazon + Vinkristin + Daunorubisin + Asparaginaz (&plusmn; Siklofosfamid)</p>
+            </div>
+            <div style="display:flex; align-items:center; font-size:18px; color:#999;">&rarr;</div>
+            <div class="box all full" style="flex:1; min-width:140px; max-width:200px;">
+                <span class="tag-sm" style="background:var(--all-bg); color:var(--all);">Faz 3</span>
+                <strong>Konsolidasyon</strong>
+                <p style="font-size:12px;">HD-MTX, HD-Ara-C, VP-16, 6-MP</p>
+            </div>
+            <div style="display:flex; align-items:center; font-size:18px; color:#999;">&rarr;</div>
+            <div class="box all full" style="flex:1; min-width:140px; max-width:180px;">
+                <span class="tag-sm" style="background:var(--all-bg); color:var(--all);">Faz 4</span>
+                <strong>Reindüksiyon</strong>
+                <p style="font-size:12px;">İndüksiyon rejiminin tekrarı</p>
+            </div>
+            <div style="display:flex; align-items:center; font-size:18px; color:#999;">&rarr;</div>
+            <div class="box all full" style="flex:1; min-width:140px; max-width:200px;">
+                <span class="tag-sm" style="background:var(--all-bg); color:var(--all);">Faz 5</span>
+                <strong>İdame (~2 yıl)</strong>
+                <p style="font-size:12px;">6-MP günlük + MTX haftalık</p>
+            </div>
+        </div>
+
+        <div class="arrow"><div class="line" style="height:8px;"></div><div class="head">&#x25BC;</div></div>
+        <div class="box q" style="max-width:100%;">
+            <strong>SSS Profilaksisi — TÜM hastalara</strong>
+            İntratekal kemoterapi (MTX veya üçlü: MTX + Ara-C + deksametazon) &plusmn; kranial RT
+        </div>
+    </div>
+
+    <div class="analogy">SSS ve testis, <strong>kan-beyin bariyeri</strong> ve <strong>kan-testis bariyeri</strong> ile korunan "kale" bölgeleridir — kemoterapi zor ulaşır. Bu yüzden ALL'de mutlaka intratekal profilaksi yapılır, testis ise relaps alanı olarak izlenir.</div>
+
+    <!-- Hedefe yönelik tedaviler -->
+    <h3>Hedefe Yönelik Tedaviler ve İmmünoterapi</h3>
+
+    <table>
+        <tr><th>Hedef</th><th>İlaç</th><th>Mekanizma</th><th>Endikasyon</th></tr>
+        <tr><td><strong>BCR-ABL1 (Ph+)</strong></td><td>İmatinib, dasatinib, ponatinib</td><td>Tirozin kinaz inhibitörü</td><td>Ph+ ALL</td></tr>
+        <tr><td><strong>CD20</strong></td><td>Rituksimab, ofatumumab</td><td>Anti-CD20 monoklonal antikor</td><td>CD20+ B-ALL</td></tr>
+        <tr><td><strong>CD22</strong></td><td>İnotuzumab ozogamisin</td><td>Antikor-ilaç konjugatı</td><td>R/R B-ALL</td></tr>
+        <tr><td><strong>CD19</strong></td><td>Blinatumumab</td><td>BiTE (CD19-CD3 köprü)</td><td>R/R B-ALL</td></tr>
+        <tr><td><strong>CD19</strong></td><td>CAR-T hücre tedavisi</td><td>Genetik modifiye T hücreleri</td><td>R/R B-ALL</td></tr>
+        <tr><td><strong>JAK2</strong></td><td>Ruksolitinib</td><td>JAK2 inhibitörü</td><td>JAK2 mutant ALL</td></tr>
+    </table>
+
+    <div class="analogy"><strong>Blinatumumab</strong> bir <strong>çöpçatan</strong> gibidir: bir eliyle blast üzerindeki CD19'u, diğer eliyle T hücrenin CD3'ünü tutar ve ikisini tanıştırır &rarr; T hücre blastı öldürür. <strong>CAR-T</strong> ise <strong>özel kuvvetler</strong>dir: hastanın kendi T hücreleri laboratuvarda silahlandırılır (CD19'a yönlendirilir) ve geri verilir.</div>
+
+    <div class="sinav">ALL idamesi ~2 yıl sürer (Burkitt hariç). AML'de idame genellikle yoktur. Ph+ ALL'de dasatinib tercih edilir (SSS geçişi imatinibden iyi).</div>
+</section>
+
+<!-- ============================== 5. MPAL ============================== -->
+<section>
+    <div class="section-header">
+        <div class="section-num" style="background:var(--mpal);">5</div>
+        <h2>Mikst Fenotipik Akut Lösemi (MPAL)</h2>
+        <span class="sub">Nadir &bull; Kötü prognoz</span>
+    </div>
+
+    <div class="analogy">MPAL, hem myeloid hem lenfoid <strong>iki ayrı üniformayı</strong> aynı anda giyen bir hücre gibidir — hangi takıma ait olduğu belli değildir. Tedavi genellikle ALL rejimi ile yapılır çünkü "iki tarafı da kapsayan" daha geniş bir strateji gerekir.</div>
+
+    <h3>MPAL Soy Atama Kriterleri (WHO 2022)</h3>
+
+    <div class="grid3">
+        <div class="box all full">
+            <strong>B-Lenfoid Soy</strong>
+            <ul>
+                <li>CD19 güçlü + &ge;1 B belirteci (CD10, CD22, CD79a)</li>
+                <li>Veya CD19 zayıf + &ge;2 B belirteci</li>
+            </ul>
+        </div>
+        <div class="box all full" style="background:#faf5ff; border-color:#7c3aed;">
+            <strong style="color:#7c3aed;">T-Lenfoid Soy</strong>
+            <ul>
+                <li><strong>CD3</strong> (sitoplazmik veya yüzey)</li>
+            </ul>
+        </div>
+        <div class="box aml full">
+            <strong>Myeloid Soy</strong>
+            <ul>
+                <li><strong>MPO</strong> pozitifliği</li>
+                <li>Veya &ge;2 monositik belirteç (CD11c, CD14, CD36, CD64, lizozim)</li>
+            </ul>
+        </div>
+    </div>
+
+    <h3>EGIL Skorlama Sistemi</h3>
+    <table>
+        <tr><th>Soy</th><th>2 Puan</th><th>1 Puan</th><th>0.5 Puan</th></tr>
+        <tr><td><strong>Myeloid</strong></td><td>MPO, Lizozim</td><td>CD117, CD33, CD13, CD65a</td><td>CD14, CD15, CD64</td></tr>
+        <tr><td><strong>B-Lenfoid</strong></td><td>CD79a, cyt IgM, cyt CD22</td><td>CD19, CD20, CD10</td><td>TdT, CD24</td></tr>
+        <tr><td><strong>T-Lenfoid</strong></td><td>CD3 (cyt/yüzey), TCR</td><td>CD2, CD5, CD8, CD10</td><td>TdT, CD1a, CD7</td></tr>
+    </table>
+
+    <div class="sinav">MPAL tanısı: bir blast &ge;2 puan iki farklı soydan almalı. Nadir ama prognozu kötü. Sıklıkla ALL tipi tedavi uygulanır.</div>
+</section>
+
+<!-- ============================== 6. AML vs ALL KARŞILAŞTIRMA ============================== -->
+<section>
+    <div class="section-header">
+        <div class="section-num" style="background:#374151;">6</div>
+        <h2>AML vs ALL — Büyük Karşılaştırma Tablosu</h2>
+        <span class="sub">Sınavda en çok sorulan ayrım</span>
+    </div>
+
+    <table>
+        <tr><th style="width:22%;">Özellik</th><th>AML</th><th>ALL</th></tr>
+        <tr><td><strong>Sık görüldüğü yaş</strong></td><td>İleri yaş (medyan 67)</td><td>Çocukluk (pik 2-4 yaş)</td></tr>
+        <tr><td><strong>Auer cisimciği</strong></td><td class="good">Var (patognomonik)</td><td class="bad">Yok</td></tr>
+        <tr><td><strong>MPO boyama</strong></td><td class="good">Pozitif (&ge;%3)</td><td class="bad">Negatif</td></tr>
+        <tr><td><strong>TdT</strong></td><td class="bad">Negatif</td><td class="good">Pozitif</td></tr>
+        <tr><td><strong>Lenfadenopati</strong></td><td>Nadir</td><td><strong>Sık ve belirgin</strong></td></tr>
+        <tr><td><strong>Hepatosplenomegali</strong></td><td>Daha az</td><td><strong>Daha belirgin</strong></td></tr>
+        <tr><td><strong>SSS tutulumu</strong></td><td>Nadir</td><td><strong>Daha sık</strong></td></tr>
+        <tr><td><strong>Kemik ağrısı</strong></td><td>Daha az</td><td><strong>Belirgin (çocuk)</strong></td></tr>
+        <tr><td><strong>Dişeti hiperplazisi</strong></td><td><strong>M4/M5'te sık</strong></td><td>Nadir</td></tr>
+        <tr><td><strong>DIC</strong></td><td><strong>M3 (APL)</strong></td><td>Nadir</td></tr>
+        <tr><td><strong>Mediastinal kitle</strong></td><td>Nadir</td><td><strong>T-ALL'de sık</strong></td></tr>
+        <tr><td><strong>Testis tutulumu</strong></td><td>Nadir</td><td><strong>Relaps alanı</strong></td></tr>
+        <tr><td><strong>İndüksiyon tedavisi</strong></td><td>"7+3" (sitarabin + antrasiklin)</td><td>Steroid + VCR + DNR + Asp</td></tr>
+        <tr><td><strong>İdame tedavisi</strong></td><td>Genellikle yok</td><td><strong>~2 yıl</strong> (6-MP + MTX)</td></tr>
+        <tr><td><strong>SSS profilaksisi</strong></td><td>Rutin değil</td><td><strong>Tüm hastalara</strong></td></tr>
+    </table>
+
+    <div class="sinav">"3 yaşında kemik ağrısı + LAP + HSM + blast" &rarr; ALL. "65 yaşında dişeti kanaması + dişeti hiperplazisi + blast" &rarr; AML (monositik). TdT(+) = ALL, Auer cisimciği = AML.</div>
+</section>
+
+<!-- ============================== 7. ACİL DURUMLAR ============================== -->
+<section>
+    <div class="section-header">
+        <div class="section-num" style="background:var(--acil);">7</div>
+        <h2>Hematolojik Acil Durumlar</h2>
+        <span class="sub">Tanı ve tedavide aciliyet gerektiren 4 durum</span>
+    </div>
+
+    <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+
+        <div class="box no full">
+            <strong>1. Lökostaz (BK &gt;100.000)</strong>
+            <div class="analogy" style="margin:8px 0; border-left-width:3px;">Kan damarlarında <strong>trafik sıkışıklığı</strong> — çok fazla blast hücre damarları tıkar.</div>
+            <ul>
+                <li>Dispne, hipoksi (pulmoner lökostaz)</li>
+                <li>Nörolojik semptomlar, çift görme, AMI</li>
+                <li>Priapizm, retinal kanama</li>
+                <li><strong>Tedavi:</strong> Lökaferez + acil kemoterapi</li>
+            </ul>
+        </div>
+
+        <div class="box no full">
+            <strong>2. DIC (APL / M3)</strong>
+            <div class="analogy" style="margin:8px 0; border-left-width:3px;">Pıhtılaşma sistemi <strong>hem aşırı çalışır hem çöker</strong> — aynı anda hem pıhtı hem kanama.</div>
+            <ul>
+                <li>Fibrinojen&darr;, D-dimer&uarr;, PT/aPTT&uarr;</li>
+                <li>Hayatı tehdit eden kanama</li>
+                <li><strong>Tedavi:</strong> ATRA derhal başla (tanı beklenmeden) + destek</li>
+            </ul>
+        </div>
+
+        <div class="box no full">
+            <strong>3. Tümör Lizis Sendromu (TLS)</strong>
+            <div class="analogy" style="margin:8px 0; border-left-width:3px;">Kemoterapi bir <strong>baraj yıkımı</strong> gibidir — blast hücrelerin içi (K, P, ürik asit) kana dökülür, böbrekleri boğar.</div>
+            <ul>
+                <li>K&uarr;, P&uarr;, ürik asit&uarr;, Ca&darr;, LDH&uarr;</li>
+                <li>Akut böbrek yetmezliği, aritmi</li>
+                <li><strong>Profilaksi:</strong> Hidrasyon + allopürinol/rasburikaz</li>
+                <li>En sık: yüksek tümör yüklü ALL, Burkitt lenfoma</li>
+            </ul>
+        </div>
+
+        <div class="box no full">
+            <strong>4. VKS Sendromu (T-ALL)</strong>
+            <div class="analogy" style="margin:8px 0; border-left-width:3px;">Mediastinal kitle vena kava süperioru <strong>mengene gibi sıkıştırır</strong> — baş ve boyundan venöz dönüş engellenir.</div>
+            <ul>
+                <li>Yüzde ödem, boyun venöz dolgunluğu</li>
+                <li>Dispne, öksürük, baş ağrısı</li>
+                <li><strong>Tedavi:</strong> Acil kemoterapi/steroid &plusmn; RT</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<!-- ============================== 8. SINAV ÖZETİ ============================== -->
+<section style="background:#f9fafb;">
+    <div class="section-header">
+        <div class="section-num" style="background:#b91c1c;">&#x2605;</div>
+        <h2>Sınav İçin Altın Kurallar</h2>
+        <span class="sub">Hızlı tekrar — en çok sorulan 10 nokta</span>
+    </div>
+
+    <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+
+        <div class="box q full" style="padding:10px 14px;">
+            <strong style="font-size:12px;">1. Tanı Eşiği</strong>
+            <p style="font-size:12.5px;">Kemik iliğinde blast <strong>&ge;%20</strong> = Akut lösemi (WHO)</p>
+        </div>
+        <div class="box q full" style="padding:10px 14px;">
+            <strong style="font-size:12px;">2. Yaş Ayrımı</strong>
+            <p style="font-size:12.5px;">Erişkinde en sık <strong>AML</strong>, çocukta en sık <strong>ALL</strong></p>
+        </div>
+        <div class="box q full" style="padding:10px 14px;">
+            <strong style="font-size:12px;">3. Patognomonik Bulgu</strong>
+            <p style="font-size:12.5px;"><strong>Auer cisimciği</strong> = AML (ALL'de YOKTUR). Faggot hücresi = APL.</p>
+        </div>
+        <div class="box q full" style="padding:10px 14px;">
+            <strong style="font-size:12px;">4. APL = ACİL</strong>
+            <p style="font-size:12.5px;">t(15;17) / PML-RARA. DIC + pansitopeni &rarr; <strong>ATRA derhal başla</strong></p>
+        </div>
+        <div class="box q full" style="padding:10px 14px;">
+            <strong style="font-size:12px;">5. AML Tedavisi</strong>
+            <p style="font-size:12.5px;">"7+3" (sitarabin 7 gün + antrasiklin 3 gün). Yaşlıda venetoklaks + aza.</p>
+        </div>
+        <div class="box q full" style="padding:10px 14px;">
+            <strong style="font-size:12px;">6. ALL İdamesi</strong>
+            <p style="font-size:12.5px;">~2 yıl (6-MP + MTX). AML'de idame genellikle yok.</p>
+        </div>
+        <div class="box q full" style="padding:10px 14px;">
+            <strong style="font-size:12px;">7. SSS Profilaksisi</strong>
+            <p style="font-size:12.5px;">ALL'de TÜM hastalara intratekal KT. Relaps alanları: SSS + testis.</p>
+        </div>
+        <div class="box q full" style="padding:10px 14px;">
+            <strong style="font-size:12px;">8. t-AML İki Tipi</strong>
+            <p style="font-size:12.5px;">Alkilleyici: 4-6 yıl, kr. 5/7. Topo II: 1-3 yıl, 11q23.</p>
+        </div>
+        <div class="box q full" style="padding:10px 14px;">
+            <strong style="font-size:12px;">9. Sitogenetik — Prognoz</strong>
+            <p style="font-size:12.5px;">İyi: t(8;21), inv(16), NPM1, t(12;21), hiperdiploidi<br>Kötü: t(9;22), -5/-7, FLT3-ITD, TP53, hipodiploidi</p>
+        </div>
+        <div class="box q full" style="padding:10px 14px;">
+            <strong style="font-size:12px;">10. Hedefe Yönelik Tedavi</strong>
+            <p style="font-size:12.5px;">FLT3 &rarr; midostaurin/gilteritinib. Ph+ &rarr; TKİ. CD19 &rarr; blinatumumab/CAR-T. APL &rarr; ATRA+ATO.</p>
+        </div>
+
+    </div>
+
+    <hr class="sep" style="margin-top:20px;">
+
+    <div style="text-align:center; font-size:12px; color:#999; font-style:italic; padding-top:8px;">
+        ADÜ Tıp Fakültesi &mdash; Hematoloji &mdash; 2024-2025 Dönem IV
+    </div>
+</section>
+
+</body>
+</html>
